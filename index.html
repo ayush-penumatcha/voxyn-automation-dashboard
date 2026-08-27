@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Sanitized VOXYN LinkedIn automation status dashboard">
+  <title>VOXYN · LinkedIn Automation Control Center</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="logo" href="#overview" aria-label="VOXYN dashboard"><span>V</span><strong>VOXYN</strong></a>
+    <nav aria-label="Dashboard sections">
+      <a href="#overview"><span>⌂</span>Overview</a>
+      <a href="#today"><span>▦</span>Today</a>
+      <a href="#systems"><span>✦</span>System Health</a>
+      <a href="#authentication"><span>⌁</span>Authentication</a>
+      <a href="#activity"><span>◷</span>Recent Activity</a>
+      <a href="#issues"><span>!</span>Issues</a>
+    </nav>
+    <div class="public-note"><span>PUBLIC STATUS</span><p>Sanitized operational data only. No credentials or private identifiers.</p></div>
+  </aside>
+
+  <div class="shell">
+    <header class="topbar">
+      <div><span class="mobile-brand">VOXYN</span><h1>LinkedIn Automation Control Center</h1><p id="live-date">Loading local date…</p></div>
+      <div class="header-right">
+        <div class="clock"><strong id="live-time">--:--</strong><span id="timezone">Timezone</span></div>
+        <div class="system-status level-critical" id="system-status"><span class="pulse-dot"></span><strong>Loading status…</strong></div>
+      </div>
+    </header>
+    <div class="refresh-bar"><span id="privacy-note">Upcoming content may be visible here before publication.</span><span>Last Updated: <time id="last-updated">Loading…</time></span></div>
+
+    <main>
+      <section id="overview" class="overview-grid">
+        <article class="next-card" id="next-card">
+          <div><span class="eyebrow">NEXT SCHEDULED POST</span><h2 id="next-time">—</h2><p id="next-topic">No upcoming post</p></div>
+          <div class="next-footer"><div id="next-status"></div><div><strong id="next-countdown">—</strong><small>until publishing window</small></div></div>
+        </article>
+        <div class="kpi-grid" id="kpis" aria-label="Today's key metrics"></div>
+      </section>
+
+      <section id="systems" class="panel"><header class="section-head"><div><span class="eyebrow">AUTOMATION HEALTH</span><h2>System operations</h2></div><p>High-level sanitized health across the production pipeline.</p></header><div class="health-grid" id="system-cards"></div></section>
+
+      <section id="today" class="panel"><header class="section-head"><div><span class="eyebrow">CONTENT PIPELINE</span><h2>Today's posts</h2></div><div class="post-filters" id="post-filters"><button class="active" data-filter="ALL" type="button">All</button><button data-filter="READY" type="button">Ready / Generated</button><button data-filter="POSTED" type="button">Posted</button><button data-filter="ATTENTION" type="button">Attention</button></div></header><div class="post-grid" id="posts"></div></section>
+
+      <section id="authentication" class="panel auth-panel"><div><span class="eyebrow">LINKEDIN AUTHENTICATION</span><h2 id="auth-title">Loading…</h2><p>Only status and remaining validity are public. No token or identity value is exported.</p></div><dl><div><dt>Validity</dt><dd id="auth-days">—</dd></div><div><dt>Last health check</dt><dd id="auth-check">—</dd></div><div><dt>Credential exposure</dt><dd>None</dd></div></dl></section>
+
+      <div class="split-grid">
+        <section id="activity" class="panel compact"><header class="section-head"><div><span class="eyebrow">EVENTS</span><h2>Recent activity</h2></div></header><ol class="timeline" id="activity-list"></ol></section>
+        <section id="issues" class="panel compact"><header class="section-head"><div><span class="eyebrow">ATTENTION</span><h2>Issues & actions</h2></div></header><div id="issue-list"></div></section>
+      </div>
+    </main>
+
+    <footer><strong>VOXYN</strong> · Sanitized automation monitoring <span>Public read-only status · Auto-refreshes every 45 seconds</span></footer>
+  </div>
+  <script src="dashboard.js" defer></script>
+</body>
+</html>
