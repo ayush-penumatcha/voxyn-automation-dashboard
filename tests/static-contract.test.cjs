@@ -37,6 +37,9 @@ test("responsive mobile layout and health pulse exist", () => {
   assert.match(css, /@media\(max-width:580px\)/);
   assert.match(css, /@media\(prefers-reduced-motion:reduce\)/);
   assert.match(css, /@keyframes health-pulse/);
+  assert.match(css, /health-card\.active \.health-dot/);
+  assert.match(css, /health-card\.unknown \.health-dot/);
+  assert.match(css, /health-card\.error \.health-dot/);
 });
 
 test("status is schema-only and contains no private identifiers", () => {
