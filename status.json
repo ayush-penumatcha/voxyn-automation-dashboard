@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T11:38:53+05:30",
+  "generated_at": "2026-08-27T17:56:52+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "HEALTHY",
-  "system_label": "All Systems Operational",
+  "system_status": "WARNING",
+  "system_label": "Attention Required",
   "today": {
     "date": "2026-08-27",
     "total": 5,
     "posted": 1,
-    "ready_generated": 4,
-    "failed": 0,
-    "missed": 0
+    "ready_generated": 2,
+    "failed": 1,
+    "missed": 1
   },
   "next_post": {
-    "scheduled_time": "1:30 PM",
-    "post_type": "POLL",
-    "topic": "Engagement Poll",
+    "scheduled_time": "4:30 PM",
+    "post_type": "IMAGE",
+    "topic": "AI Trend in the News",
     "status": "GENERATED",
-    "scheduled_at": "2026-08-27T13:30:00+05:30"
+    "scheduled_at": "2026-08-27T16:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 56,
-    "last_checked": "11:38 AM"
+    "last_checked": "05:56 PM"
   },
   "systems": {
     "generator": {
@@ -43,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ACTIVE"
+      "status": "WARNING"
     }
   },
   "posts": [
@@ -51,7 +51,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "AI agents are creating a new problem for customer experience.\n\nCompanies are adding AI to old systems, causing a disconnect. This makes it hard to manage customer interactions smoothly across different channels like chat and voice.\n\nConnecting everything properly is the next big step.\n\nWill companies prioritize integrating AI agents or continue bolting them onto existing setups?\n\n#AI #CustomerExperience #AIAgents #TechNews",
       "source_name": "venturebeat.com",
       "source_url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
@@ -73,7 +73,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "POLL",
       "topic": "Engagement Poll",
-      "status": "GENERATED",
+      "status": "FAILED",
       "caption": "Google Gemini and others face a branding challenge.\n\nTechCrunch reports AI products confuse users by exposing too much technical detail. People just want to use the tool, not understand its underlying parts.\n\nThis makes it harder for everyone to adopt AI tools easily.\n\nShould AI products hide technical details or educate users?\n\n#GoogleAI #AIAccess #UserExperience",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
@@ -104,6 +104,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 01:56 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 01:56 PM",
+      "category": "FAILED",
+      "message": "LinkedIn publication failed"
+    },
     {
       "time": "Today \u00b7 11:11 AM",
       "category": "POSTED",
@@ -195,5 +205,18 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "POLL",
+      "category": "FAILED",
+      "recommendation": "Review the sanitized workflow log."
+    }
+  ]
 }
