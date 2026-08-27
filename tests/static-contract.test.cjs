@@ -30,6 +30,8 @@ test("browser refresh, clock and countdown are present", () => {
   assert.match(source, /setInterval\(refreshStatus,REFRESH_INTERVAL_MS\)/);
   assert.match(source, /setInterval\(updateClock,1000\)/);
   assert.match(source, /setInterval\(updateCountdown,1000\)/);
+  assert.match(source, /history\.json\?ts=/);
+  assert.match(source, /REFRESH_INTERVAL_MS = 45000/);
 });
 
 test("responsive mobile layout and health pulse exist", () => {
@@ -40,6 +42,26 @@ test("responsive mobile layout and health pulse exist", () => {
   assert.match(css, /health-card\.active \.health-dot/);
   assert.match(css, /health-card\.unknown \.health-dot/);
   assert.match(css, /health-card\.error \.health-dot/);
+  assert.match(css, /:root\[data-theme="dark"\]/);
+  assert.match(css, /@media\(max-width:580px\)/);
+});
+
+test("light is the default and theme preference is limited to one key", () => {
+  const html = read("index.html");
+  const source = read("dashboard.js");
+  assert.match(html, /data-theme="light"/);
+  assert.match(html, /id="theme-toggle"/);
+  assert.match(source, /voxyn-dashboard-theme/);
+  assert.match(source, /localStorage\.setItem\(THEME_STORAGE_KEY, theme\)/);
+  assert.doesNotMatch(source, /localStorage\.setItem\([^T]/);
+  assert.match(source, /let currentRange = "TODAY"/);
+});
+
+test("range selector and sanitized history view are present", () => {
+  const html = read("index.html");
+  for (const range of ["TODAY","3D","7D","30D","ALL"]) assert.match(html, new RegExp(`data-range="${range}"`));
+  assert.match(html, /id="history-rows"/);
+  assert.doesNotMatch(html, /POST_ID|LinkedIn Post ID/);
 });
 
 test("status is schema-only and contains no private identifiers", () => {
@@ -50,5 +72,15 @@ test("status is schema-only and contains no private identifiers", () => {
   const forbiddenValues = ["slack_channel_id","file_id","member_urn","claim_id","access_token","refresh_token","oauth_code","xox"+"b-","urn:"+"li:","linkedin.com"+"/in/"];
   for (const forbidden of forbiddenValues) {
     assert.equal(raw.toLowerCase().includes(forbidden), false, forbidden);
+  }
+});
+
+test("history is schema-only and contains no private identifiers", () => {
+  const raw = read("history.json");
+  const history = JSON.parse(raw);
+  assert.equal(history.schema_version, 1);
+  assert.ok(Array.isArray(history.records));
+  for (const forbidden of ["post_id","slack_channel_id","file_id","member_urn","claim_id","access_token","refresh_token","oauth_code","linkedin_post_id"]) {
+    assert.equal(raw.toLowerCase().includes(`"${forbidden}"`), false, forbidden);
   }
 });

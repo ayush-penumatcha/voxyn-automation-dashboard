@@ -1,7 +1,8 @@
 # Public data security
 
-Everything in this repository is public internet data. `status.json` intentionally contains only
-the stable, allowlisted monitoring schema exported by the private production repository.
+Everything in this repository is public internet data. `status.json` and `history.json`
+intentionally contain only their stable, independently validated allowlisted schemas exported by
+the private production repository. They are not copies of raw production history.
 
 This repository must never receive credentials, tokens, authorization headers, Slack identifiers,
 LinkedIn URNs, private profile URLs, internal repository/run/claim IDs, raw state, raw configuration,

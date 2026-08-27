@@ -1,10 +1,15 @@
 "use strict";
 
 const REFRESH_INTERVAL_MS = 45000;
+const THEME_STORAGE_KEY = "voxyn-dashboard-theme";
 const REQUIRED_ROOT_FIELDS = ["schema_version","generated_at","timezone","notice","caption_visibility","system_status","system_label","today","next_post","auth","systems","posts","recent_activity","issues"];
+const REQUIRED_HISTORY_FIELDS = ["schema_version","generated_at","timezone","caption_visibility","records"];
+const {recordsForRange, metrics} = window.VoxynAnalytics;
 let currentTimezone = "UTC";
+let currentRange = "TODAY";
 let nextScheduledAt = "";
 let lastStatus = null;
+let lastHistory = null;
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -21,11 +26,18 @@ function statusPill(status) {
   return pill;
 }
 
+function exactKeys(value, required) {
+  return value && typeof value === "object" && !Array.isArray(value) && Object.keys(value).sort().join("|") === [...required].sort().join("|");
+}
+
 function validateStatus(data) {
-  if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("Status data is unavailable");
-  const keys = Object.keys(data).sort();
-  if (keys.join("|") !== [...REQUIRED_ROOT_FIELDS].sort().join("|")) throw new Error("Status schema is not recognized");
+  if (!exactKeys(data, REQUIRED_ROOT_FIELDS)) throw new Error("Status schema is not recognized");
   if (data.schema_version !== 1 || !Array.isArray(data.posts) || !Array.isArray(data.issues) || !Array.isArray(data.recent_activity)) throw new Error("Status schema is invalid");
+  return data;
+}
+
+function validateHistory(data) {
+  if (!exactKeys(data, REQUIRED_HISTORY_FIELDS) || data.schema_version !== 1 || !Array.isArray(data.records)) throw new Error("History schema is invalid");
   return data;
 }
 
@@ -64,17 +76,54 @@ function safeSourceUrl(value) {
   } catch (_) { return ""; }
 }
 
-function renderKpis(data) {
+function setTheme(theme) {
+  const selected = theme === "dark" ? "dark" : "light";
+  document.documentElement.dataset.theme = selected;
+  const button = document.getElementById("theme-toggle");
+  if (button) {
+    const dark = selected === "dark";
+    button.setAttribute("aria-pressed", String(dark));
+    button.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+    button.querySelector("span").textContent = dark ? "☾" : "☀";
+    button.querySelector("strong").textContent = dark ? "Dark" : "Light";
+  }
+  return selected;
+}
+
+function loadTheme() {
+  let theme = "light";
+  try { theme = localStorage.getItem(THEME_STORAGE_KEY) || "light"; } catch (_) { theme = "light"; }
+  setTheme(theme);
+}
+
+function installThemeToggle() {
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const theme = setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+    try { localStorage.setItem(THEME_STORAGE_KEY, theme); } catch (_) { /* Light/dark still works for this view. */ }
+  });
+}
+
+function renderKpis(records) {
+  const values = metrics(records);
   const definitions = [
-    ["Today's Posts",data.today.total,"Configured slots","▦"],
-    ["Posted",data.today.posted,`${data.today.posted} / ${data.today.total} today`,"✓"],
-    ["Ready / Generated",data.today.ready_generated,"Awaiting or prepared","→"],
-    ["Failed",data.today.failed,"Requires review","!"],
-    ["Missed",data.today.missed,"Outside window","◷"],
-    ["Auth",data.auth.status,data.auth.days_remaining===null?"Validity unavailable":`${data.auth.days_remaining} days remaining`,"⌁"]
+    ["Total Posts",values.total,"Scheduled in range","▦"],
+    ["Posted",values.posted,`${values.posted} successful`,"✓"],
+    ["Ready / Generated",values.readyGenerated,"Future or in progress","→"],
+    ["Missed",values.missed,"Expired unpublished","◷"],
+    ["Failed",values.failed,"Failed or auth blocked","!"],
+    ["Success Rate",values.successRate===null?"—":`${values.successRate.toFixed(1)}%`,"Posted ÷ completed eligible","↗"]
   ];
   const root = document.getElementById("kpis"); root.replaceChildren();
   definitions.forEach(([label,value,detail,icon])=>{const card=element("article","kpi");card.append(element("div","kpi-icon",icon));const copy=element("div");copy.append(element("span","",label),element("strong","",value),element("small","",detail));card.append(copy);root.append(card)});
+  renderDistribution(values);
+}
+
+function renderDistribution(values) {
+  const root = document.getElementById("distribution"); root.replaceChildren();
+  const denominator = Math.max(values.total, 1);
+  [["posted",values.posted],["ready",values.readyGenerated],["missed",values.missed],["failed",values.failed]].forEach(([name,value])=>{
+    const bar=element("span",`distribution-${name}`);bar.style.width=`${(value/denominator)*100}%`;bar.title=`${name}: ${value}`;root.append(bar);
+  });
 }
 
 function renderNext(data) {
@@ -92,26 +141,63 @@ function renderSystems(data) {
   Object.entries(labels).forEach(([key,[label,icon]])=>{const status=data.systems[key].status;const card=element("article",`health-card ${status.toLowerCase().replaceAll("_","-")}`);card.append(element("div","health-icon",icon));const copy=element("div");copy.append(element("h3","",label));const state=element("strong");state.append(element("span","health-dot"),document.createTextNode(status.replaceAll("_"," ")));copy.append(state,element("p","","Sanitized high-level operational state"));card.append(copy);root.append(card)});
 }
 
-function renderPosts(data) {
-  const root=document.getElementById("posts");root.replaceChildren();
-  if (!data.posts.length) { root.append(element("div","load-error","No production post status is available.")); return; }
-  data.posts.forEach(post=>{const card=element("article","post-card");card.dataset.status=post.status;const head=element("div","post-card-head");const title=element("div");title.append(element("span","eyebrow",`${post.scheduled_time} · ${post.post_type}`),element("h3","",post.topic));head.append(title,statusPill(post.status));card.append(head,element("span","type",post.post_type));if(post.caption){const details=element("details","caption");details.open=true;details.append(element("summary","","Final Caption"),element("p","",post.caption));card.append(details)}else{card.append(element("p","caption-hidden",data.caption_visibility?"Caption is not available.":"Upcoming caption is hidden by privacy settings."))}const meta=element("dl","post-meta");const source=element("div");source.append(element("dt","","Source"));const sourceValue=element("dd");const url=safeSourceUrl(post.source_url);if(url){const link=element("a","",post.source_name||new URL(url).hostname);link.href=url;link.target="_blank";link.rel="noopener noreferrer";sourceValue.append(link)}else{sourceValue.textContent=post.source_name||"Not available"}source.append(sourceValue);const theme=element("div");theme.append(element("dt","","Theme"),element("dd","",post.theme_name||"Not available"));if(post.theme_family)theme.lastChild.append(element("small","",post.theme_family));meta.append(source,theme);card.append(meta);root.append(card)});
+function appendSource(container, record) {
+  const url=safeSourceUrl(record.source_url);
+  if(url){const link=element("a","",record.source_name||new URL(url).hostname);link.href=url;link.target="_blank";link.rel="noopener noreferrer";container.append(link)}
+  else container.textContent=record.source_name||"Not available";
+}
+
+function captionDetails(record) {
+  if (!record.caption) return element("p","caption-hidden",lastHistory && !lastHistory.caption_visibility ? "Caption hidden by privacy settings." : "Caption not available.");
+  const details=element("details","caption");details.append(element("summary","","Read caption"),element("p","",record.caption));return details;
+}
+
+function renderHistory(records) {
+  const table=document.getElementById("history-rows");const mobile=document.getElementById("mobile-history");table.replaceChildren();mobile.replaceChildren();
+  if(!records.length){const row=element("tr");const cell=element("td","table-empty","No sanitized records are available for this period.");cell.colSpan=7;row.append(cell);table.append(row);mobile.append(element("div","empty-history","No sanitized records are available for this period."));return}
+  records.forEach(record=>{
+    const row=element("tr");row.append(element("td","",record.date),element("td","",record.scheduled_time),element("td","",record.post_type));
+    const story=element("td","story-cell");story.append(element("strong","",record.topic),captionDetails(record));row.append(story);
+    const source=element("td");appendSource(source,record);row.append(source);
+    const theme=element("td","",record.theme_name||"Not available");if(record.theme_family)theme.append(element("small","",record.theme_family));row.append(theme);
+    const state=element("td");state.append(statusPill(record.status));row.append(state);table.append(row);
+    const card=element("article","history-card");const head=element("div","history-card-head");const title=element("div");title.append(element("span","eyebrow",`${record.date} · ${record.scheduled_time} · ${record.post_type}`),element("h3","",record.topic));head.append(title,statusPill(record.status));card.append(head,captionDetails(record));const meta=element("div","history-meta");const sourceMobile=element("span");appendSource(sourceMobile,record);meta.append(sourceMobile,element("span","",record.theme_name||"Theme unavailable"));card.append(meta);mobile.append(card);
+  });
+}
+
+function renderActivity(records) {
+  const root=document.getElementById("activity-list");root.replaceChildren();
+  const events=records.filter(record=>["POSTED","FAILED","MISSED","AUTH_REQUIRED"].includes(record.status)).slice(0,12);
+  if(!events.length){const item=element("li");item.append(element("span","timeline-marker"));const copy=element("div");copy.append(element("strong","","No completed activity in this period"),element("small","","Future generated posts do not count as completed outcomes."));item.append(copy);root.append(item);return}
+  events.forEach(record=>{const item=element("li",`activity-${record.status.toLowerCase()}`);item.append(element("span","timeline-marker"));const copy=element("div");copy.append(element("time","",`${record.date} · ${record.scheduled_time}`),element("strong","",`${record.post_type} · ${record.status.replaceAll("_"," ")}`),element("small","",record.topic));item.append(copy);root.append(item)});
+}
+
+function renderRange() {
+  if(!lastStatus || !lastHistory) return;
+  const records=recordsForRange(lastHistory.records,lastStatus.today.date,currentRange);
+  const labels={TODAY:"Today's posts","3D":"Last 3 days","7D":"Last 7 days","30D":"Last 30 days",ALL:"All-time publishing history"};
+  document.getElementById("history-title").textContent=labels[currentRange];
+  document.querySelectorAll("#range-selector button").forEach(button=>button.classList.toggle("active",button.dataset.range===currentRange));
+  renderKpis(records);renderHistory(records);renderActivity(records);
+}
+
+function installRangeSelector() {
+  document.querySelectorAll("#range-selector button").forEach(button=>{button.addEventListener("click",()=>{currentRange=button.dataset.range;renderRange()})});
 }
 
 function renderAuth(data){const panel=document.getElementById("authentication");panel.className=`panel auth-panel ${data.auth.status.toLowerCase().replaceAll("_","-")}`;const title=document.getElementById("auth-title");title.replaceChildren(element("span","health-dot"),document.createTextNode(data.auth.status.replaceAll("_"," ")));document.getElementById("auth-days").textContent=data.auth.days_remaining===null?"Unknown":`${data.auth.days_remaining} days remaining`;document.getElementById("auth-check").textContent=data.auth.last_checked||"Not available"}
 
-function renderActivity(data){const root=document.getElementById("activity-list");root.replaceChildren();if(!data.recent_activity.length){const item=element("li");item.append(element("span","timeline-marker"));const copy=element("div");copy.append(element("strong","","No recent recorded activity"),element("small","","Events appear after durable publisher history is available."));item.append(copy);root.append(item);return}data.recent_activity.forEach(event=>{const item=element("li");item.append(element("span","timeline-marker"));const copy=element("div");copy.append(element("time","",event.time||"—"),element("strong","",event.message));item.append(copy);root.append(item)})}
-
 function renderIssues(data){const root=document.getElementById("issue-list");root.replaceChildren();if(!data.issues.length){const empty=element("div","empty-state");empty.append(element("span","","✓"));const copy=element("div");copy.append(element("strong","","No unresolved issues"),element("p","","The sanitized production snapshot has no actionable failures."));empty.append(copy);root.append(empty);return}data.issues.forEach(issue=>{const card=element("article","issue-card");card.append(element("span","","!"));const copy=element("div");copy.append(element("strong","",issue.category.replaceAll("_"," ")),element("small","",`${issue.scheduled_time} · ${issue.post_type}`),element("p","",issue.recommendation));card.append(copy);root.append(card)})}
 
-function renderStatus(raw) {
-  const data=validateStatus(raw);lastStatus=data;currentTimezone=data.timezone;document.getElementById("timezone").textContent=currentTimezone;document.getElementById("privacy-note").textContent=data.notice;document.getElementById("last-updated").textContent=formatTime(data.generated_at,true);const overall=document.getElementById("system-status");overall.className=`system-status level-${data.system_status.toLowerCase()}`;overall.replaceChildren(element("span","pulse-dot"),element("strong","",data.system_label));renderKpis(data);renderNext(data);renderSystems(data);renderPosts(data);renderAuth(data);renderActivity(data);renderIssues(data);updateClock();installFilters();return data;
+function renderStatus(rawStatus, rawHistory) {
+  const data=validateStatus(rawStatus);const history=validateHistory(rawHistory);lastStatus=data;lastHistory=history;currentTimezone=data.timezone;
+  document.getElementById("timezone").textContent=currentTimezone;document.getElementById("privacy-note").textContent=data.notice;document.getElementById("last-updated").textContent=formatTime(data.generated_at,true);
+  const overall=document.getElementById("system-status");overall.className=`system-status level-${data.system_status.toLowerCase()}`;overall.replaceChildren(element("span","pulse-dot"),element("strong","",data.system_label));
+  renderNext(data);renderSystems(data);renderAuth(data);renderIssues(data);renderRange();updateClock();return data;
 }
 
-function installFilters(){document.querySelectorAll("#post-filters button").forEach(button=>{button.onclick=()=>{document.querySelectorAll("#post-filters button").forEach(item=>item.classList.toggle("active",item===button));document.querySelectorAll(".post-card").forEach(card=>{const filter=button.dataset.filter;const attention=filter==="ATTENTION"&&["FAILED","MISSED","AUTH_REQUIRED"].includes(card.dataset.status);card.hidden=filter!=="ALL"&&card.dataset.status!==filter&&!(filter==="READY"&&["READY","GENERATED"].includes(card.dataset.status))&&!attention})}})}
+async function refreshStatus(){try{const stamp=Date.now();const [statusResponse,historyResponse]=await Promise.all([fetch(`status.json?ts=${stamp}`,{method:"GET",cache:"no-store",credentials:"omit"}),fetch(`history.json?ts=${stamp}`,{method:"GET",cache:"no-store",credentials:"omit"})]);if(!statusResponse.ok||!historyResponse.ok)throw new Error("Dashboard data request failed");renderStatus(await statusResponse.json(),await historyResponse.json())}catch(error){const overall=document.getElementById("system-status");overall.className="system-status level-critical";overall.replaceChildren(element("span","pulse-dot"),element("strong","","Status Unavailable"));if(!lastStatus)document.getElementById("history-rows").replaceChildren(element("tr","","Sanitized dashboard data is temporarily unavailable."))}}
 
-async function refreshStatus(){try{const response=await fetch(`status.json?ts=${Date.now()}`,{method:"GET",cache:"no-store",credentials:"omit"});if(!response.ok)throw new Error("Status request failed");renderStatus(await response.json())}catch(error){const overall=document.getElementById("system-status");overall.className="system-status level-critical";overall.replaceChildren(element("span","pulse-dot"),element("strong","","Status Unavailable"));if(!lastStatus){document.getElementById("posts").replaceChildren(element("div","load-error","Sanitized status is temporarily unavailable. No private fallback data is requested."))}}}
+loadTheme();installThemeToggle();installRangeSelector();updateClock();setInterval(updateClock,1000);setInterval(updateCountdown,1000);refreshStatus();setInterval(refreshStatus,REFRESH_INTERVAL_MS);
 
-updateClock();setInterval(updateClock,1000);setInterval(updateCountdown,1000);refreshStatus();setInterval(refreshStatus,REFRESH_INTERVAL_MS);
-
-if(typeof window!=="undefined")window.VoxynPublicDashboard={validateStatus,safeSourceUrl,renderStatus,refreshStatus};
+if(typeof window!=="undefined")window.VoxynPublicDashboard={validateStatus,validateHistory,safeSourceUrl,recordsForRange,metrics,setTheme,renderStatus,refreshStatus};

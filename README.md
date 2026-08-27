@@ -1,8 +1,8 @@
 # VOXYN Automation Dashboard
 
 This public repository contains only sanitized operational dashboard data for VOXYN automation
-monitoring. The static dashboard is designed for GitHub Pages and refreshes `status.json` every
-45 seconds.
+monitoring. The static dashboard is designed for GitHub Pages and refreshes `status.json` and
+`history.json` every 45 seconds.
 
 It does **not** contain:
 
@@ -12,8 +12,19 @@ It does **not** contain:
 - LinkedIn member identities, post IDs, or authentication credentials;
 - private production configuration, environment variables, histories, claims, or workflow IDs.
 
-`status.json` is intentionally public. Upcoming captions can be visible before publication when
+Both JSON files are intentionally public and use separate strict allowlists. `status.json` is the
+small current operational snapshot. Compact `history.json` contains one sanitized record per
+generated dated slot, with no POST_ID or platform identifier. Upcoming captions can be visible when
 the private production setting `PUBLIC_DASHBOARD_SHOW_READY_CAPTIONS=true` is enabled.
+
+The analytics selector uses buyer-local calendar dates for Today, 3D, 7D, 30D, and All Time.
+Publishing success rate is `POSTED / (POSTED + MISSED + FAILED + AUTH_REQUIRED)`. Future work,
+PROCESSING items, and CANCELLED items are excluded from that denominator.
+Historical reporting begins with the first durable publisher record, so older content created before
+publisher observability is not falsely classified as missed.
+
+The premium light theme is the default. The optional dark preference is the only value stored in
+browser `localStorage`; operational dashboard data is never stored there.
 
 ## GitHub Pages
 
