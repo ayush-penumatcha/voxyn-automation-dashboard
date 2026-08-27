@@ -1,0 +1,1913 @@
+{
+  "schema_version": 1,
+  "palette_count": 45,
+  "families": [
+    "TECH_FUTURE",
+    "DATA_RESEARCH",
+    "NEWS_IMPORTANT",
+    "INNOVATION",
+    "PRODUCT_RELEASE",
+    "EDUCATION",
+    "BUSINESS_STRATEGY",
+    "GROWTH_OPPORTUNITY",
+    "SECURITY_RISK",
+    "COMMUNITY_ENGAGEMENT",
+    "PREMIUM_EXECUTIVE",
+    "MINIMAL_EDITORIAL",
+    "CREATIVE_INSIGHT",
+    "FINANCE_MARKETS",
+    "STARTUP_FOUNDER"
+  ],
+  "palettes": [
+    {
+      "palette_id": "quantum-cobalt",
+      "name": "Quantum Cobalt",
+      "family": "TECH_FUTURE",
+      "mood": "precise",
+      "background": {
+        "base": "#08162F",
+        "secondary": "#10264D"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#0B1D3A",
+        "middle": null,
+        "end": "#142A55",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#A5F3FC",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#5B8CFF",
+        "secondary": "#22D3EE",
+        "highlight": "#A5F3FC"
+      },
+      "border": "#5B8CFF",
+      "divider": "#22D3EE",
+      "badge": {
+        "background": "#5B8CFF",
+        "text": "#111827"
+      },
+      "decorative": "#A5F3FC",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.45,
+        "body": 13.45,
+        "badge": 5.61
+      }
+    },
+    {
+      "palette_id": "neural-indigo",
+      "name": "Neural Indigo",
+      "family": "TECH_FUTURE",
+      "mood": "inventive",
+      "background": {
+        "base": "#15113A",
+        "secondary": "#231D55"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#171341",
+        "middle": null,
+        "end": "#29235F",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#C4B5FD",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#8B5CF6",
+        "secondary": "#38BDF8",
+        "highlight": "#C4B5FD"
+      },
+      "border": "#8B5CF6",
+      "divider": "#38BDF8",
+      "badge": {
+        "background": "#15113A",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#C4B5FD",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.38,
+        "body": 13.38,
+        "badge": 17.11
+      }
+    },
+    {
+      "palette_id": "signal-midnight",
+      "name": "Signal Midnight",
+      "family": "TECH_FUTURE",
+      "mood": "focused",
+      "background": {
+        "base": "#071A24",
+        "secondary": "#0D2A38"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#08202C",
+        "middle": null,
+        "end": "#103345",
+        "angle": 180
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#67E8F9",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#06B6D4",
+        "secondary": "#60A5FA",
+        "highlight": "#67E8F9"
+      },
+      "border": "#06B6D4",
+      "divider": "#60A5FA",
+      "badge": {
+        "background": "#06B6D4",
+        "text": "#111827"
+      },
+      "decorative": "#67E8F9",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.69,
+        "body": 12.69,
+        "badge": 7.31
+      }
+    },
+    {
+      "palette_id": "research-teal",
+      "name": "Research Teal",
+      "family": "DATA_RESEARCH",
+      "mood": "analytical",
+      "background": {
+        "base": "#062B2D",
+        "secondary": "#0B3D40"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#073335",
+        "middle": null,
+        "end": "#0D474A",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#99F6E4",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#14B8A6",
+        "secondary": "#38BDF8",
+        "highlight": "#99F6E4"
+      },
+      "border": "#14B8A6",
+      "divider": "#38BDF8",
+      "badge": {
+        "background": "#14B8A6",
+        "text": "#111827"
+      },
+      "decorative": "#99F6E4",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 9.95,
+        "body": 9.95,
+        "badge": 7.13
+      }
+    },
+    {
+      "palette_id": "lab-blue",
+      "name": "Lab Blue",
+      "family": "DATA_RESEARCH",
+      "mood": "evidence-led",
+      "background": {
+        "base": "#0A2342",
+        "secondary": "#12365E"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#0B294C",
+        "middle": null,
+        "end": "#174269",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#93C5FD",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#3B82F6",
+        "secondary": "#2DD4BF",
+        "highlight": "#93C5FD"
+      },
+      "border": "#3B82F6",
+      "divider": "#2DD4BF",
+      "badge": {
+        "background": "#3B82F6",
+        "text": "#111827"
+      },
+      "decorative": "#93C5FD",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 9.94,
+        "body": 9.94,
+        "badge": 4.82
+      }
+    },
+    {
+      "palette_id": "graphite-metric",
+      "name": "Graphite Metric",
+      "family": "DATA_RESEARCH",
+      "mood": "rigorous",
+      "background": {
+        "base": "#171C24",
+        "secondary": "#242B36"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#1A2029",
+        "middle": null,
+        "end": "#2C3440",
+        "angle": 90
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#BFDBFE",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#60A5FA",
+        "secondary": "#A3E635",
+        "highlight": "#BFDBFE"
+      },
+      "border": "#60A5FA",
+      "divider": "#A3E635",
+      "badge": {
+        "background": "#60A5FA",
+        "text": "#111827"
+      },
+      "decorative": "#BFDBFE",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.0,
+        "body": 12.0,
+        "badge": 6.98
+      }
+    },
+    {
+      "palette_id": "breaking-crimson",
+      "name": "Breaking Crimson",
+      "family": "NEWS_IMPORTANT",
+      "mood": "urgent",
+      "background": {
+        "base": "#320D18",
+        "secondary": "#4A1422"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#3B0F1B",
+        "middle": null,
+        "end": "#541827",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDA4AF",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#F43F5E",
+        "secondary": "#FB923C",
+        "highlight": "#FDA4AF"
+      },
+      "border": "#F43F5E",
+      "divider": "#FB923C",
+      "badge": {
+        "background": "#F43F5E",
+        "text": "#111827"
+      },
+      "decorative": "#FDA4AF",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.06,
+        "body": 13.06,
+        "badge": 4.83
+      }
+    },
+    {
+      "palette_id": "bulletin-amber",
+      "name": "Bulletin Amber",
+      "family": "NEWS_IMPORTANT",
+      "mood": "alert",
+      "background": {
+        "base": "#2B1805",
+        "secondary": "#43270A"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#321D06",
+        "middle": null,
+        "end": "#4A2D0D",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE68A",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#F59E0B",
+        "secondary": "#EF4444",
+        "highlight": "#FDE68A"
+      },
+      "border": "#F59E0B",
+      "divider": "#EF4444",
+      "badge": {
+        "background": "#F59E0B",
+        "text": "#111827"
+      },
+      "decorative": "#FDE68A",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.0,
+        "body": 12.0,
+        "badge": 8.26
+      }
+    },
+    {
+      "palette_id": "newsroom-ink",
+      "name": "Newsroom Ink",
+      "family": "NEWS_IMPORTANT",
+      "mood": "editorial",
+      "background": {
+        "base": "#151515",
+        "secondary": "#252525"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#181818",
+        "middle": null,
+        "end": "#2B2B2B",
+        "angle": 180
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FCA5A5",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#EF4444",
+        "secondary": "#F59E0B",
+        "highlight": "#FCA5A5"
+      },
+      "border": "#EF4444",
+      "divider": "#F59E0B",
+      "badge": {
+        "background": "#EF4444",
+        "text": "#111827"
+      },
+      "decorative": "#FCA5A5",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.53,
+        "body": 13.53,
+        "badge": 4.71
+      }
+    },
+    {
+      "palette_id": "inventor-violet",
+      "name": "Inventor Violet",
+      "family": "INNOVATION",
+      "mood": "bold",
+      "background": {
+        "base": "#24104A",
+        "secondary": "#351864"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#291253",
+        "middle": null,
+        "end": "#421E73",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#D8B4FE",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#A855F7",
+        "secondary": "#22D3EE",
+        "highlight": "#D8B4FE"
+      },
+      "border": "#A855F7",
+      "divider": "#22D3EE",
+      "badge": {
+        "background": "#24104A",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#D8B4FE",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.06,
+        "body": 12.06,
+        "badge": 16.08
+      }
+    },
+    {
+      "palette_id": "electric-azure",
+      "name": "Electric Azure",
+      "family": "INNOVATION",
+      "mood": "progressive",
+      "background": {
+        "base": "#061F3E",
+        "secondary": "#0B3159"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#08264A",
+        "middle": null,
+        "end": "#0D3B67",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#7DD3FC",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#0EA5E9",
+        "secondary": "#8B5CF6",
+        "highlight": "#7DD3FC"
+      },
+      "border": "#0EA5E9",
+      "divider": "#8B5CF6",
+      "badge": {
+        "background": "#0EA5E9",
+        "text": "#111827"
+      },
+      "decorative": "#7DD3FC",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 10.92,
+        "body": 10.92,
+        "badge": 6.4
+      }
+    },
+    {
+      "palette_id": "future-orchid",
+      "name": "Future Orchid",
+      "family": "INNOVATION",
+      "mood": "imaginative",
+      "background": {
+        "base": "#32133D",
+        "secondary": "#482052"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#391646",
+        "middle": null,
+        "end": "#55265F",
+        "angle": 90
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#F0ABFC",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#D946EF",
+        "secondary": "#818CF8",
+        "highlight": "#F0ABFC"
+      },
+      "border": "#D946EF",
+      "divider": "#818CF8",
+      "badge": {
+        "background": "#D946EF",
+        "text": "#111827"
+      },
+      "decorative": "#F0ABFC",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 10.98,
+        "body": 10.98,
+        "badge": 5.13
+      }
+    },
+    {
+      "palette_id": "launch-violet",
+      "name": "Launch Violet",
+      "family": "PRODUCT_RELEASE",
+      "mood": "confident",
+      "background": {
+        "base": "#211044",
+        "secondary": "#321960"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#27134D",
+        "middle": null,
+        "end": "#3B1E70",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#C4B5FD",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#8B5CF6",
+        "secondary": "#3B82F6",
+        "highlight": "#C4B5FD"
+      },
+      "border": "#8B5CF6",
+      "divider": "#3B82F6",
+      "badge": {
+        "background": "#211044",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#C4B5FD",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.5,
+        "body": 12.5,
+        "badge": 16.42
+      }
+    },
+    {
+      "palette_id": "release-blue",
+      "name": "Release Blue",
+      "family": "PRODUCT_RELEASE",
+      "mood": "clear",
+      "background": {
+        "base": "#082854",
+        "secondary": "#0F3A70"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#0A2F60",
+        "middle": null,
+        "end": "#124681",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#93C5FD",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#2563EB",
+        "secondary": "#06B6D4",
+        "highlight": "#93C5FD"
+      },
+      "border": "#2563EB",
+      "divider": "#06B6D4",
+      "badge": {
+        "background": "#2563EB",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#93C5FD",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 9.05,
+        "body": 9.05,
+        "badge": 4.94
+      }
+    },
+    {
+      "palette_id": "product-plum",
+      "name": "Product Plum",
+      "family": "PRODUCT_RELEASE",
+      "mood": "premium",
+      "background": {
+        "base": "#35122E",
+        "secondary": "#4B1D42"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#3D1536",
+        "middle": null,
+        "end": "#58234C",
+        "angle": 180
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#F5D0FE",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#C026D3",
+        "secondary": "#F97316",
+        "highlight": "#F5D0FE"
+      },
+      "border": "#C026D3",
+      "divider": "#F97316",
+      "badge": {
+        "background": "#C026D3",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#F5D0FE",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 11.41,
+        "body": 11.41,
+        "badge": 4.5
+      }
+    },
+    {
+      "palette_id": "academy-cream",
+      "name": "Academy Cream",
+      "family": "EDUCATION",
+      "mood": "welcoming",
+      "background": {
+        "base": "#FFF9EB",
+        "secondary": "#F5ECD6"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#FFF8E5",
+        "middle": null,
+        "end": "#F2E8CF",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#111827",
+        "body": "#111827",
+        "emphasis": "#115E59",
+        "muted": "#111827",
+        "inverse": "#F8FAFC"
+      },
+      "accent": {
+        "primary": "#0F766E",
+        "secondary": "#C2410C",
+        "highlight": "#115E59"
+      },
+      "border": "#0F766E",
+      "divider": "#C2410C",
+      "badge": {
+        "background": "#0F766E",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#115E59",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 14.55,
+        "body": 14.55,
+        "badge": 5.23
+      }
+    },
+    {
+      "palette_id": "learning-sage",
+      "name": "Learning Sage",
+      "family": "EDUCATION",
+      "mood": "calm",
+      "background": {
+        "base": "#F1F7EE",
+        "secondary": "#E2EDDE"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#F4F9F1",
+        "middle": null,
+        "end": "#DCE9D7",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#111827",
+        "body": "#111827",
+        "emphasis": "#065F46",
+        "muted": "#111827",
+        "inverse": "#F8FAFC"
+      },
+      "accent": {
+        "primary": "#047857",
+        "secondary": "#A16207",
+        "highlight": "#065F46"
+      },
+      "border": "#047857",
+      "divider": "#A16207",
+      "badge": {
+        "background": "#047857",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#065F46",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 14.09,
+        "body": 14.09,
+        "badge": 5.24
+      }
+    },
+    {
+      "palette_id": "workshop-sky",
+      "name": "Workshop Sky",
+      "family": "EDUCATION",
+      "mood": "accessible",
+      "background": {
+        "base": "#EFF8FF",
+        "secondary": "#DDEFFC"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#F3FAFF",
+        "middle": null,
+        "end": "#D7EBFA",
+        "angle": 180
+      },
+      "text": {
+        "headline": "#111827",
+        "body": "#111827",
+        "emphasis": "#075985",
+        "muted": "#111827",
+        "inverse": "#F8FAFC"
+      },
+      "accent": {
+        "primary": "#0369A1",
+        "secondary": "#7C3AED",
+        "highlight": "#075985"
+      },
+      "border": "#0369A1",
+      "divider": "#7C3AED",
+      "badge": {
+        "background": "#0369A1",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#075985",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 14.49,
+        "body": 14.49,
+        "badge": 5.67
+      }
+    },
+    {
+      "palette_id": "executive-navy",
+      "name": "Executive Navy",
+      "family": "BUSINESS_STRATEGY",
+      "mood": "authoritative",
+      "background": {
+        "base": "#091A33",
+        "secondary": "#112A4A"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#0A203C",
+        "middle": null,
+        "end": "#153250",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE68A",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#C6A15B",
+        "secondary": "#60A5FA",
+        "highlight": "#FDE68A"
+      },
+      "border": "#C6A15B",
+      "divider": "#60A5FA",
+      "badge": {
+        "background": "#C6A15B",
+        "text": "#111827"
+      },
+      "decorative": "#FDE68A",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.51,
+        "body": 12.51,
+        "badge": 7.31
+      }
+    },
+    {
+      "palette_id": "strategy-graphite",
+      "name": "Strategy Graphite",
+      "family": "BUSINESS_STRATEGY",
+      "mood": "measured",
+      "background": {
+        "base": "#191D24",
+        "secondary": "#292F39"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#1C2129",
+        "middle": null,
+        "end": "#313844",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FCD34D",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#D4A853",
+        "secondary": "#94A3B8",
+        "highlight": "#FCD34D"
+      },
+      "border": "#D4A853",
+      "divider": "#94A3B8",
+      "badge": {
+        "background": "#D4A853",
+        "text": "#111827"
+      },
+      "decorative": "#FCD34D",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 11.28,
+        "body": 11.28,
+        "badge": 8.05
+      }
+    },
+    {
+      "palette_id": "boardroom-slate",
+      "name": "Boardroom Slate",
+      "family": "BUSINESS_STRATEGY",
+      "mood": "decisive",
+      "background": {
+        "base": "#172033",
+        "secondary": "#253149"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#1B263A",
+        "middle": null,
+        "end": "#2C3A53",
+        "angle": 90
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE047",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#EAB308",
+        "secondary": "#38BDF8",
+        "highlight": "#FDE047"
+      },
+      "border": "#EAB308",
+      "divider": "#38BDF8",
+      "badge": {
+        "background": "#EAB308",
+        "text": "#111827"
+      },
+      "decorative": "#FDE047",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 10.92,
+        "body": 10.92,
+        "badge": 9.25
+      }
+    },
+    {
+      "palette_id": "growth-emerald",
+      "name": "Growth Emerald",
+      "family": "GROWTH_OPPORTUNITY",
+      "mood": "optimistic",
+      "background": {
+        "base": "#06351F",
+        "secondary": "#0B4A2C"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#073D24",
+        "middle": null,
+        "end": "#0D5632",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#6EE7B7",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B",
+        "highlight": "#6EE7B7"
+      },
+      "border": "#10B981",
+      "divider": "#F59E0B",
+      "badge": {
+        "background": "#10B981",
+        "text": "#111827"
+      },
+      "decorative": "#6EE7B7",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 8.38,
+        "body": 8.38,
+        "badge": 6.99
+      }
+    },
+    {
+      "palette_id": "opportunity-jade",
+      "name": "Opportunity Jade",
+      "family": "GROWTH_OPPORTUNITY",
+      "mood": "forward",
+      "background": {
+        "base": "#07352F",
+        "secondary": "#0D4C43"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#083E37",
+        "middle": null,
+        "end": "#10584D",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#99F6E4",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#14B8A6",
+        "secondary": "#EAB308",
+        "highlight": "#99F6E4"
+      },
+      "border": "#14B8A6",
+      "divider": "#EAB308",
+      "badge": {
+        "background": "#14B8A6",
+        "text": "#111827"
+      },
+      "decorative": "#99F6E4",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 7.95,
+        "body": 7.95,
+        "badge": 7.13
+      }
+    },
+    {
+      "palette_id": "momentum-forest",
+      "name": "Momentum Forest",
+      "family": "GROWTH_OPPORTUNITY",
+      "mood": "grounded",
+      "background": {
+        "base": "#122D1D",
+        "secondary": "#1B422A"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#153622",
+        "middle": null,
+        "end": "#204D31",
+        "angle": 180
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#86EFAC",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#22C55E",
+        "secondary": "#F59E0B",
+        "highlight": "#86EFAC"
+      },
+      "border": "#22C55E",
+      "divider": "#F59E0B",
+      "badge": {
+        "background": "#22C55E",
+        "text": "#111827"
+      },
+      "decorative": "#86EFAC",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 9.26,
+        "body": 9.26,
+        "badge": 7.79
+      }
+    },
+    {
+      "palette_id": "sentinel-navy",
+      "name": "Sentinel Navy",
+      "family": "SECURITY_RISK",
+      "mood": "vigilant",
+      "background": {
+        "base": "#07162B",
+        "secondary": "#10243D"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#081B33",
+        "middle": null,
+        "end": "#132B47",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDBA74",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#F97316",
+        "secondary": "#EF4444",
+        "highlight": "#FDBA74"
+      },
+      "border": "#F97316",
+      "divider": "#EF4444",
+      "badge": {
+        "background": "#F97316",
+        "text": "#111827"
+      },
+      "decorative": "#FDBA74",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.71,
+        "body": 13.71,
+        "badge": 6.33
+      }
+    },
+    {
+      "palette_id": "risk-crimson",
+      "name": "Risk Crimson",
+      "family": "SECURITY_RISK",
+      "mood": "critical",
+      "background": {
+        "base": "#2D1017",
+        "secondary": "#421820"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#35121B",
+        "middle": null,
+        "end": "#4D1C25",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FCA5A5",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#DC2626",
+        "secondary": "#F59E0B",
+        "highlight": "#FCA5A5"
+      },
+      "border": "#DC2626",
+      "divider": "#F59E0B",
+      "badge": {
+        "background": "#DC2626",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#FCA5A5",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.31,
+        "body": 13.31,
+        "badge": 4.62
+      }
+    },
+    {
+      "palette_id": "secure-amber",
+      "name": "Secure Amber",
+      "family": "SECURITY_RISK",
+      "mood": "cautious",
+      "background": {
+        "base": "#2A210A",
+        "secondary": "#403314"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#30270C",
+        "middle": null,
+        "end": "#4A3B17",
+        "angle": 90
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE68A",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#D97706",
+        "secondary": "#DC2626",
+        "highlight": "#FDE68A"
+      },
+      "border": "#D97706",
+      "divider": "#DC2626",
+      "badge": {
+        "background": "#D97706",
+        "text": "#111827"
+      },
+      "decorative": "#FDE68A",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 10.4,
+        "body": 10.4,
+        "badge": 5.57
+      }
+    },
+    {
+      "palette_id": "community-coral",
+      "name": "Community Coral",
+      "family": "COMMUNITY_ENGAGEMENT",
+      "mood": "human",
+      "background": {
+        "base": "#401824",
+        "secondary": "#592331"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#491B29",
+        "middle": null,
+        "end": "#662A39",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDA4AF",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#FB7185",
+        "secondary": "#F59E0B",
+        "highlight": "#FDA4AF"
+      },
+      "border": "#FB7185",
+      "divider": "#F59E0B",
+      "badge": {
+        "background": "#FB7185",
+        "text": "#111827"
+      },
+      "decorative": "#FDA4AF",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 10.27,
+        "body": 10.27,
+        "badge": 6.59
+      }
+    },
+    {
+      "palette_id": "conversation-orange",
+      "name": "Conversation Orange",
+      "family": "COMMUNITY_ENGAGEMENT",
+      "mood": "energetic",
+      "background": {
+        "base": "#3A1D0B",
+        "secondary": "#542D12"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#43220D",
+        "middle": null,
+        "end": "#613516",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDBA74",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#F97316",
+        "secondary": "#EC4899",
+        "highlight": "#FDBA74"
+      },
+      "border": "#F97316",
+      "divider": "#EC4899",
+      "badge": {
+        "background": "#F97316",
+        "text": "#111827"
+      },
+      "decorative": "#FDBA74",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 9.89,
+        "body": 9.89,
+        "badge": 6.33
+      }
+    },
+    {
+      "palette_id": "collective-rose",
+      "name": "Collective Rose",
+      "family": "COMMUNITY_ENGAGEMENT",
+      "mood": "inclusive",
+      "background": {
+        "base": "#3B162D",
+        "secondary": "#55203F"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#451934",
+        "middle": null,
+        "end": "#62264A",
+        "angle": 180
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#F9A8D4",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#EC4899",
+        "secondary": "#8B5CF6",
+        "highlight": "#F9A8D4"
+      },
+      "border": "#EC4899",
+      "divider": "#8B5CF6",
+      "badge": {
+        "background": "#EC4899",
+        "text": "#111827"
+      },
+      "decorative": "#F9A8D4",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 10.59,
+        "body": 10.59,
+        "badge": 5.03
+      }
+    },
+    {
+      "palette_id": "premier-obsidian",
+      "name": "Premier Obsidian",
+      "family": "PREMIUM_EXECUTIVE",
+      "mood": "luxury",
+      "background": {
+        "base": "#101114",
+        "secondary": "#202126"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#141519",
+        "middle": null,
+        "end": "#292A30",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE68A",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#D4AF37",
+        "secondary": "#A78BFA",
+        "highlight": "#FDE68A"
+      },
+      "border": "#D4AF37",
+      "divider": "#A78BFA",
+      "badge": {
+        "background": "#D4AF37",
+        "text": "#111827"
+      },
+      "decorative": "#FDE68A",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.67,
+        "body": 13.67,
+        "badge": 8.44
+      }
+    },
+    {
+      "palette_id": "royal-midnight",
+      "name": "Royal Midnight",
+      "family": "PREMIUM_EXECUTIVE",
+      "mood": "exclusive",
+      "background": {
+        "base": "#0C1530",
+        "secondary": "#182446"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#101936",
+        "middle": null,
+        "end": "#1E2B50",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#F5D98B",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#C6A15B",
+        "secondary": "#6366F1",
+        "highlight": "#F5D98B"
+      },
+      "border": "#C6A15B",
+      "divider": "#6366F1",
+      "badge": {
+        "background": "#C6A15B",
+        "text": "#111827"
+      },
+      "decorative": "#F5D98B",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.23,
+        "body": 13.23,
+        "badge": 7.31
+      }
+    },
+    {
+      "palette_id": "executive-aubergine",
+      "name": "Executive Aubergine",
+      "family": "PREMIUM_EXECUTIVE",
+      "mood": "refined",
+      "background": {
+        "base": "#291329",
+        "secondary": "#3D203E"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#301630",
+        "middle": null,
+        "end": "#482649",
+        "angle": 90
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE68A",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#D4A853",
+        "secondary": "#A855F7",
+        "highlight": "#FDE68A"
+      },
+      "border": "#D4A853",
+      "divider": "#A855F7",
+      "badge": {
+        "background": "#D4A853",
+        "text": "#111827"
+      },
+      "decorative": "#FDE68A",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.17,
+        "body": 12.17,
+        "badge": 8.05
+      }
+    },
+    {
+      "palette_id": "paper-charcoal",
+      "name": "Paper Charcoal",
+      "family": "MINIMAL_EDITORIAL",
+      "mood": "minimal",
+      "background": {
+        "base": "#F7F5EF",
+        "secondary": "#ECE9E1"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#FAF8F3",
+        "middle": null,
+        "end": "#E8E4DB",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#111827",
+        "body": "#111827",
+        "emphasis": "#111827",
+        "muted": "#111827",
+        "inverse": "#F8FAFC"
+      },
+      "accent": {
+        "primary": "#1F2937",
+        "secondary": "#B45309",
+        "highlight": "#111827"
+      },
+      "border": "#1F2937",
+      "divider": "#B45309",
+      "badge": {
+        "background": "#1F2937",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#111827",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 13.98,
+        "body": 13.98,
+        "badge": 14.03
+      }
+    },
+    {
+      "palette_id": "editorial-stone",
+      "name": "Editorial Stone",
+      "family": "MINIMAL_EDITORIAL",
+      "mood": "quiet",
+      "background": {
+        "base": "#F3F1EC",
+        "secondary": "#E4E1DA"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#F7F5F0",
+        "middle": null,
+        "end": "#DEDAD2",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#111827",
+        "body": "#111827",
+        "emphasis": "#1F2937",
+        "muted": "#111827",
+        "inverse": "#F8FAFC"
+      },
+      "accent": {
+        "primary": "#374151",
+        "secondary": "#9F1239",
+        "highlight": "#1F2937"
+      },
+      "border": "#374151",
+      "divider": "#9F1239",
+      "badge": {
+        "background": "#374151",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#1F2937",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.73,
+        "body": 12.73,
+        "badge": 9.85
+      }
+    },
+    {
+      "palette_id": "mono-ivory",
+      "name": "Mono Ivory",
+      "family": "MINIMAL_EDITORIAL",
+      "mood": "timeless",
+      "background": {
+        "base": "#FFFCF4",
+        "secondary": "#F1ECE1"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#FFFEF9",
+        "middle": null,
+        "end": "#EBE5D9",
+        "angle": 180
+      },
+      "text": {
+        "headline": "#111827",
+        "body": "#111827",
+        "emphasis": "#1F2937",
+        "muted": "#111827",
+        "inverse": "#F8FAFC"
+      },
+      "accent": {
+        "primary": "#111827",
+        "secondary": "#0F766E",
+        "highlight": "#1F2937"
+      },
+      "border": "#111827",
+      "divider": "#0F766E",
+      "badge": {
+        "background": "#111827",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#1F2937",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 14.14,
+        "body": 14.14,
+        "badge": 16.96
+      }
+    },
+    {
+      "palette_id": "insight-magenta",
+      "name": "Insight Magenta",
+      "family": "CREATIVE_INSIGHT",
+      "mood": "expressive",
+      "background": {
+        "base": "#36122F",
+        "secondary": "#4D1B43"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#3F1637",
+        "middle": null,
+        "end": "#59214E",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#F9A8D4",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#DB2777",
+        "secondary": "#8B5CF6",
+        "highlight": "#F9A8D4"
+      },
+      "border": "#DB2777",
+      "divider": "#8B5CF6",
+      "badge": {
+        "background": "#36122F",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#F9A8D4",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 11.45,
+        "body": 11.45,
+        "badge": 15.63
+      }
+    },
+    {
+      "palette_id": "creative-cyan",
+      "name": "Creative Cyan",
+      "family": "CREATIVE_INSIGHT",
+      "mood": "fresh",
+      "background": {
+        "base": "#062C38",
+        "secondary": "#0B414F"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#073541",
+        "middle": null,
+        "end": "#0E4B5A",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#67E8F9",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#06B6D4",
+        "secondary": "#F97316",
+        "highlight": "#67E8F9"
+      },
+      "border": "#06B6D4",
+      "divider": "#F97316",
+      "badge": {
+        "background": "#06B6D4",
+        "text": "#111827"
+      },
+      "decorative": "#67E8F9",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 9.24,
+        "body": 9.24,
+        "badge": 7.31
+      }
+    },
+    {
+      "palette_id": "idea-ultraviolet",
+      "name": "Idea Ultraviolet",
+      "family": "CREATIVE_INSIGHT",
+      "mood": "original",
+      "background": {
+        "base": "#24113E",
+        "secondary": "#381B58"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#2B1548",
+        "middle": null,
+        "end": "#422066",
+        "angle": 90
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#C4B5FD",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#7C3AED",
+        "secondary": "#EC4899",
+        "highlight": "#C4B5FD"
+      },
+      "border": "#7C3AED",
+      "divider": "#EC4899",
+      "badge": {
+        "background": "#7C3AED",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#C4B5FD",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.31,
+        "body": 12.31,
+        "badge": 5.45
+      }
+    },
+    {
+      "palette_id": "market-navy",
+      "name": "Market Navy",
+      "family": "FINANCE_MARKETS",
+      "mood": "credible",
+      "background": {
+        "base": "#071E36",
+        "secondary": "#0F304D"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#092541",
+        "middle": null,
+        "end": "#123A59",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE68A",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#D4AF37",
+        "secondary": "#10B981",
+        "highlight": "#FDE68A"
+      },
+      "border": "#D4AF37",
+      "divider": "#10B981",
+      "badge": {
+        "background": "#D4AF37",
+        "text": "#111827"
+      },
+      "decorative": "#FDE68A",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 11.31,
+        "body": 11.31,
+        "badge": 8.44
+      }
+    },
+    {
+      "palette_id": "capital-green",
+      "name": "Capital Green",
+      "family": "FINANCE_MARKETS",
+      "mood": "stable",
+      "background": {
+        "base": "#082D24",
+        "secondary": "#104438"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#0A362B",
+        "middle": null,
+        "end": "#135044",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE68A",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#C6A15B",
+        "secondary": "#22C55E",
+        "highlight": "#FDE68A"
+      },
+      "border": "#C6A15B",
+      "divider": "#22C55E",
+      "badge": {
+        "background": "#C6A15B",
+        "text": "#111827"
+      },
+      "decorative": "#FDE68A",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 8.89,
+        "body": 8.89,
+        "badge": 7.31
+      }
+    },
+    {
+      "palette_id": "ledger-slate",
+      "name": "Ledger Slate",
+      "family": "FINANCE_MARKETS",
+      "mood": "disciplined",
+      "background": {
+        "base": "#17202A",
+        "secondary": "#26323D"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#1B2631",
+        "middle": null,
+        "end": "#2D3B47",
+        "angle": 180
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDE047",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#EAB308",
+        "secondary": "#38BDF8",
+        "highlight": "#FDE047"
+      },
+      "border": "#EAB308",
+      "divider": "#38BDF8",
+      "badge": {
+        "background": "#EAB308",
+        "text": "#111827"
+      },
+      "decorative": "#FDE047",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 10.98,
+        "body": 10.98,
+        "badge": 9.25
+      }
+    },
+    {
+      "palette_id": "founder-ember",
+      "name": "Founder Ember",
+      "family": "STARTUP_FOUNDER",
+      "mood": "ambitious",
+      "background": {
+        "base": "#351608",
+        "secondary": "#4D240D"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#3E1A09",
+        "middle": null,
+        "end": "#592B11",
+        "angle": 135
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#FDBA74",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#F97316",
+        "secondary": "#8B5CF6",
+        "highlight": "#FDBA74"
+      },
+      "border": "#F97316",
+      "divider": "#8B5CF6",
+      "badge": {
+        "background": "#F97316",
+        "text": "#111827"
+      },
+      "decorative": "#FDBA74",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 11.29,
+        "body": 11.29,
+        "badge": 6.33
+      }
+    },
+    {
+      "palette_id": "venture-violet",
+      "name": "Venture Violet",
+      "family": "STARTUP_FOUNDER",
+      "mood": "disruptive",
+      "background": {
+        "base": "#251044",
+        "secondary": "#381960"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#2B134E",
+        "middle": null,
+        "end": "#421E70",
+        "angle": 120
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#D8B4FE",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#A855F7",
+        "secondary": "#F97316",
+        "highlight": "#D8B4FE"
+      },
+      "border": "#A855F7",
+      "divider": "#F97316",
+      "badge": {
+        "background": "#251044",
+        "text": "#F8FAFC"
+      },
+      "decorative": "#D8B4FE",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 12.15,
+        "body": 12.15,
+        "badge": 16.24
+      }
+    },
+    {
+      "palette_id": "builder-blue",
+      "name": "Builder Blue",
+      "family": "STARTUP_FOUNDER",
+      "mood": "practical",
+      "background": {
+        "base": "#08263E",
+        "secondary": "#103A56"
+      },
+      "gradient": {
+        "enabled": true,
+        "start": "#0A2E49",
+        "middle": null,
+        "end": "#144563",
+        "angle": 90
+      },
+      "text": {
+        "headline": "#F8FAFC",
+        "body": "#F8FAFC",
+        "emphasis": "#93C5FD",
+        "muted": "#F8FAFC",
+        "inverse": "#111827"
+      },
+      "accent": {
+        "primary": "#3B82F6",
+        "secondary": "#F59E0B",
+        "highlight": "#93C5FD"
+      },
+      "border": "#3B82F6",
+      "divider": "#F59E0B",
+      "badge": {
+        "background": "#3B82F6",
+        "text": "#111827"
+      },
+      "decorative": "#93C5FD",
+      "shadow": "rgba(2, 6, 23, 0.28)",
+      "contrast": {
+        "headline": 9.74,
+        "body": 9.74,
+        "badge": 4.82
+      }
+    }
+  ]
+}
