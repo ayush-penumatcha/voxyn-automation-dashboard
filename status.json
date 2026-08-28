@@ -1,30 +1,30 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-28T13:41:34+05:30",
+  "generated_at": "2026-08-29T05:23:49+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "WARNING",
-  "system_label": "Attention Required",
+  "system_status": "HEALTHY",
+  "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-08-28",
+    "date": "2026-08-29",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 2,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 2
+    "missed": 0
   },
   "next_post": {
-    "scheduled_time": "4:30 PM",
+    "scheduled_time": "8:30 AM",
     "post_type": "IMAGE",
-    "topic": "AI Company Moves",
+    "topic": "AI Research Breakthrough",
     "status": "GENERATED",
-    "scheduled_at": "2026-08-28T16:30:00+05:30"
+    "scheduled_at": "2026-08-29T08:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 55,
-    "last_checked": "01:41 PM"
+    "days_remaining": 54,
+    "last_checked": "05:23 AM"
   },
   "systems": {
     "generator": {
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -61,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "Anthropic and OpenAI will speak at TechCrunch Disrupt 2026.\n\nThe two major AI companies are confirmed for the AI Stage, which Google for Startups is presenting.\n\nThis marks a rare shared platform for the industry's biggest rivals.\n\nWill their public messages align, or will they highlight different paths forward?\n\n#TechCrunch #AIStage #AIPolicy",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Neocloud Lambda just secured $1 billion. \n\nThey will buy AI chips and lease them to Microsoft. This shows a new way to fund expensive AI projects. \n\nBuilding AI needs serious money.\n\nWill this debt-based growth make the market unstable?\n\n#AI #TechNews #NeocloudLambda #MicrosoftAI #AIChips",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "source_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "Companies are rethinking how they manage AI agents.\n\nControlling these agents now relies on the data itself. This shift makes security a core part of how data is stored.\n\nIt's not about blocking actions; it's about the data preventing unauthorized moves.\n\nWill all agent control move to the data layer, or do we still need separate rules?\n\n#AI #AIAgents #DataGovernance #EnterpriseAI",
-      "source_name": "venturebeat.com",
-      "source_url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Anthropic researchers showed how AI can fix its own bad behavior.\n\nThey built automated systems that improved performance on ten specific safety tests. The system learned without losing overall quality.\n\nThis changes how AI can become safer.\n\nShould AI systems learn to correct themselves, or should humans always make the final safety adjustments?\n\n#Anthropic #AISafety #AIResearch #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -84,64 +84,64 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "Barret Zoph, Thinking Machines Lab co-founder, is now at Google.\n\nHe moved from OpenAI to Google. This shows how top AI experts often switch between major tech companies.\n\nBig names move. Big ideas follow.\n\nDoes frequent talent movement between AI giants help or hinder innovation?\n\n#GoogleAI #OpenAI #TechTalent #AI",
+      "status": "GENERATED",
+      "caption": "Giving away AI models is now a hot acquisition trend.\n\nCompanies that release their AI models for free are becoming prime buyout targets. Investors see value in widespread use and community involvement.\n\nBuilding an audience is the new moat.\n\nDoes open-weight distribution lead to better products or just better valuations?\n\n#AI #TechNews #OpenWeightAI #Acquisitions",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "source_url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
+      "topic": "Model or Tool Comparison News",
       "status": "GENERATED",
-      "caption": "Enterprise AI is not about single smart programs anymore.\n\nCompanies are now using many AI agents that talk to each other and older business systems. This creates a hidden web of connections, making it hard to see what's happening.\n\nWhen a system gets too complex, it becomes difficult to control. That's the real problem for businesses using AI.\n\nDo companies fully understand the risks of these interconnected AI systems?\n\n#EnterpriseAI #AIAgents #TechStrategy",
-      "source_name": "venturebeat.com",
-      "source_url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "caption": "Anthropic just won its first court case.\n\nA federal judge decided the Trump administration was wrong to call Anthropic a supply-chain risk. This legal win clears its name.\n\nAI companies often face unexpected hurdles.\n\nShould governments be more careful when labeling tech companies as risks?\n\n#Anthropic #AILaw #TechNews #GovernmentAI",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
+      "topic": "AI at Work",
       "status": "GENERATED",
-      "caption": "Nvidia is nearing a deal to acquire Hugging Face.\n\nReports suggest a $12.9 billion acquisition that would expand Nvidia's reach beyond chips into cloud services and open-source AI development.\n\nThis move could reshape the AI infrastructure landscape.\n\nWill Nvidia's vertical integration strategy ultimately benefit or constrain the open-source AI community?\n\n#Nvidia #HuggingFace #AIBusiness #Acquisition #TechNews",
+      "caption": "A Meta executive is moving to OpenAI.\n\nSandhya Devanathan, who previously led Meta's India operations, will now oversee some OpenAI operations across Southeast Asia and Australia.\n\nThis shift highlights how talent moves between major AI players.\n\nDoes this change how you view Meta's regional focus?\n\n#AI #TechNews #OpenAI #Meta #AITalent",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+      "source_url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 01:41 PM",
+      "time": "Yesterday \u00b7 01:41 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 12:40 AM",
+      "time": "Yesterday \u00b7 12:40 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:40 AM",
+      "time": "Yesterday \u00b7 12:40 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 01:56 PM",
+      "time": "Aug 27 \u00b7 01:56 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 01:56 PM",
+      "time": "Aug 27 \u00b7 01:56 PM",
       "category": "FAILED",
       "message": "LinkedIn publication failed"
     },
     {
-      "time": "Yesterday \u00b7 11:11 AM",
+      "time": "Aug 27 \u00b7 11:11 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -216,18 +216,5 @@
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
