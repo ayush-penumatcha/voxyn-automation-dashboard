@@ -32,6 +32,9 @@ test("browser refresh, clock and countdown are present", () => {
   assert.match(source, /setInterval\(updateCountdown,1000\)/);
   assert.match(source, /history\.json\?ts=/);
   assert.match(source, /REFRESH_INTERVAL_MS = 45000/);
+  assert.match(source, /function schedulerStatus/);
+  assert.match(source, /Automation Scheduler/);
+  assert.match(source, /display_status:"STALE"/);
 });
 
 test("responsive mobile layout and health pulse exist", () => {
@@ -67,7 +70,7 @@ test("range selector and sanitized history view are present", () => {
 test("status is schema-only and contains no private identifiers", () => {
   const raw = read("status.json");
   const status = JSON.parse(raw);
-  assert.equal(status.schema_version, 1);
+  assert.ok([1,2].includes(status.schema_version));
   assert.ok(Array.isArray(status.posts));
   const forbiddenValues = ["slack_channel_id","file_id","member_urn","claim_id","access_token","refresh_token","oauth_code","xox"+"b-","urn:"+"li:","linkedin.com"+"/in/"];
   for (const forbidden of forbiddenValues) {

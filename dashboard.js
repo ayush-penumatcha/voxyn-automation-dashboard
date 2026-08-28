@@ -32,7 +32,7 @@ function exactKeys(value, required) {
 
 function validateStatus(data) {
   if (!exactKeys(data, REQUIRED_ROOT_FIELDS)) throw new Error("Status schema is not recognized");
-  if (data.schema_version !== 1 || !Array.isArray(data.posts) || !Array.isArray(data.issues) || !Array.isArray(data.recent_activity)) throw new Error("Status schema is invalid");
+  if (![1,2].includes(data.schema_version) || !Array.isArray(data.posts) || !Array.isArray(data.issues) || !Array.isArray(data.recent_activity)) throw new Error("Status schema is invalid");
   return data;
 }
 
@@ -135,10 +135,21 @@ function renderNext(data) {
   statusRoot.append(statusPill(next ? next.status : "NOT_GENERATED")); updateCountdown();
 }
 
+function schedulerStatus(data, now = Date.now()) {
+  const scheduler=data.systems && data.systems.scheduler;
+  if(!scheduler)return null;
+  const checked=new Date(scheduler.last_checked_at||"").getTime();
+  const threshold=Number(scheduler.stale_after_minutes)*60000;
+  if(!Number.isFinite(checked)||!Number.isFinite(threshold)||threshold<600000||now-checked>threshold){return {...scheduler,status:"WARNING",display_status:"STALE"};}
+  return {...scheduler,display_status:scheduler.status};
+}
+
 function renderSystems(data) {
   const labels={generator:["Content Generator","✦"],slack:["Slack Queue","↗"],publisher:["LinkedIn Publisher","in"],linkedin_auth:["LinkedIn Authentication","⌁"],renderer:["Renderer","◇"],state:["State / History","▤"]};
+  labels.scheduler=["Automation Scheduler","S"];
   const root=document.getElementById("system-cards");root.replaceChildren();
-  Object.entries(labels).forEach(([key,[label,icon]])=>{const status=data.systems[key].status;const card=element("article",`health-card ${status.toLowerCase().replaceAll("_","-")}`);card.append(element("div","health-icon",icon));const copy=element("div");copy.append(element("h3","",label));const state=element("strong");state.append(element("span","health-dot"),document.createTextNode(status.replaceAll("_"," ")));copy.append(state,element("p","","Sanitized high-level operational state"));card.append(copy);root.append(card)});
+  const scheduler=schedulerStatus(data);
+  Object.entries(labels).forEach(([key,[label,icon]])=>{if(!data.systems[key])return;const item=key==="scheduler"?scheduler:data.systems[key];const status=item.status;const shown=item.display_status||status;const card=element("article",`health-card ${status.toLowerCase().replaceAll("_","-")}`);card.append(element("div","health-icon",icon));const copy=element("div");copy.append(element("h3","",label));const state=element("strong");state.append(element("span","health-dot"),document.createTextNode(shown.replaceAll("_"," ")));const detail=key==="scheduler"&&item.last_checked_at?`Last controller check: ${formatTime(item.last_checked_at,true)}`:"Sanitized high-level operational state";copy.append(state,element("p","",detail));card.append(copy);root.append(card)});
 }
 
 function appendSource(container, record) {
@@ -192,7 +203,8 @@ function renderIssues(data){const root=document.getElementById("issue-list");roo
 function renderStatus(rawStatus, rawHistory) {
   const data=validateStatus(rawStatus);const history=validateHistory(rawHistory);lastStatus=data;lastHistory=history;currentTimezone=data.timezone;
   document.getElementById("timezone").textContent=currentTimezone;document.getElementById("privacy-note").textContent=data.notice;document.getElementById("last-updated").textContent=formatTime(data.generated_at,true);
-  const overall=document.getElementById("system-status");overall.className=`system-status level-${data.system_status.toLowerCase()}`;overall.replaceChildren(element("span","pulse-dot"),element("strong","",data.system_label));
+  const scheduler=schedulerStatus(data);const schedulerStale=scheduler&&scheduler.status==="WARNING";const overallStatus=schedulerStale&&data.system_status==="HEALTHY"?"WARNING":data.system_status;const overallLabel=schedulerStale&&data.system_status==="HEALTHY"?"Attention Required":data.system_label;
+  const overall=document.getElementById("system-status");overall.className=`system-status level-${overallStatus.toLowerCase()}`;overall.replaceChildren(element("span","pulse-dot"),element("strong","",overallLabel));
   renderNext(data);renderSystems(data);renderAuth(data);renderIssues(data);renderRange();updateClock();return data;
 }
 
@@ -200,4 +212,4 @@ async function refreshStatus(){try{const stamp=Date.now();const [statusResponse,
 
 loadTheme();installThemeToggle();installRangeSelector();updateClock();setInterval(updateClock,1000);setInterval(updateCountdown,1000);refreshStatus();setInterval(refreshStatus,REFRESH_INTERVAL_MS);
 
-if(typeof window!=="undefined")window.VoxynPublicDashboard={validateStatus,validateHistory,safeSourceUrl,recordsForRange,metrics,setTheme,renderStatus,refreshStatus};
+if(typeof window!=="undefined")window.VoxynPublicDashboard={validateStatus,validateHistory,safeSourceUrl,recordsForRange,metrics,setTheme,schedulerStatus,renderStatus,refreshStatus};
