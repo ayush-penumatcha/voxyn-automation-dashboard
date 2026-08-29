@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-29T13:40:57+05:30",
+  "generated_at": "2026-08-29T16:31:05+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-08-29",
     "total": 5,
-    "posted": 3,
-    "ready_generated": 2,
+    "posted": 4,
+    "ready_generated": 1,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "4:30 PM",
+    "scheduled_time": "5:30 PM",
     "post_type": "IMAGE",
-    "topic": "Model or Tool Comparison News",
+    "topic": "AI at Work",
     "status": "GENERATED",
-    "scheduled_at": "2026-08-29T16:30:00+05:30"
+    "scheduled_at": "2026-08-29T17:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -95,7 +95,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Anthropic just won its first court case.\n\nA federal judge decided the Trump administration was wrong to call Anthropic a supply-chain risk. This legal win clears its name.\n\nAI companies often face unexpected hurdles.\n\nShould governments be more careful when labeling tech companies as risks?\n\n#Anthropic #AILaw #TechNews #GovernmentAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 04:30 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 01:30 PM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Aug 25 \u00b7 05:30 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 25 \u00b7 04:42 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
