@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-29T23:59:32+05:30",
+  "generated_at": "2026-08-30T00:02:06+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "HEALTHY",
   "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-08-29",
+    "date": "2026-08-30",
     "total": 5,
-    "posted": 5,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
     "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-08-30T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 53,
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "POSTED",
-      "caption": "Neocloud Lambda just secured $1 billion. \n\nThey will buy AI chips and lease them to Microsoft. This shows a new way to fund expensive AI projects. \n\nBuilding AI needs serious money.\n\nWill this debt-based growth make the market unstable?\n\n#AI #TechNews #NeocloudLambda #MicrosoftAI #AIChips",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Vijay Pande launches VZVC for biotech and AI investments.\n\nHe plans smaller, focused bets on companies using open data in biology.\n\nThis could make medicine more engineering-driven, less discovery-based.\n\nWill open data speed up medical AI more than private systems?\n\n#AINews #BioAI #VentureCapital",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "source_url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "POSTED",
-      "caption": "Anthropic researchers showed how AI can fix its own bad behavior.\n\nThey built automated systems that improved performance on ten specific safety tests. The system learned without losing overall quality.\n\nThis changes how AI can become safer.\n\nShould AI systems learn to correct themselves, or should humans always make the final safety adjustments?\n\n#Anthropic #AISafety #AIResearch #TechNews",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Nvidia's AI lead is now about more than just chips.\n\nThe company is building entire data center systems that manage information flow much more efficiently. This means faster AI processing without needing endless processor upgrades.\n\nIt's a shift from raw power to smart infrastructure.\n\nWill this change how companies design their own AI systems?\n\n#Nvidia #AIEngineering #DataCenters #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "source_url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,94 +84,94 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "Giving away AI models is now a hot acquisition trend.\n\nCompanies that release their AI models for free are becoming prime buyout targets. Investors see value in widespread use and community involvement.\n\nBuilding an audience is the new moat.\n\nDoes open-weight distribution lead to better products or just better valuations?\n\n#AI #TechNews #OpenWeightAI #Acquisitions",
+      "status": "GENERATED",
+      "caption": "100+ AI companies are calling for new cybersecurity measures.\n\nOpenAI, Anthropic, and Google are among the tech giants advocating for stronger defenses against future AI-driven cyber threats.\n\nProtecting AI systems is now a shared priority.\n\nShould AI companies collaborate on security or compete to find solutions?\n\n#AI #Cybersecurity #TechNews #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "source_url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "POSTED",
-      "caption": "Anthropic just won its first court case.\n\nA federal judge decided the Trump administration was wrong to call Anthropic a supply-chain risk. This legal win clears its name.\n\nAI companies often face unexpected hurdles.\n\nShould governments be more careful when labeling tech companies as risks?\n\n#Anthropic #AILaw #TechNews #GovernmentAI",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Google's AI Mode is now helping with travel plans.\n\nThe tool can track flight prices and assist with hotel bookings directly. It's moving beyond just finding information to handling parts of the trip-planning process.\n\nSearching for facts is one thing.\nBooking your vacation is another.\n\nWill people trust an AI to manage their travel arrangements completely?\n\n#GoogleAI #TravelTech #AIAgents",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "source_url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "POSTED",
-      "caption": "A Meta executive is moving to OpenAI.\n\nSandhya Devanathan, who previously led Meta's India operations, will now oversee some OpenAI operations across Southeast Asia and Australia.\n\nThis shift highlights how talent moves between major AI players.\n\nDoes this change how you view Meta's regional focus?\n\n#AI #TechNews #OpenAI #Meta #AITalent",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Hugging Face is now selling a robot called Microduck.\n\nThis $399 open-source duck robot can be taught new skills using reinforcement learning. It's designed for people to experiment with AI and robotics at home.\n\nBuilding your own AI companion used to be a distant dream.\nNow it's a $399 duck.\n\nWill we see a rise in consumer-friendly AI robots, or will this stay a niche hobby?\n\n#AI #Robotics #HuggingFace #OpenSource",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+      "source_url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 05:31 PM",
+      "time": "Yesterday \u00b7 05:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 04:30 PM",
+      "time": "Yesterday \u00b7 04:30 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 01:30 PM",
+      "time": "Yesterday \u00b7 01:30 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 11:24 AM",
+      "time": "Yesterday \u00b7 11:24 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 09:18 AM",
+      "time": "Yesterday \u00b7 09:18 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 07:25 AM",
+      "time": "Yesterday \u00b7 07:25 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 07:25 AM",
+      "time": "Yesterday \u00b7 07:25 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 07:25 AM",
+      "time": "Yesterday \u00b7 07:25 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 07:25 AM",
+      "time": "Yesterday \u00b7 07:25 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 01:41 PM",
+      "time": "Aug 28 \u00b7 01:41 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 12:40 AM",
+      "time": "Aug 28 \u00b7 12:40 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:40 AM",
+      "time": "Aug 28 \u00b7 12:40 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
