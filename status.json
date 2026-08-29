@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-29T05:23:49+05:30",
+  "generated_at": "2026-08-29T07:25:51+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -24,7 +24,7 @@
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 54,
-    "last_checked": "05:23 AM"
+    "last_checked": "07:25 AM"
   },
   "systems": {
     "generator": {
@@ -116,6 +116,26 @@
   ],
   "recent_activity": [
     {
+      "time": "Today \u00b7 07:25 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 07:25 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 07:25 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 07:25 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
       "time": "Yesterday \u00b7 01:41 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
@@ -194,26 +214,6 @@
       "time": "Aug 25 \u00b7 08:59 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 24 \u00b7 11:48 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Aug 24 \u00b7 11:48 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Aug 24 \u00b7 11:48 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Aug 24 \u00b7 11:48 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": []
