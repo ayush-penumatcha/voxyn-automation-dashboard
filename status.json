@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-30T16:31:11+05:30",
+  "generated_at": "2026-08-30T17:31:09+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-08-30",
     "total": 5,
-    "posted": 4,
-    "ready_generated": 1,
+    "posted": 5,
+    "ready_generated": 0,
     "failed": 0,
     "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Numbers Today",
-    "status": "GENERATED",
-    "scheduled_at": "2026-08-30T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 53,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Hugging Face is now selling a robot called Microduck.\n\nThis $399 open-source duck robot can be taught new skills using reinforcement learning. It's designed for people to experiment with AI and robotics at home.\n\nBuilding your own AI companion used to be a distant dream.\nNow it's a $399 duck.\n\nWill we see a rise in consumer-friendly AI robots, or will this stay a niche hobby?\n\n#AI #Robotics #HuggingFace #OpenSource",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 05:30 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 04:30 PM",
       "category": "POSTED",
@@ -207,11 +206,6 @@
     },
     {
       "time": "Aug 27 \u00b7 11:11 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 26 \u00b7 05:33 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
