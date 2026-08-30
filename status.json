@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-30T13:31:10+05:30",
+  "generated_at": "2026-08-30T16:31:11+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-08-30",
     "total": 5,
-    "posted": 3,
-    "ready_generated": 2,
+    "posted": 4,
+    "ready_generated": 1,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "4:30 PM",
+    "scheduled_time": "5:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Trend in the News",
+    "topic": "AI Numbers Today",
     "status": "GENERATED",
-    "scheduled_at": "2026-08-30T16:30:00+05:30"
+    "scheduled_at": "2026-08-30T17:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -95,7 +95,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Google's AI Mode is now helping with travel plans.\n\nThe tool can track flight prices and assist with hotel bookings directly. It's moving beyond just finding information to handling parts of the trip-planning process.\n\nSearching for facts is one thing.\nBooking your vacation is another.\n\nWill people trust an AI to manage their travel arrangements completely?\n\n#GoogleAI #TravelTech #AIAgents",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 04:30 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 01:30 PM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Aug 26 \u00b7 05:33 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 26 \u00b7 04:44 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
