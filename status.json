@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T07:00:41+05:30",
+  "generated_at": "2026-08-31T08:31:14+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-08-31",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 4,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "New Model or Product Launch",
     "status": "GENERATED",
-    "scheduled_at": "2026-08-31T08:30:00+05:30"
+    "scheduled_at": "2026-08-31T10:55:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "SpaceX foundry speeds up gas turbine production.\n\nElon Musk says his company now casts its own turbine blades. This cuts 18 months off the usual time to get gas power online.\n\nFaster energy, but at what cost?\n\nDoes speed always justify the environmental trade-offs?\n\n#SpaceX #ElonMusk #EnergyTech",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:31 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 05:30 PM",
       "category": "POSTED",
@@ -209,11 +214,6 @@
       "time": "Aug 27 \u00b7 01:56 PM",
       "category": "FAILED",
       "message": "LinkedIn publication failed"
-    },
-    {
-      "time": "Aug 27 \u00b7 11:11 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
   "issues": []
