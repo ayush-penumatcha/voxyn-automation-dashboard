@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T13:31:16+05:30",
+  "generated_at": "2026-08-31T16:31:18+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-08-31",
     "total": 5,
-    "posted": 3,
-    "ready_generated": 2,
+    "posted": 4,
+    "ready_generated": 1,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "4:30 PM",
+    "scheduled_time": "5:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Company Moves",
+    "topic": "AI Business and Funding",
     "status": "GENERATED",
-    "scheduled_at": "2026-08-31T16:30:00+05:30"
+    "scheduled_at": "2026-08-31T17:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -95,7 +95,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Company Moves",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Android apps face new memory limits.\n\nGoogle is setting stricter memory-use rules for Android apps. This comes as AI data centers are creating a hardware shortage, leaving less memory available for cheaper phones.\n\nAI's growing demands now directly affect your phone.\n\nWill this push developers to build more efficient apps, or will it limit what phones can do?\n\n#Google #Android #AIEngineering",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 04:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 01:31 PM",
       "category": "POSTED",
@@ -204,11 +209,6 @@
       "time": "Aug 28 \u00b7 01:41 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 28 \u00b7 12:40 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     },
     {
       "time": "Aug 28 \u00b7 12:40 AM",
