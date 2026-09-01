@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-01T17:31:25+05:30",
+  "generated_at": "2026-09-02T04:07:32+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "HEALTHY",
   "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "total": 5,
-    "posted": 5,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
     "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-09-02T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 51,
+    "days_remaining": 50,
     "last_checked": "12:07 PM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "POSTED",
-      "caption": "The Pentagon just added ChatGPT and Grok to its AI toolkit.\n\nThese large language models are now available on its central portal, joining Google's Gemini. This gives defense analysts more options for processing information.\n\nMore AI tools are entering sensitive sectors.\n\nWill this improve intelligence analysis or introduce new risks?\n\n#PentagonAI #NationalSecurity #TechNews #GovernmentAI",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "AfterQuery is now Y Combinator's fastest unicorn.\n\nThe AI model-training startup reached a $3.2 billion valuation just five months after its previous funding round.\n\nThis rapid growth shows how quickly AI infrastructure can scale.\n\nDoes this kind of speed build market confidence or create a bubble?\n\n#AfterQuery #YCombinator #AIStartups #TechFunding",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "source_url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "POSTED",
-      "caption": "Instagram is now limiting undisclosed AI profiles.\n\nThe platform will reduce how many people see content from accounts that use AI without saying so. Users have been frustrated by fake influencers.\n\nUndisclosed AI profiles will now reach fewer people.\n\nWill this push more creators to be open about their AI use?\n\n#Instagram #AIPolicy #ContentModeration #TechNews",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Anthropic's Fable 5.1 is now cheaper and more open.\n\nThe new AI model costs less to use, making it more accessible for developers. It also has fewer false alarms from its safety filters.\n\nThis means less hassle for developers.\n\nWill this shift lead to wider adoption for Anthropic's models?\n\n#Anthropic #AIPricing #AISafety",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+      "source_url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,62 +84,37 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "Blue Voice raises $6 million for police AI.\n\nThe startup trains its AI on specific department rules and local laws, which general AI tools can't access.\n\nThis makes AI a specialized assistant.\nIt's not just for lawyers anymore.\n\nWill specialized AI assistants become standard in every regulated profession?\n\n#BlueVoice #AIAssistant #PublicSafety #LegalTech #AI",
+      "status": "GENERATED",
+      "caption": "OpenAI's Astra model can break into computer systems.\n\nThe company shared its safety preparations for Astra, its upcoming AI model. It can operate across computers and other devices, making it a powerful tool for cybersecurity tasks.\n\nControlling a system is one thing.\nControlling its potential is another.\n\nShould AI models with these capabilities be released broadly, even with safety measures?\n\n#OpenAI #Astra #Cybersecurity",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "source_url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "POSTED",
-      "caption": "Clipto is now valued at $250 million.\n\nThe AI startup helps users search enormous video libraries. It reached $15 million in annual recurring revenue and became profitable before raising its latest $15 million round.\n\nFinding a specific moment in video used to be impossible.\n\nNow, AI makes those terabytes searchable.\n\nWill this shift change how all media archives are managed?\n\n#Clipto #AISearch #VideoAI #TechNews",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Google Android adds new AI features to help users.\n\nThe latest update brings tools to reduce motion sickness and improve accessibility. Some features use Gemini to power various improvements.\n\nThis update helps Android catch up to similar features already offered by Apple.\n\nWill these new AI-powered tools become standard on all phones quickly?\n\n#GoogleAI #Android #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+      "source_url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "POSTED",
-      "caption": "Nvidia just invested $3.5 billion in MediaTek.\n\nThis move shows how Nvidia plans to stay central to AI, even as large tech companies start making their own specialized chips.\n\nIt's a shift from selling raw power to selling foundational components.\n\nWill this strategy maintain Nvidia's market dominance?\n\n#Nvidia #MediaTek #AIChips #TechNews",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Google is taking on Canva with a new AI design tool.\n\nCalled Google Pics, this new platform lets users describe what they want, and the AI generates the design. This moves beyond traditional drag-and-drop interfaces.\n\nIt's a shift from designing to describing.\n\nWill generative design tools replace traditional graphic design skills?\n\n#GoogleAI #CreativeAI #DesignTools",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+      "source_url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
-    {
-      "time": "Today \u00b7 05:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Today \u00b7 04:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Today \u00b7 01:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Today \u00b7 10:56 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Today \u00b7 08:31 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
     {
       "time": "Yesterday \u00b7 05:31 PM",
       "category": "POSTED",
@@ -150,12 +131,37 @@
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 10:55 AM",
+      "time": "Yesterday \u00b7 10:56 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
       "time": "Yesterday \u00b7 08:31 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Aug 31 \u00b7 05:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Aug 31 \u00b7 04:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Aug 31 \u00b7 01:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Aug 31 \u00b7 10:55 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Aug 31 \u00b7 08:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
