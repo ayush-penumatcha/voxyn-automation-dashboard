@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-01T16:31:24+05:30",
+  "generated_at": "2026-09-01T17:31:25+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-09-01",
     "total": 5,
-    "posted": 4,
-    "ready_generated": 1,
+    "posted": 5,
+    "ready_generated": 0,
     "failed": 0,
     "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI at Work",
-    "status": "GENERATED",
-    "scheduled_at": "2026-09-01T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 51,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Nvidia just invested $3.5 billion in MediaTek.\n\nThis move shows how Nvidia plans to stay central to AI, even as large tech companies start making their own specialized chips.\n\nIt's a shift from selling raw power to selling foundational components.\n\nWill this strategy maintain Nvidia's market dominance?\n\n#Nvidia #MediaTek #AIChips #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 05:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 04:31 PM",
       "category": "POSTED",
@@ -209,11 +208,6 @@
       "time": "Aug 29 \u00b7 09:18 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 29 \u00b7 07:25 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": []
