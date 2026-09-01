@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-01T13:31:16+05:30",
+  "generated_at": "2026-09-01T16:31:24+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-01",
     "total": 5,
-    "posted": 3,
-    "ready_generated": 2,
+    "posted": 4,
+    "ready_generated": 1,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "4:30 PM",
+    "scheduled_time": "5:30 PM",
     "post_type": "IMAGE",
-    "topic": "Model or Tool Comparison News",
+    "topic": "AI at Work",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-01T16:30:00+05:30"
+    "scheduled_at": "2026-09-01T17:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -95,7 +95,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Clipto is now valued at $250 million.\n\nThe AI startup helps users search enormous video libraries. It reached $15 million in annual recurring revenue and became profitable before raising its latest $15 million round.\n\nFinding a specific moment in video used to be impossible.\n\nNow, AI makes those terabytes searchable.\n\nWill this shift change how all media archives are managed?\n\n#Clipto #AISearch #VideoAI #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 04:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 01:31 PM",
       "category": "POSTED",
@@ -204,11 +209,6 @@
       "time": "Aug 29 \u00b7 09:18 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 29 \u00b7 07:25 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     },
     {
       "time": "Aug 29 \u00b7 07:25 AM",
