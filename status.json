@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-02T08:31:18+05:30",
+  "generated_at": "2026-09-02T10:55:41+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-02",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 4,
+    "posted": 2,
+    "ready_generated": 3,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "10:55 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "What the New Release Changes",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-02T10:55:00+05:30"
+    "scheduled_at": "2026-09-02T13:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Anthropic's Fable 5.1 is now cheaper and more open.\n\nThe new AI model costs less to use, making it more accessible for developers. It also has fewer false alarms from its safety filters.\n\nThis means less hassle for developers.\n\nWill this shift lead to wider adoption for Anthropic's models?\n\n#Anthropic #AIPricing #AISafety",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 10:55 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 08:31 AM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Aug 29 \u00b7 01:30 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 29 \u00b7 11:24 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
