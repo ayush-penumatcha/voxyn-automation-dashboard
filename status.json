@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-02T11:44:47+05:30",
+  "generated_at": "2026-09-02T13:31:12+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-02",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 3,
+    "posted": 3,
+    "ready_generated": 2,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "1:30 PM",
+    "scheduled_time": "4:30 PM",
     "post_type": "IMAGE",
-    "topic": "Engagement Insight",
+    "topic": "AI Trend in the News",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-02T13:30:00+05:30"
+    "scheduled_at": "2026-09-02T16:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -84,7 +84,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "OpenAI's Astra model can break into computer systems.\n\nThe company shared its safety preparations for Astra, its upcoming AI model. It can operate across computers and other devices, making it a powerful tool for cybersecurity tasks.\n\nControlling a system is one thing.\nControlling its potential is another.\n\nShould AI models with these capabilities be released broadly, even with safety measures?\n\n#OpenAI #Astra #Cybersecurity",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 01:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 10:55 AM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Aug 29 \u00b7 04:30 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 29 \u00b7 01:30 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
