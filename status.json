@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-02T13:31:12+05:30",
+  "generated_at": "2026-09-02T16:31:23+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-02",
     "total": 5,
-    "posted": 3,
-    "ready_generated": 2,
+    "posted": 4,
+    "ready_generated": 1,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "4:30 PM",
+    "scheduled_time": "5:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Trend in the News",
+    "topic": "AI Numbers Today",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-02T16:30:00+05:30"
+    "scheduled_at": "2026-09-02T17:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -95,7 +95,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Google Android adds new AI features to help users.\n\nThe latest update brings tools to reduce motion sickness and improve accessibility. Some features use Gemini to power various improvements.\n\nThis update helps Android catch up to similar features already offered by Apple.\n\nWill these new AI-powered tools become standard on all phones quickly?\n\n#GoogleAI #Android #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 04:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 01:31 PM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Aug 29 \u00b7 05:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 29 \u00b7 04:30 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
