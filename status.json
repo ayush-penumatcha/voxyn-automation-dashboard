@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-02T16:31:23+05:30",
+  "generated_at": "2026-09-02T17:31:20+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-09-02",
     "total": 5,
-    "posted": 4,
-    "ready_generated": 1,
+    "posted": 5,
+    "ready_generated": 0,
     "failed": 0,
     "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Numbers Today",
-    "status": "GENERATED",
-    "scheduled_at": "2026-09-02T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 50,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Google is taking on Canva with a new AI design tool.\n\nCalled Google Pics, this new platform lets users describe what they want, and the AI generates the design. This moves beyond traditional drag-and-drop interfaces.\n\nIt's a shift from designing to describing.\n\nWill generative design tools replace traditional graphic design skills?\n\n#GoogleAI #CreativeAI #DesignTools",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 05:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 04:31 PM",
       "category": "POSTED",
@@ -207,11 +206,6 @@
     },
     {
       "time": "Aug 30 \u00b7 08:30 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 29 \u00b7 05:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
