@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T17:31:25+05:30",
+  "generated_at": "2026-09-04T04:06:56+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "HEALTHY",
   "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "total": 5,
-    "posted": 5,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
     "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-09-04T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 49,
+    "days_remaining": 48,
     "last_checked": "11:47 AM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "POSTED",
-      "caption": "TechCrunch Disrupt 2026 adds a new AI stage.\n\nThe new \"Real World AI Stage\" will show how AI blends digital and physical applications. Nvidia, robotics, and even de-extinction projects are planned.\n\nAI is moving out of the lab.\nIt is starting to touch the real world.\n\nWill focusing on tangible AI speed up adoption, or just show current limits?\n\n#TechCrunch #AI #RealWorldAI #Nvidia #Robotics",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Thinking Machines is reportedly raising $1 billion.\n\nAccel is in talks to lead the funding round, which would value the AI startup at $40 billion. Thinking Machines now has an annual revenue run rate over $100 million.\n\nThis funding shows strong investor belief.\n\nDoes this valuation reflect real growth or market hype for AI startups?\n\n#ThinkingMachines #Accel #AIinvesting #StartupFunding #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+      "source_url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "POSTED",
-      "caption": "OpenAI's Astra model uses a new kind of thinking.\n\nIt's called \"recurrent depth,\" and it lets the model think beyond simple step-by-step logic. This new approach is raising concerns among AI safety experts.\n\nBreaking from linear thought means new capabilities.\n\nDoes moving beyond sequential reasoning fundamentally change AI safety challenges?\n\n#OpenAI #Astra #AIRisk",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "OpenAI's Astra model claims a new frontier for computer use.\n\nThe company says Astra handles tasks with unmatched speed, accuracy, and safety, especially when working inside browsers.\n\nThis could change how people interact with computers every day.\n\nWill this make computers easier for everyone, or just shift where the challenges are?\n\n#OpenAI #Astra #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "source_url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,62 +84,37 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "AI detection is getting harder than ever.\n\nMax Spero from Pangram says AI content is in job applications, product reviews, and insurance claims. It is tough to tell what is real.\n\nText is now a major challenge.\n\nShould AI detection tools be mandatory for all online content?\n\n#AIDetection #TrustOnline #AIContent",
+      "status": "GENERATED",
+      "caption": "Abliteration.ai is now selling AI models without safety limits.\n\nThe company argues this gives cybersecurity defenders the same tools as malicious actors. They believe this could make digital defenses stronger over time.\n\nGiving both sides the same power. \nWill this lead to better security, or more chaos?\n\n#AbliterationAI #Cybersecurity #AISafety",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
+      "source_url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "POSTED",
-      "caption": "The internet is facing a trust crisis.\n\nAI-generated content is now showing up in job applications, product reviews, and even insurance claims. This leaves platforms struggling to tell real from fake.\n\nWe are \"dangerously close\" to a \"dead internet\" where trust disappears.\n\nWill platforms implement clear labels for AI-generated content, or will they try to detect it invisibly?\n\n#AI #Trust #ContentAuthenticity #DigitalEthics",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Meta is offering a big discount on its new AI model.\n\nUsers of Muse Spark can save around 95% on costs. In return, they let Meta see their prompts and the model's responses.\n\nIt's a direct trade: lower price for real-world usage data.\n\nDoes this kind of data-sharing model build trust, or erode it?\n\n#MetaAI #MuseSpark #AIDevelopment #TechNews #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
+      "source_url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "POSTED",
-      "caption": "Wonderful is now valued at $5 billion.\n\nThe AI company more than doubled its valuation in less than six months after raising $550 million in Series C funding.\n\nThey are building faster.\nDemand is clearly high.\n\nIs rapid valuation growth like this sustainable in today's AI market?\n\n#AI #TechNews #WonderfulAI",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "Ollie aims to redefine AI assistants.\n\nThis new AI assistant focuses on family use, promising to keep personal data private. It will not use your daily details to train its AI or share them with outside companies.\n\nPrivacy is the new battleground for AI.\n\nWill users choose privacy over more advanced features?\n\n#AI #TechNews #Privacy #AIassistants #FamilyTech",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
+      "source_url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
-    {
-      "time": "Today \u00b7 05:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Today \u00b7 04:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Today \u00b7 01:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Today \u00b7 10:55 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Today \u00b7 08:31 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
     {
       "time": "Yesterday \u00b7 05:31 PM",
       "category": "POSTED",
@@ -156,6 +137,31 @@
     },
     {
       "time": "Yesterday \u00b7 08:31 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Sep 02 \u00b7 05:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Sep 02 \u00b7 04:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Sep 02 \u00b7 01:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Sep 02 \u00b7 10:55 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Sep 02 \u00b7 08:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
