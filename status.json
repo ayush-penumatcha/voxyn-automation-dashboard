@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T07:00:39+05:30",
+  "generated_at": "2026-09-03T08:31:22+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-03",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 4,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "New Model or Product Launch",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-03T08:30:00+05:30"
+    "scheduled_at": "2026-09-03T10:55:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "TechCrunch Disrupt 2026 adds a new AI stage.\n\nThe new \"Real World AI Stage\" will show how AI blends digital and physical applications. Nvidia, robotics, and even de-extinction projects are planned.\n\nAI is moving out of the lab.\nIt is starting to touch the real world.\n\nWill focusing on tangible AI speed up adoption, or just show current limits?\n\n#TechCrunch #AI #RealWorldAI #Nvidia #Robotics",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:31 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 05:31 PM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Aug 30 \u00b7 10:55 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 30 \u00b7 08:30 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
