@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T08:31:22+05:30",
+  "generated_at": "2026-09-03T10:55:51+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-03",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 4,
+    "posted": 2,
+    "ready_generated": 3,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "10:55 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "New Model or Product Launch",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-03T10:55:00+05:30"
+    "scheduled_at": "2026-09-03T13:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "OpenAI's Astra model uses a new kind of thinking.\n\nIt's called \"recurrent depth,\" and it lets the model think beyond simple step-by-step logic. This new approach is raising concerns among AI safety experts.\n\nBreaking from linear thought means new capabilities.\n\nDoes moving beyond sequential reasoning fundamentally change AI safety challenges?\n\n#OpenAI #Astra #AIRisk",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 10:55 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 08:31 AM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Aug 30 \u00b7 01:30 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 30 \u00b7 10:55 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
