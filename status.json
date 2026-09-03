@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T16:31:19+05:30",
+  "generated_at": "2026-09-03T17:31:25+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-09-03",
     "total": 5,
-    "posted": 4,
-    "ready_generated": 1,
+    "posted": 5,
+    "ready_generated": 0,
     "failed": 0,
     "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Business and Funding",
-    "status": "GENERATED",
-    "scheduled_at": "2026-09-03T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 49,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Wonderful is now valued at $5 billion.\n\nThe AI company more than doubled its valuation in less than six months after raising $550 million in Series C funding.\n\nThey are building faster.\nDemand is clearly high.\n\nIs rapid valuation growth like this sustainable in today's AI market?\n\n#AI #TechNews #WonderfulAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 05:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 04:31 PM",
       "category": "POSTED",
@@ -207,11 +206,6 @@
     },
     {
       "time": "Aug 31 \u00b7 08:31 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 30 \u00b7 05:30 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
