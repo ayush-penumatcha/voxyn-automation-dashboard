@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-04T07:00:46+05:30",
+  "generated_at": "2026-09-04T08:31:23+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-04",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 4,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "AI Research Breakthrough",
+    "topic": "AI Policy and Safety News",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-04T08:30:00+05:30"
+    "scheduled_at": "2026-09-04T10:55:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Research Breakthrough",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Thinking Machines is reportedly raising $1 billion.\n\nAccel is in talks to lead the funding round, which would value the AI startup at $40 billion. Thinking Machines now has an annual revenue run rate over $100 million.\n\nThis funding shows strong investor belief.\n\nDoes this valuation reflect real growth or market hype for AI startups?\n\n#ThinkingMachines #Accel #AIinvesting #StartupFunding #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:31 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 05:31 PM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Aug 31 \u00b7 10:55 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 31 \u00b7 08:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
