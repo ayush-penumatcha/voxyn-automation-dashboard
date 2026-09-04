@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-04T16:31:21+05:30",
+  "generated_at": "2026-09-04T17:31:31+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-09-04",
     "total": 5,
-    "posted": 4,
-    "ready_generated": 1,
+    "posted": 5,
+    "ready_generated": 0,
     "failed": 0,
     "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI at Work",
-    "status": "GENERATED",
-    "scheduled_at": "2026-09-04T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 48,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Ollie aims to redefine AI assistants.\n\nThis new AI assistant focuses on family use, promising to keep personal data private. It will not use your daily details to train its AI or share them with outside companies.\n\nPrivacy is the new battleground for AI.\n\nWill users choose privacy over more advanced features?\n\n#AI #TechNews #Privacy #AIassistants #FamilyTech",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 05:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 04:31 PM",
       "category": "POSTED",
@@ -207,11 +206,6 @@
     },
     {
       "time": "Sep 01 \u00b7 08:31 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Aug 31 \u00b7 05:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
