@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T08:31:20+05:30",
+  "generated_at": "2026-09-05T10:55:42+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-05",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 4,
+    "posted": 2,
+    "ready_generated": 3,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "10:55 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "What the New Release Changes",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-05T10:55:00+05:30"
+    "scheduled_at": "2026-09-05T13:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Apple's CEO role just changed hands.\n\nTim Cook stepped down, making John Ternus the new chief. Ternus, previously head of hardware, is already set to lead a major product launch next week.\n\nCook remains as Executive Chairman, focusing on company policy and long-term vision.\n\nWill Apple\u2019s next big moves be more about hardware, or will AI define the Ternus era?\n\n#Apple #LeadershipChange #TechNews #JohnTernus #TimCook",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 10:55 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 08:31 AM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Sep 01 \u00b7 01:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 01 \u00b7 10:56 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
