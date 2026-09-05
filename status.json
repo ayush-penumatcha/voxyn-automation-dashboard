@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T07:00:42+05:30",
+  "generated_at": "2026-09-05T08:31:20+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-05",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 4,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "AI Industry Map",
+    "topic": "What the New Release Changes",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-05T08:30:00+05:30"
+    "scheduled_at": "2026-09-05T10:55:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Nscale seeks $3.5 billion in pre-IPO funding.\n\nThe AI compute provider just signed a $45 billion deal to give Anthropic computing power. This new funding round shows Nscale's growth is speeding up.\n\nAI compute is the new oil.\n\nWill specialized compute providers become as big as today's cloud giants?\n\n#AI #TechNews #Nscale #Anthropic #AIFinance",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:31 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 05:31 PM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Sep 01 \u00b7 10:56 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 01 \u00b7 08:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
