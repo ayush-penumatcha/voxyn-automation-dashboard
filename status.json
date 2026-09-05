@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T13:31:20+05:30",
+  "generated_at": "2026-09-05T16:31:20+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-05",
     "total": 5,
-    "posted": 3,
-    "ready_generated": 2,
+    "posted": 4,
+    "ready_generated": 1,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "4:30 PM",
+    "scheduled_time": "5:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Trend in the News",
+    "topic": "AI Numbers Today",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-05T16:30:00+05:30"
+    "scheduled_at": "2026-09-05T17:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -95,7 +95,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Apple's Tim Cook stepped down as CEO this week.\n\nHe handed the company to John Ternus, its former hardware chief. Cook will stay on as Executive Chairman, focusing on policy.\n\nThis marks a new chapter for Apple, with a major iPhone launch landing on Ternus's desk immediately.\n\nWhat direction will Apple's AI strategy take under new leadership?\n\n#Apple #LeadershipChange #TechNews #JohnTernus",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 04:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 01:31 PM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Sep 01 \u00b7 05:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 01 \u00b7 04:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
