@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T16:31:20+05:30",
+  "generated_at": "2026-09-05T17:31:23+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-09-05",
     "total": 5,
-    "posted": 4,
-    "ready_generated": 1,
+    "posted": 5,
+    "ready_generated": 0,
     "failed": 0,
     "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Numbers Today",
-    "status": "GENERATED",
-    "scheduled_at": "2026-09-05T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 47,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Google Gemini Spark now handles Google Photos.\n\nThis update lets the AI organize albums, create shared collections, and even turn photos into calendar events. It is available for Gemini Pro and Ultra subscribers.\n\nAI is becoming a personal organizer.\n\nWill this shift make your digital life easier, or too automated?\n\n#GoogleAI #GeminiSpark #AIAutomation",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 05:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 04:31 PM",
       "category": "POSTED",
@@ -207,11 +206,6 @@
     },
     {
       "time": "Sep 02 \u00b7 08:31 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 01 \u00b7 05:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
