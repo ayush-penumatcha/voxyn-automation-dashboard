@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-06T16:31:31+05:30",
+  "generated_at": "2026-09-06T17:31:26+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-09-06",
     "total": 5,
-    "posted": 4,
-    "ready_generated": 1,
+    "posted": 5,
+    "ready_generated": 0,
     "failed": 0,
     "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Business and Funding",
-    "status": "GENERATED",
-    "scheduled_at": "2026-09-06T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 46,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "TechCrunch Disrupt 2026 is closing applications for side events.\n\nCompanies have less than a day left to apply to host a side event at the conference. This is a chance to gain visibility in the Silicon Valley tech scene.\n\nMiss the deadline, miss the stage.\n\nWill these smaller events draw as much attention as the main conference?\n\n#TechCrunch #AIDisrupt #SiliconValley",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 05:31 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 04:31 PM",
       "category": "POSTED",
@@ -207,11 +206,6 @@
     },
     {
       "time": "Sep 03 \u00b7 08:31 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 02 \u00b7 05:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
