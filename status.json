@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-06T07:00:39+05:30",
+  "generated_at": "2026-09-06T08:31:21+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-09-06",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 4,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "New Model or Product Launch",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-06T08:30:00+05:30"
+    "scheduled_at": "2026-09-06T10:55:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Hikers got stranded after trusting Google Gemini.\n\nA group used Google's AI assistant to plan a wilderness trip. Gemini told them to pack too little food and water, leading to a rescue.\n\nAI still struggles with common sense.\nIt's a reminder that human judgment remains crucial.\n\nShould AI tools always warn users about real-world risks, even for simple tasks?\n\n#GoogleAI #AISafety #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:31 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 05:31 PM",
       "category": "POSTED",
@@ -207,11 +212,6 @@
     },
     {
       "time": "Sep 02 \u00b7 10:55 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 02 \u00b7 08:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
