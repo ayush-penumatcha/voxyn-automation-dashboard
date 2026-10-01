@@ -1,25 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-01T05:40:04+05:30",
+  "generated_at": "2026-10-01T12:45:36+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "HEALTHY",
-  "system_label": "All Systems Operational",
+  "system_status": "WARNING",
+  "system_label": "Attention Required",
   "today": {
     "date": "2026-10-01",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 1
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Research Breakthrough",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-01T08:30:00+05:30"
+    "scheduled_at": "2026-10-01T13:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Research Breakthrough",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Google just launched its newest AI model, Gemini 4 Argon.\n\nIt's designed to be a workhorse, especially for tasks in coding and cybersecurity.\n\nThis release aims to make complex digital tasks simpler and more reliable.\n\nWill this model become the new standard for developers and security teams?\n\n#GoogleAI #Gemini #AIResearch #Cybersecurity",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "AI Policy and Safety News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Flow Engineering just secured $750 million.\n\nThis AI startup uses intelligent agents to automate hardware design. Top investors like Valor and Sequoia are backing the company, now valued at $750 million.\n\nAI agents are moving beyond software.\n\nWill this accelerate hardware development significantly?\n\n#FlowEngineering #AIagents #HardwareDesign #TechInvestment",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 12:45 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 12:45 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Sep 06 \u00b7 05:31 PM",
       "category": "POSTED",
@@ -204,17 +214,14 @@
       "time": "Sep 03 \u00b7 01:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 03 \u00b7 10:55 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 03 \u00b7 08:31 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
