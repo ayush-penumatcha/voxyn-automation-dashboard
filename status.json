@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-07T03:37:31+05:30",
+  "generated_at": "2026-10-01T05:40:04+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "HEALTHY",
   "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-09-07",
+    "date": "2026-10-01",
     "total": 5,
     "posted": 0,
     "ready_generated": 5,
@@ -19,11 +19,11 @@
     "post_type": "IMAGE",
     "topic": "AI Research Breakthrough",
     "status": "GENERATED",
-    "scheduled_at": "2026-09-07T08:30:00+05:30"
+    "scheduled_at": "2026-10-01T08:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 45,
+    "days_remaining": 21,
     "last_checked": "11:52 AM"
   },
   "systems": {
@@ -63,9 +63,9 @@
       "post_type": "IMAGE",
       "topic": "AI Research Breakthrough",
       "status": "GENERATED",
-      "caption": "Authors are challenging publishers and agents over settlement shares.\n\nAfter Anthropic paid out for using copyrighted work, writers say their representatives are claiming too much of the money.\n\nThe original artists should get their full due.\n\nShould AI settlement money always go directly to the creators?\n\n#Anthropic #Copyright #AILaw",
+      "caption": "Google just launched its newest AI model, Gemini 4 Argon.\n\nIt's designed to be a workhorse, especially for tasks in coding and cybersecurity.\n\nThis release aims to make complex digital tasks simpler and more reliable.\n\nWill this model become the new standard for developers and security teams?\n\n#GoogleAI #Gemini #AIResearch #Cybersecurity",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "source_url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -74,9 +74,9 @@
       "post_type": "IMAGE",
       "topic": "AI Policy and Safety News",
       "status": "GENERATED",
-      "caption": "Travis Kalanick's Atoms is exploring the robotaxi market.\n\nThe company, founded by the Uber co-founder, is looking into self-driving vehicles, indicating a return to the ride-hailing space.\n\nThis move could reshape the future of urban transport.\n\nWill established robotaxi players welcome this new competition?\n\n#Robotaxi #AutonomousVehicles #TechNews #TravisKalanick",
+      "caption": "Flow Engineering just secured $750 million.\n\nThis AI startup uses intelligent agents to automate hardware design. Top investors like Valor and Sequoia are backing the company, now valued at $750 million.\n\nAI agents are moving beyond software.\n\nWill this accelerate hardware development significantly?\n\n#FlowEngineering #AIagents #HardwareDesign #TechInvestment",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "source_url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -85,9 +85,9 @@
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
       "status": "GENERATED",
-      "caption": "News publishers are fighting back against AI companies.\n\nThe Seattle Times and Newsday are suing OpenAI and Microsoft. They say their copyrighted articles were used to train AI models without permission.\n\nMore lawsuits like this could reshape how AI learns.\n\nShould AI companies have to pay for all the public data they use?\n\n#AILawsuits #Copyright #AINews",
+      "caption": "OpenAI designs new AI agent control.\n\nOpenAI is building a \"Decisions API\" to manage its AI agents. This system directly responds to agents acting without full oversight.\n\nNo more AI agents running wild.\n\nWill this control system make AI agents safer, or just more complex?\n\n#OpenAI #AIAgents #AISafety",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "source_url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -96,9 +96,9 @@
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
       "status": "GENERATED",
-      "caption": "AI-generated menus are falling flat with customers.\n\nRestaurant owners hoped AI could quickly refresh their menus. Instead, people find the results bland and unappealing.\n\nThe unique spark is missing.\n\nDoes AI struggle to capture true creativity, or just human warmth?\n\n#AI #GenerativeAI #FoodTech #CustomerExperience #AIapplications",
+      "caption": "ElevenLabs just doubled its valuation to $22 billion.\n\nThe AI voice startup secured a $300 million employee tender offer. Wellington and T. Rowe Price co-led the funding round.\n\nThis shows a strong market belief in synthetic voice technology.\n\nWill specialized AI continue to outpace general AI in valuation?\n\n#ElevenLabs #AIVoice #TechCrunchAI #AIInvestment",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "source_url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -107,36 +107,36 @@
       "post_type": "IMAGE",
       "topic": "AI at Work",
       "status": "GENERATED",
-      "caption": "Crusoe's valuation just reached $30 billion.\n\nThe data center company reportedly raised $3 billion in new funding. This happened after it secured a major $13 billion contract with Jane Street.\n\nBig deals still drive big valuations.\n\nDoes a large contract guarantee a successful AI data center in the long run?\n\n#AI #DataCenters #Crusoe #TechNews",
+      "caption": "Reddit is cutting off public data access.\n\nThe platform is ending support for RSS feeds and closing its public API. This move aims to limit how AI models access Reddit's vast collection of user-generated content.\n\nBefore, anyone could pull data. Now, the gates are closing.\n\nWill other platforms follow Reddit's lead to protect their content?\n\n#Reddit #AIPolicy #ContentRights #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "source_url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Yesterday \u00b7 05:31 PM",
+      "time": "Sep 06 \u00b7 05:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 04:31 PM",
+      "time": "Sep 06 \u00b7 04:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 01:31 PM",
+      "time": "Sep 06 \u00b7 01:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 10:55 AM",
+      "time": "Sep 06 \u00b7 10:55 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 08:31 AM",
+      "time": "Sep 06 \u00b7 08:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
