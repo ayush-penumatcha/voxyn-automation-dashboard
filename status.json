@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-02T14:10:17+05:30",
+  "generated_at": "2026-10-02T20:28:53+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,17 +10,11 @@
     "date": "2026-10-02",
     "total": 5,
     "posted": 1,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 4
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Trend in the News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-02T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 20,
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Google just put its first AI chip in orbit.\n\nThis is a step toward building data centers in space. The idea is to run AI computations closer to satellites and space infrastructure, speeding things up.\n\nBut a lot still has to happen before that future arrives.\n\nIs a space-based AI infrastructure truly a necessity, or just a futuristic ambition?\n\n#GoogleAI #SpaceTech #AIDevelopment",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI just fired three safety researchers.\n\nAn internal investigation found they mishandled sensitive company information. The details behind the dismissals are not public.\n\nThis raises questions about internal oversight.\n\nWill this shift OpenAI's safety approach?\n\n#OpenAI #AISafety #TechNews #AIEthics",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
@@ -115,6 +109,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:28 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 08:28 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 02:10 PM",
       "category": "MISSED",
@@ -204,16 +208,6 @@
       "time": "Sep 05 \u00b7 08:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 04 \u00b7 05:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 04 \u00b7 04:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
   "issues": [
@@ -225,6 +219,18 @@
     },
     {
       "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
