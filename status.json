@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-02T20:28:53+05:30",
+  "generated_at": "2026-10-03T05:15:05+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "WARNING",
-  "system_label": "Attention Required",
+  "system_status": "HEALTHY",
+  "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 4
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-03T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 20,
+    "days_remaining": 19,
     "last_checked": "12:52 PM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Grok reportedly advised Trump to capture Venezuela's president. \n\nElon Musk's chatbot was asked for its opinion on military action against Nicol\u00e1s Maduro. This raises new questions about AI's role in government decisions.\n\nWhen does AI advice become a directive?\n\n#AI #TechNews #Grok #AIPolicy",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "Sean Parker is shifting Stability AI to focus on music.\n\nThe co-founder of Napster is now rebuilding the company with the support and funding of the very music labels he once challenged.\n\nParker's history with music is well-known.\nNow, he returns with industry backing.\n\nWill this new direction make Stability AI a leader in music AI, or is it too niche?\n\n#StabilityAI #MusicAI #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "source_url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "MISSED",
-      "caption": "Shopify just launched Canvas, a new way to build online stores.\n\nMerchants can now use Shopify's AI assistant, Sidekick, to chat and design their shops. Changes appear in real time as they describe what they want.\n\nBuilding a store used to take days of coding or dragging elements around.\nNow, it's a conversation.\n\nDoes making website design conversational remove too much creative control from merchants?\n\n#Shopify #AItools #Ecommerce #WebsiteDesign",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "Apple tightens macOS Full Disk Access controls.\n\nNew AI agents make broad access to user files riskier, Apple warns. This move protects personal data from increasingly capable AI.\n\nYour data is now safer on a Mac.\n\nWill this change slow down AI innovation on macOS?\n\n#Apple #macOS #AIAgents #Cybersecurity",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "source_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "ChatGPT now lets you try on clothes virtually.\n\nOpenAI just added new shopping features. Users can upload their photos to see how clothing and accessories look on them.\n\nNo more guessing sizes or styles. See it before you buy it.\n\nDoes virtual try-on make online shopping more appealing or less personal?\n\n#ChatGPT #VirtualTryOn #AIShopping #OpenAI #TechNews",
+      "status": "GENERATED",
+      "caption": "TechCrunch Disrupt 2026 is offering discounted passes.\n\nPeople affected by recent layoffs can get an Expo+ Pass for $75. This offer aims to help individuals find new opportunities and connect with the tech community.\n\nMaking connections can change everything.\n\nDoes a discounted event pass truly help someone find their next role, or is it more of a networking opportunity?\n\n#TechCrunch #Disrupt2026 #CareerDevelopment #Layoffs #Networking",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "source_url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "MISSED",
-      "caption": "Google just put its first AI chip in orbit.\n\nThis is a step toward building data centers in space. The idea is to run AI computations closer to satellites and space infrastructure, speeding things up.\n\nBut a lot still has to happen before that future arrives.\n\nIs a space-based AI infrastructure truly a necessity, or just a futuristic ambition?\n\n#GoogleAI #SpaceTech #AIDevelopment",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "The White House just renamed AI to \"super intelligence.\"\n\nPresident Trump signed an order making the change. Tech CEOs also signed an AI safety pledge.\n\nOnly 2% of consumers are convinced.\n\nWill a name change genuinely shift public trust in AI, or does it require more concrete action?\n\n#AI #AIPolicy #TechNews #WhiteHouse #ConsumerTrust",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+      "source_url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "MISSED",
-      "caption": "OpenAI just fired three safety researchers.\n\nAn internal investigation found they mishandled sensitive company information. The details behind the dismissals are not public.\n\nThis raises questions about internal oversight.\n\nWill this shift OpenAI's safety approach?\n\n#OpenAI #AISafety #TechNews #AIEthics",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "The White House just changed the name for AI.\n\nPresident Donald Trump signed an executive order renaming AI to \"super intelligence.\" This comes after major tech CEOs signed a \"morally binding\" safety pledge.\n\nIt's a big shift in how the government talks about advanced computing.\n\nDoes rebranding AI as \"super intelligence\" change how people will think about it?\n\n#AIPolicy #WhiteHouse #SuperIntelligence #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "source_url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 08:28 PM",
+      "time": "Yesterday \u00b7 08:28 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:28 PM",
+      "time": "Yesterday \u00b7 08:28 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:10 PM",
+      "time": "Yesterday \u00b7 02:10 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:10 PM",
+      "time": "Yesterday \u00b7 02:10 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:10 PM",
+      "time": "Yesterday \u00b7 02:10 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 07:59 PM",
+      "time": "Oct 01 \u00b7 07:59 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:59 PM",
+      "time": "Oct 01 \u00b7 07:59 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:59 PM",
+      "time": "Oct 01 \u00b7 07:59 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:45 PM",
+      "time": "Oct 01 \u00b7 12:45 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:45 PM",
+      "time": "Oct 01 \u00b7 12:45 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,30 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
