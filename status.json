@@ -1,30 +1,30 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T05:15:05+05:30",
+  "generated_at": "2026-10-03T12:25:21+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "HEALTHY",
-  "system_label": "All Systems Operational",
+  "system_status": "WARNING",
+  "system_label": "Attention Required",
   "today": {
     "date": "2026-10-03",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 4,
     "failed": 0,
-    "missed": 0
+    "missed": 1
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "New Model or Product Launch",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-03T08:30:00+05:30"
+    "scheduled_at": "2026-10-03T10:55:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 19,
-    "last_checked": "12:52 PM"
+    "last_checked": "12:25 PM"
   },
   "systems": {
     "generator": {
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Sean Parker is shifting Stability AI to focus on music.\n\nThe co-founder of Napster is now rebuilding the company with the support and funding of the very music labels he once challenged.\n\nParker's history with music is well-known.\nNow, he returns with industry backing.\n\nWill this new direction make Stability AI a leader in music AI, or is it too niche?\n\n#StabilityAI #MusicAI #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
@@ -216,5 +216,12 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
