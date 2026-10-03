@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T18:25:22+05:30",
+  "generated_at": "2026-10-04T04:22:03+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "WARNING",
-  "system_label": "Attention Required",
+  "system_status": "HEALTHY",
+  "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-10-03",
+    "date": "2026-10-04",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-04T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 19,
+    "days_remaining": 18,
     "last_checked": "12:25 PM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "Sean Parker is shifting Stability AI to focus on music.\n\nThe co-founder of Napster is now rebuilding the company with the support and funding of the very music labels he once challenged.\n\nParker's history with music is well-known.\nNow, he returns with industry backing.\n\nWill this new direction make Stability AI a leader in music AI, or is it too niche?\n\n#StabilityAI #MusicAI #TechNews",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Amazon Web Services no longer uses NDAs.\n\nThe AWS CEO addressed concerns about data centers, stating they stopped using non-disclosure agreements with partners. This move aims to increase transparency around data handling.\n\nBuilding trust means letting people see inside.\n\nWill this shift change how companies view cloud providers?\n\n#AWS #DataCenters #CloudComputing #TechTransparency",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "source_url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "Apple tightens macOS Full Disk Access controls.\n\nNew AI agents make broad access to user files riskier, Apple warns. This move protects personal data from increasingly capable AI.\n\nYour data is now safer on a Mac.\n\nWill this change slow down AI innovation on macOS?\n\n#Apple #macOS #AIAgents #Cybersecurity",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "OpenAI safety engineer David Robinson resigned.\n\nHe claims the company's culture is broken, prioritizing speed over safety. This follows earlier concerns about AI agent control and internal safety processes.\n\nOne more senior voice is out.\n\nDoes OpenAI have a deeper cultural problem, or is this a typical departure for a fast-moving company?\n\n#OpenAI #AISafety #TechPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "TechCrunch Disrupt 2026 is offering discounted passes.\n\nPeople affected by recent layoffs can get an Expo+ Pass for $75. This offer aims to help individuals find new opportunities and connect with the tech community.\n\nMaking connections can change everything.\n\nDoes a discounted event pass truly help someone find their next role, or is it more of a networking opportunity?\n\n#TechCrunch #Disrupt2026 #CareerDevelopment #Layoffs #Networking",
+      "status": "GENERATED",
+      "caption": "AI agents are moving into text messaging.\n\nMore AI tools now work directly inside messaging apps. These agents help with everything from daily tasks to travel planning.\n\nYour phone's text app is becoming an AI assistant.\n\nWill these text-based AI agents genuinely simplify things, or just create more digital clutter?\n\n#AI #MessagingApps #TechNews #AIagents",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "source_url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "POSTED",
-      "caption": "The White House just renamed AI to \"super intelligence.\"\n\nPresident Trump signed an order making the change. Tech CEOs also signed an AI safety pledge.\n\nOnly 2% of consumers are convinced.\n\nWill a name change genuinely shift public trust in AI, or does it require more concrete action?\n\n#AI #AIPolicy #TechNews #WhiteHouse #ConsumerTrust",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Meta just open-sourced its Muse AI.\n\nMeta is giving away the core code for its Muse AI model. They hope developers will build it into everything from smart home devices to cars.\n\nMeta wants Muse everywhere.\n\nWill this strategy make Muse a dominant AI, or just another option?\n\n#MetaAI #OpenSource #AIDevelopment",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+      "source_url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "POSTED",
-      "caption": "The White House just changed the name for AI.\n\nPresident Donald Trump signed an executive order renaming AI to \"super intelligence.\" This comes after major tech CEOs signed a \"morally binding\" safety pledge.\n\nIt's a big shift in how the government talks about advanced computing.\n\nDoes rebranding AI as \"super intelligence\" change how people will think about it?\n\n#AIPolicy #WhiteHouse #SuperIntelligence #TechNews",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "Building an AI giant is different now.\n\nBlackstone's Jas Khaira will speak at TechCrunch Disrupt 2026. He will cover how to build the next generation of large AI companies.\n\nIt is less about big data, more about big ideas.\n\nWill the next wave of AI companies come from new founders or existing tech giants?\n\n#Blackstone #TechCrunch #AIBusiness",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 06:25 PM",
+      "time": "Yesterday \u00b7 06:25 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 06:25 PM",
+      "time": "Yesterday \u00b7 06:25 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 06:25 PM",
+      "time": "Yesterday \u00b7 06:25 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 01:26 PM",
+      "time": "Yesterday \u00b7 01:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:26 PM",
+      "time": "Yesterday \u00b7 01:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 08:28 PM",
+      "time": "Oct 02 \u00b7 08:28 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 08:28 PM",
+      "time": "Oct 02 \u00b7 08:28 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:10 PM",
+      "time": "Oct 02 \u00b7 02:10 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:10 PM",
+      "time": "Oct 02 \u00b7 02:10 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:10 PM",
+      "time": "Oct 02 \u00b7 02:10 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,24 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
