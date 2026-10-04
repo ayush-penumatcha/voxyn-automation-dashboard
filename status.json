@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-04T12:53:12+05:30",
+  "generated_at": "2026-10-04T18:49:07+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-10-04",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 3,
+    "posted": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 1
+    "missed": 3
   },
-  "next_post": {
-    "scheduled_time": "1:30 PM",
-    "post_type": "IMAGE",
-    "topic": "Engagement Insight",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-04T13:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 18,
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "AI agents are moving into text messaging.\n\nMore AI tools now work directly inside messaging apps. These agents help with everything from daily tasks to travel planning.\n\nYour phone's text app is becoming an AI assistant.\n\nWill these text-based AI agents genuinely simplify things, or just create more digital clutter?\n\n#AI #MessagingApps #TechNews #AIagents",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Meta just open-sourced its Muse AI.\n\nMeta is giving away the core code for its Muse AI model. They hope developers will build it into everything from smart home devices to cars.\n\nMeta wants Muse everywhere.\n\nWill this strategy make Muse a dominant AI, or just another option?\n\n#MetaAI #OpenSource #AIDevelopment",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Building an AI giant is different now.\n\nBlackstone's Jas Khaira will speak at TechCrunch Disrupt 2026. He will cover how to build the next generation of large AI companies.\n\nIt is less about big data, more about big ideas.\n\nWill the next wave of AI companies come from new founders or existing tech giants?\n\n#Blackstone #TechCrunch #AIBusiness",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
@@ -116,6 +110,21 @@
   ],
   "recent_activity": [
     {
+      "time": "Today \u00b7 06:48 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 06:48 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 06:48 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
       "time": "Today \u00b7 12:53 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
@@ -197,21 +206,6 @@
     },
     {
       "time": "Oct 01 \u00b7 12:45 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 06 \u00b7 05:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 06 \u00b7 04:31 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Sep 06 \u00b7 01:31 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
@@ -219,6 +213,18 @@
   "issues": [
     {
       "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
