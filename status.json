@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-04T18:49:07+05:30",
+  "generated_at": "2026-10-05T04:32:52+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "WARNING",
-  "system_label": "Attention Required",
+  "system_status": "HEALTHY",
+  "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-05T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 18,
+    "days_remaining": 17,
     "last_checked": "12:46 PM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "Amazon Web Services no longer uses NDAs.\n\nThe AWS CEO addressed concerns about data centers, stating they stopped using non-disclosure agreements with partners. This move aims to increase transparency around data handling.\n\nBuilding trust means letting people see inside.\n\nWill this shift change how companies view cloud providers?\n\n#AWS #DataCenters #CloudComputing #TechTransparency",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Google paused its open-source bug bounty program recently.\n\nThe company saw a sudden, large increase in low-quality bug reports, many of which seemed to come from AI tools.\n\nFinding real security issues became much harder.\n\nDoes AI-generated content truly make security worse, or just harder to sort through?\n\n#Google #BugBounty #AISecurity",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "source_url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "POSTED",
-      "caption": "OpenAI safety engineer David Robinson resigned.\n\nHe claims the company's culture is broken, prioritizing speed over safety. This follows earlier concerns about AI agent control and internal safety processes.\n\nOne more senior voice is out.\n\nDoes OpenAI have a deeper cultural problem, or is this a typical departure for a fast-moving company?\n\n#OpenAI #AISafety #TechPolicy",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Trump just created a new Super Intelligence Force.\n\nThis task force is his latest move into the ongoing discussion about AI safety. It aims to address concerns and guide the future of AI development.\n\nExpect more official policy moves soon.\n\nWill this new group help create clear AI safety rules, or will it add more confusion?\n\n#AIPolicy #GovernmentAI #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "source_url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "AI agents are moving into text messaging.\n\nMore AI tools now work directly inside messaging apps. These agents help with everything from daily tasks to travel planning.\n\nYour phone's text app is becoming an AI assistant.\n\nWill these text-based AI agents genuinely simplify things, or just create more digital clutter?\n\n#AI #MessagingApps #TechNews #AIagents",
+      "status": "GENERATED",
+      "caption": "New AI safety pledges are a good start.\n\nYet, many people still do not trust AI, despite recent efforts to rebrand it as \"super intelligence.\" The gap between industry promises and public confidence is still wide.\n\nChanging a name won't change minds.\n\nWill non-binding agreements be enough to build real public trust in AI?\n\n#AIPolicy #PublicTrust #AI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source_url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "MISSED",
-      "caption": "Meta just open-sourced its Muse AI.\n\nMeta is giving away the core code for its Muse AI model. They hope developers will build it into everything from smart home devices to cars.\n\nMeta wants Muse everywhere.\n\nWill this strategy make Muse a dominant AI, or just another option?\n\n#MetaAI #OpenSource #AIDevelopment",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "AI is already causing psychological harm to some people.\n\nCircuit Breaker Labs created \"crash-test dummies\" to test AI systems for psychological safety.\n\nThis new approach aims to prevent harm before AI products reach users.\n\nWill this method be enough to make AI truly safe for everyone?\n\n#AI #AISafety #CircuitBreakerLabs",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "source_url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "POSTED",
-      "caption": "Building an AI giant is different now.\n\nBlackstone's Jas Khaira will speak at TechCrunch Disrupt 2026. He will cover how to build the next generation of large AI companies.\n\nIt is less about big data, more about big ideas.\n\nWill the next wave of AI companies come from new founders or existing tech giants?\n\n#Blackstone #TechCrunch #AIBusiness",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Pope Leo XIV shared his thoughts on AI art.\n\nHe stated a clear difference exists between human art and machine-generated images, even before considering aesthetics. Algorithms, he noted, miss the essential human spark.\n\nThis isn't about skill, it's about source.\n\nDoes art need a human creator to truly be called art?\n\n#AI #ArtificialIntelligence #AIEthics #DigitalArt #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+      "source_url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 06:48 PM",
+      "time": "Yesterday \u00b7 06:48 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 06:48 PM",
+      "time": "Yesterday \u00b7 06:48 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 06:48 PM",
+      "time": "Yesterday \u00b7 06:48 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 12:53 PM",
+      "time": "Yesterday \u00b7 12:53 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:53 PM",
+      "time": "Yesterday \u00b7 12:53 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 06:25 PM",
+      "time": "Oct 03 \u00b7 06:25 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:25 PM",
+      "time": "Oct 03 \u00b7 06:25 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 06:25 PM",
+      "time": "Oct 03 \u00b7 06:25 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 01:26 PM",
+      "time": "Oct 03 \u00b7 01:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 01:26 PM",
+      "time": "Oct 03 \u00b7 01:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
@@ -210,24 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
