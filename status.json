@@ -1,30 +1,30 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-05T04:32:52+05:30",
+  "generated_at": "2026-10-05T13:00:48+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "HEALTHY",
-  "system_label": "All Systems Operational",
+  "system_status": "WARNING",
+  "system_label": "Attention Required",
   "today": {
     "date": "2026-10-05",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 2
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Industry Map",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-05T08:30:00+05:30"
+    "scheduled_at": "2026-10-05T13:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 17,
-    "last_checked": "12:46 PM"
+    "last_checked": "01:00 PM"
   },
   "systems": {
     "generator": {
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Google paused its open-source bug bounty program recently.\n\nThe company saw a sudden, large increase in low-quality bug reports, many of which seemed to come from AI tools.\n\nFinding real security issues became much harder.\n\nDoes AI-generated content truly make security worse, or just harder to sort through?\n\n#Google #BugBounty #AISecurity",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Trump just created a new Super Intelligence Force.\n\nThis task force is his latest move into the ongoing discussion about AI safety. It aims to address concerns and guide the future of AI development.\n\nExpect more official policy moves soon.\n\nWill this new group help create clear AI safety rules, or will it add more confusion?\n\n#AIPolicy #GovernmentAI #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
@@ -216,5 +216,18 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
