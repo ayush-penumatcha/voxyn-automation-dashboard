@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-05T14:23:11+05:30",
+  "generated_at": "2026-10-05T22:57:47+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,20 +10,14 @@
     "date": "2026-10-05",
     "total": 5,
     "posted": 1,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 4
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Trend in the News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-05T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 17,
+    "days_remaining": 16,
     "last_checked": "01:00 PM"
   },
   "systems": {
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "AI is already causing psychological harm to some people.\n\nCircuit Breaker Labs created \"crash-test dummies\" to test AI systems for psychological safety.\n\nThis new approach aims to prevent harm before AI products reach users.\n\nWill this method be enough to make AI truly safe for everyone?\n\n#AI #AISafety #CircuitBreakerLabs",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Pope Leo XIV shared his thoughts on AI art.\n\nHe stated a clear difference exists between human art and machine-generated images, even before considering aesthetics. Algorithms, he noted, miss the essential human spark.\n\nThis isn't about skill, it's about source.\n\nDoes art need a human creator to truly be called art?\n\n#AI #ArtificialIntelligence #AIEthics #DigitalArt #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
@@ -116,6 +110,16 @@
   ],
   "recent_activity": [
     {
+      "time": "Today \u00b7 10:57 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:57 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
       "time": "Today \u00b7 02:22 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
@@ -204,16 +208,6 @@
       "time": "Oct 02 \u00b7 02:10 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 01 \u00b7 07:59 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 01 \u00b7 07:59 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
@@ -225,6 +219,18 @@
     },
     {
       "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
