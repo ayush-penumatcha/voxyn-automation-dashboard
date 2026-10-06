@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-06T05:40:24+05:30",
+  "generated_at": "2026-10-06T08:30:53+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-10-06",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 4,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "New Model or Product Launch",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-06T08:30:00+05:30"
+    "scheduled_at": "2026-10-06T10:55:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "OpenAI adds invisible watermarks to ChatGPT text in the EU.\n\nThis helps the company follow new AI Act rules. OpenAI notes that editing the text can make these marks harder to find.\n\nVerifying AI content now becomes part of the output.\n\nWill this change how people trust AI-written material?\n\n#OpenAI #AIAct #Watermarking #AIGovernance",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
@@ -116,6 +116,11 @@
   ],
   "recent_activity": [
     {
+      "time": "Today \u00b7 08:30 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
       "time": "Yesterday \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
@@ -209,11 +214,6 @@
       "time": "Oct 02 \u00b7 02:10 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 02 \u00b7 02:10 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
   "issues": []
