@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-06T21:55:10+05:30",
+  "generated_at": "2026-10-07T05:19:06+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "WARNING",
-  "system_label": "Attention Required",
+  "system_status": "HEALTHY",
+  "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-07T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 16,
+    "days_remaining": 15,
     "last_checked": "01:27 PM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "POSTED",
-      "caption": "OpenAI adds invisible watermarks to ChatGPT text in the EU.\n\nThis helps the company follow new AI Act rules. OpenAI notes that editing the text can make these marks harder to find.\n\nVerifying AI content now becomes part of the output.\n\nWill this change how people trust AI-written material?\n\n#OpenAI #AIAct #Watermarking #AIGovernance",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "A new AI startup is building a digital copy of human behavior.\n\nMirror Particle plans to launch a \"world model\" at TechCrunch Disrupt's Startup Battlefield 200. This model aims to predict human actions for market research and brand strategy.\n\nIt moves past simple AI role-play.\n\nCan a digital model truly capture human unpredictability?\n\n#MirrorParticle #TechCrunch #AIResearch #WorldModel #BehavioralAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "source_url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "Reflection just launched Beam, a new AI model.\n\nIt is designed to compete with Chinese models while using less computing power. The goal is to help businesses and governments create their own private AI systems.\n\nThis could change how companies build custom AI.\n\nDoes owning your AI model matter more than its raw power?\n\n#AIModels #ReflectionAI #EnterpriseAI",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Melius raised $20M for AI creative generation.\n\nFormer Ramp engineers launched Melius with new funding. They decided their first product wasn't working and now build AI tools to create marketing campaigns.\n\nOptimization is out; creation is in.\n\nWill more AI companies pivot from managing to making?\n\n#Melius #AICreativity #MarketingAI #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "source_url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "Instinct brings its AI agent to group chats.\n\nThe company is adding its AI agent to group chats, letting friends use it for shared tasks like planning trips or organizing carpools.\n\nPersonal agents keep accounts separate.\nPermissions are needed before any info is shared.\n\nWould you trust an AI agent in your group chat to help coordinate plans?\n\n#AI #TechNews #InstinctAI #AIAgents",
+      "status": "GENERATED",
+      "caption": "Musubi just released PolicyLM-1.7B.\n\nThis open-weight AI model helps moderate online content in real time. It is a lightweight decision model built for speed and efficiency.\n\nCan AI really handle the nuance of human communication at scale?\n\nHow will this change online discussions?\n\n#ContentModeration #AIModels #PolicyLM #TechCrunchAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "source_url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "MISSED",
-      "caption": "TikTok just launched an AI shopping assistant.\n\nThe new tool helps users find products and buy them with a single click, aiming to make shopping on the platform much easier.\n\nFewer steps from discovery to purchase.\n\nWill this change how you shop online, or is it just another feature?\n\n#TikTok #AIShopping #Ecommerce #AIConsumer",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Mistral Large 4 is here.\n\nFrench AI lab Mistral AI just released its new large model, aiming to outdo both open and closed competitors.\n\nIt's a bold move.\n\nDoes a single model have to beat all rivals to win the market?\n\n#MistralAI #AIModels #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "source_url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "MISSED",
-      "caption": "Hot Girl Hotline is a new AI advice service.\n\nTwo sisters started it to help young women with dating and relationships. The AI gives personalized advice while focusing on safety and healthy emotional habits.\n\nIt is like a modern-day \"Dear Abby\" but powered by AI.\n\nCould AI change how we get personal advice entirely?\n\n#AI #TechNews #HotGirlHotline #RelationshipAdvice #AIApplications",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "Lambda is raising $4 billion.\n\nThe AI computing startup is getting a fresh investment round at a $14.5 billion valuation before its planned IPO in 2027.\n\nBuilding AI infrastructure needs serious capital. This shows how much demand there is for specialized AI hardware.\n\nWill this valuation hold until the IPO, or will market dynamics shift?\n\n#Lambda #AICapital #TechCrunchAI #AIHardware",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+      "source_url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 09:54 PM",
+      "time": "Yesterday \u00b7 09:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:54 PM",
+      "time": "Yesterday \u00b7 09:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:26 PM",
+      "time": "Yesterday \u00b7 03:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:26 PM",
+      "time": "Yesterday \u00b7 03:26 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 08:30 AM",
+      "time": "Yesterday \u00b7 08:30 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 10:57 PM",
+      "time": "Oct 05 \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:57 PM",
+      "time": "Oct 05 \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:22 PM",
+      "time": "Oct 05 \u00b7 02:22 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:22 PM",
+      "time": "Oct 05 \u00b7 02:22 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:22 PM",
+      "time": "Oct 05 \u00b7 02:22 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,24 +216,5 @@
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
