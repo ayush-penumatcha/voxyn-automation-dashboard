@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-05T22:57:47+05:30",
+  "generated_at": "2026-10-06T05:40:24+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "WARNING",
-  "system_label": "Attention Required",
+  "system_status": "HEALTHY",
+  "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 4
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-06T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 16,
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Google paused its open-source bug bounty program recently.\n\nThe company saw a sudden, large increase in low-quality bug reports, many of which seemed to come from AI tools.\n\nFinding real security issues became much harder.\n\nDoes AI-generated content truly make security worse, or just harder to sort through?\n\n#Google #BugBounty #AISecurity",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "OpenAI adds invisible watermarks to ChatGPT text in the EU.\n\nThis helps the company follow new AI Act rules. OpenAI notes that editing the text can make these marks harder to find.\n\nVerifying AI content now becomes part of the output.\n\nWill this change how people trust AI-written material?\n\n#OpenAI #AIAct #Watermarking #AIGovernance",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "source_url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "MISSED",
-      "caption": "Trump just created a new Super Intelligence Force.\n\nThis task force is his latest move into the ongoing discussion about AI safety. It aims to address concerns and guide the future of AI development.\n\nExpect more official policy moves soon.\n\nWill this new group help create clear AI safety rules, or will it add more confusion?\n\n#AIPolicy #GovernmentAI #TechNews",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "Reflection just launched Beam, a new AI model.\n\nIt is designed to compete with Chinese models while using less computing power. The goal is to help businesses and governments create their own private AI systems.\n\nThis could change how companies build custom AI.\n\nDoes owning your AI model matter more than its raw power?\n\n#AIModels #ReflectionAI #EnterpriseAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "source_url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "New AI safety pledges are a good start.\n\nYet, many people still do not trust AI, despite recent efforts to rebrand it as \"super intelligence.\" The gap between industry promises and public confidence is still wide.\n\nChanging a name won't change minds.\n\nWill non-binding agreements be enough to build real public trust in AI?\n\n#AIPolicy #PublicTrust #AI",
+      "status": "GENERATED",
+      "caption": "Instinct brings its AI agent to group chats.\n\nThe company is adding its AI agent to group chats, letting friends use it for shared tasks like planning trips or organizing carpools.\n\nPersonal agents keep accounts separate.\nPermissions are needed before any info is shared.\n\nWould you trust an AI agent in your group chat to help coordinate plans?\n\n#AI #TechNews #InstinctAI #AIAgents",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "source_url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "MISSED",
-      "caption": "AI is already causing psychological harm to some people.\n\nCircuit Breaker Labs created \"crash-test dummies\" to test AI systems for psychological safety.\n\nThis new approach aims to prevent harm before AI products reach users.\n\nWill this method be enough to make AI truly safe for everyone?\n\n#AI #AISafety #CircuitBreakerLabs",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "TikTok just launched an AI shopping assistant.\n\nThe new tool helps users find products and buy them with a single click, aiming to make shopping on the platform much easier.\n\nFewer steps from discovery to purchase.\n\nWill this change how you shop online, or is it just another feature?\n\n#TikTok #AIShopping #Ecommerce #AIConsumer",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+      "source_url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "MISSED",
-      "caption": "Pope Leo XIV shared his thoughts on AI art.\n\nHe stated a clear difference exists between human art and machine-generated images, even before considering aesthetics. Algorithms, he noted, miss the essential human spark.\n\nThis isn't about skill, it's about source.\n\nDoes art need a human creator to truly be called art?\n\n#AI #ArtificialIntelligence #AIEthics #DigitalArt #TechNews",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "Hot Girl Hotline is a new AI advice service.\n\nTwo sisters started it to help young women with dating and relationships. The AI gives personalized advice while focusing on safety and healthy emotional habits.\n\nIt is like a modern-day \"Dear Abby\" but powered by AI.\n\nCould AI change how we get personal advice entirely?\n\n#AI #TechNews #HotGirlHotline #RelationshipAdvice #AIApplications",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+      "source_url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 10:57 PM",
+      "time": "Yesterday \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:57 PM",
+      "time": "Yesterday \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:22 PM",
+      "time": "Yesterday \u00b7 02:22 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:22 PM",
+      "time": "Yesterday \u00b7 02:22 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:22 PM",
+      "time": "Yesterday \u00b7 02:22 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 06:48 PM",
+      "time": "Oct 04 \u00b7 06:48 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:48 PM",
+      "time": "Oct 04 \u00b7 06:48 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:48 PM",
+      "time": "Oct 04 \u00b7 06:48 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 12:53 PM",
+      "time": "Oct 04 \u00b7 12:53 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:53 PM",
+      "time": "Oct 04 \u00b7 12:53 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,30 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
