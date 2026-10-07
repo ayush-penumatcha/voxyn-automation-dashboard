@@ -1,25 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-07T05:19:06+05:30",
+  "generated_at": "2026-10-07T11:54:01+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "HEALTHY",
-  "system_label": "All Systems Operational",
+  "system_status": "WARNING",
+  "system_label": "Attention Required",
   "today": {
     "date": "2026-10-07",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 1
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Research Breakthrough",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-07T08:30:00+05:30"
+    "scheduled_at": "2026-10-07T13:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
@@ -37,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Research Breakthrough",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "A new AI startup is building a digital copy of human behavior.\n\nMirror Particle plans to launch a \"world model\" at TechCrunch Disrupt's Startup Battlefield 200. This model aims to predict human actions for market research and brand strategy.\n\nIt moves past simple AI role-play.\n\nCan a digital model truly capture human unpredictability?\n\n#MirrorParticle #TechCrunch #AIResearch #WorldModel #BehavioralAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "AI Policy and Safety News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Melius raised $20M for AI creative generation.\n\nFormer Ramp engineers launched Melius with new funding. They decided their first product wasn't working and now build AI tools to create marketing campaigns.\n\nOptimization is out; creation is in.\n\nWill more AI companies pivot from managing to making?\n\n#Melius #AICreativity #MarketingAI #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 11:53 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 11:53 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 09:54 PM",
       "category": "MISSED",
@@ -204,17 +214,14 @@
       "time": "Oct 03 \u00b7 06:25 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 03 \u00b7 01:26 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 03 \u00b7 01:26 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
