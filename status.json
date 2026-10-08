@@ -1,30 +1,30 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-08T05:40:04+05:30",
+  "generated_at": "2026-10-08T13:21:59+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "HEALTHY",
-  "system_label": "All Systems Operational",
+  "system_status": "WARNING",
+  "system_label": "Attention Required",
   "today": {
     "date": "2026-10-08",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 2
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Industry Map",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-08T08:30:00+05:30"
+    "scheduled_at": "2026-10-08T13:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
     "days_remaining": 14,
-    "last_checked": "01:04 PM"
+    "last_checked": "01:21 PM"
   },
   "systems": {
     "generator": {
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Nous Research just confirmed a $1.5 billion valuation.\n\nThe company, known for its Hermes Agent, also announced a $90 million Series B funding round. They are now launching new AI agents specifically for business users.\n\nThis move shows AI models are becoming more specialized.\n\nWill these new business agents change how companies use AI day-to-day?\n\n#NousResearch #AIAgents #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Microsoft just released new AI-powered PCs.\n\nThese new Surface Laptop Ultra models run on Nvidia chips made for AI tasks. They also come with a new Windows 11 designed to handle AI directly on the computer.\n\nThis means faster, more private AI.\n\nWill local AI become the new standard for everyday computing?\n\n#Microsoft #Nvidia #AIPCs",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
@@ -216,5 +216,18 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
