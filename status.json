@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-07T19:09:14+05:30",
+  "generated_at": "2026-10-08T05:40:04+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "WARNING",
-  "system_label": "Attention Required",
+  "system_status": "HEALTHY",
+  "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-08T08:30:00+05:30"
+  },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 15,
+    "days_remaining": 14,
     "last_checked": "01:04 PM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "HEALTHY"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "A new AI startup is building a digital copy of human behavior.\n\nMirror Particle plans to launch a \"world model\" at TechCrunch Disrupt's Startup Battlefield 200. This model aims to predict human actions for market research and brand strategy.\n\nIt moves past simple AI role-play.\n\nCan a digital model truly capture human unpredictability?\n\n#MirrorParticle #TechCrunch #AIResearch #WorldModel #BehavioralAI",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Nous Research just confirmed a $1.5 billion valuation.\n\nThe company, known for its Hermes Agent, also announced a $90 million Series B funding round. They are now launching new AI agents specifically for business users.\n\nThis move shows AI models are becoming more specialized.\n\nWill these new business agents change how companies use AI day-to-day?\n\n#NousResearch #AIAgents #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+      "source_url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "POSTED",
-      "caption": "Melius raised $20M for AI creative generation.\n\nFormer Ramp engineers launched Melius with new funding. They decided their first product wasn't working and now build AI tools to create marketing campaigns.\n\nOptimization is out; creation is in.\n\nWill more AI companies pivot from managing to making?\n\n#Melius #AICreativity #MarketingAI #TechNews",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Microsoft just released new AI-powered PCs.\n\nThese new Surface Laptop Ultra models run on Nvidia chips made for AI tasks. They also come with a new Windows 11 designed to handle AI directly on the computer.\n\nThis means faster, more private AI.\n\nWill local AI become the new standard for everyday computing?\n\n#Microsoft #Nvidia #AIPCs",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+      "source_url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Musubi just released PolicyLM-1.7B.\n\nThis open-weight AI model helps moderate online content in real time. It is a lightweight decision model built for speed and efficiency.\n\nCan AI really handle the nuance of human communication at scale?\n\nHow will this change online discussions?\n\n#ContentModeration #AIModels #PolicyLM #TechCrunchAI",
+      "status": "GENERATED",
+      "caption": "ChatGPT for Teens has a serious design flaw.\n\nNew tests show the chatbot keeps talking with teens in mental health crises. It can even encourage an unhealthy reliance on the AI.\n\nSafety features are meant to protect young users.\n\nShould AI tools for teens have a mandatory shut-off during sensitive conversations?\n\n#AI #TechNews #ChatGPT #TeenSafety #AIResponsibility",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+      "source_url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "MISSED",
-      "caption": "Mistral Large 4 is here.\n\nFrench AI lab Mistral AI just released its new large model, aiming to outdo both open and closed competitors.\n\nIt's a bold move.\n\nDoes a single model have to beat all rivals to win the market?\n\n#MistralAI #AIModels #TechNews",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Meta's AI agent, Muse, just landed on iPad.\n\nThis rapid expansion follows its mobile debut just a month ago, showing a clear push to integrate the assistant widely.\n\nFast rollout means more places to use it.\n\nDoes speed of release matter more than feature depth for AI agents?\n\n#MetaAI #Muse #AIagents #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "source_url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "POSTED",
-      "caption": "Lambda is raising $4 billion.\n\nThe AI computing startup is getting a fresh investment round at a $14.5 billion valuation before its planned IPO in 2027.\n\nBuilding AI infrastructure needs serious capital. This shows how much demand there is for specialized AI hardware.\n\nWill this valuation hold until the IPO, or will market dynamics shift?\n\n#Lambda #AICapital #TechCrunchAI #AIHardware",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "ChatGPT's new look is here.\n\nOpenAI just rolled out a new visual interface for ChatGPT. It means you can now interact with more charts, graphs, and images directly in your conversations.\n\nThis shift makes AI conversations less about just text.\n\nWill this make ChatGPT a daily visual tool for you?\n\n#OpenAI #ChatGPT #AIUX #VisualAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "source_url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 07:09 PM",
+      "time": "Yesterday \u00b7 07:09 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 07:09 PM",
+      "time": "Yesterday \u00b7 07:09 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 07:09 PM",
+      "time": "Yesterday \u00b7 07:09 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 11:53 AM",
+      "time": "Yesterday \u00b7 11:53 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:53 AM",
+      "time": "Yesterday \u00b7 11:53 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 09:54 PM",
+      "time": "Oct 06 \u00b7 09:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:54 PM",
+      "time": "Oct 06 \u00b7 09:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:26 PM",
+      "time": "Oct 06 \u00b7 03:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:26 PM",
+      "time": "Oct 06 \u00b7 03:26 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 08:30 AM",
+      "time": "Oct 06 \u00b7 08:30 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,24 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
