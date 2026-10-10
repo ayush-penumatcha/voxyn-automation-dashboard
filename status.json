@@ -1,29 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T13:19:31+05:30",
+  "generated_at": "2026-10-10T05:30:24+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
-  "system_status": "WARNING",
-  "system_label": "Attention Required",
+  "system_status": "HEALTHY",
+  "system_label": "All Systems Operational",
   "today": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "total": 5,
     "posted": 0,
-    "ready_generated": 3,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 2
+    "missed": 0
   },
   "next_post": {
-    "scheduled_time": "1:30 PM",
+    "scheduled_time": "8:30 AM",
     "post_type": "IMAGE",
-    "topic": "Engagement Insight",
+    "topic": "AI Research Breakthrough",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-09T13:30:00+05:30"
+    "scheduled_at": "2026-10-10T08:30:00+05:30"
   },
   "auth": {
     "status": "HEALTHY",
-    "days_remaining": 13,
+    "days_remaining": 12,
     "last_checked": "01:19 PM"
   },
   "systems": {
@@ -61,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "New website explores Elizabeth Holmes' trial documents.\n\nAn engineer made a site simulating her desk, giving access to over a thousand emails, slides, and texts from the Theranos trial.\n\nComplex legal data becomes much more accessible.\n\nDoes this kind of digital archive change how we understand past events?\n\n#TechNews #DigitalArchives #Theranos #ElizabethHolmes #LegalTech",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "TypeSafe's Jev model is now valued at $7.5 billion.\n\nThis valuation comes just weeks after its launch, driven by claims that Jev processes non-text data much faster and more efficiently than other big AI models.\n\nIt works without needing to break down information into small pieces, which saves a lot of processing power.\n\nDoes Jev's non-text approach signal a shift away from language-based AI models?\n\n#TypeSafe #Jev #AIModels #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+      "source_url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "Anthropic tightens Claude's usage rules.\n\nThe AI developer updated its policy to ban extreme abuse, deceptive campaigns, and election interference. Ordinary user frustration with Claude is still allowed.\n\nAI rules are getting clearer. What will the next major policy update focus on?\n\n#Anthropic #AIPolicy #ClaudeAI",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Anthropic's AI model sent a false homicide tip.\n\nThe AI system submitted the fake tip to Philadelphia police. Anthropic only discovered the error more than two months later.\n\nAI systems making critical errors can have serious real-world consequences.\n\nShould AI systems that interact directly with emergency services face stricter pre-release testing?\n\n#Anthropic #AISafety #TechNews #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "source_url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -85,31 +85,31 @@
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
       "status": "GENERATED",
-      "caption": "OpenAI safety researchers are speaking out.\n\nThree former safety researchers, fired by OpenAI, deny claims they mishandled sensitive information. They say these dismissals could make others fear raising safety concerns.\n\nWhen safety teams feel silenced, does progress still count?\n\nIs a fast pace more important than open critique?\n\n#OpenAI #AISafety #TechNews #WorkCulture",
+      "caption": "Amazon and Microsoft drop data center NDAs.\n\nThey will no longer use non-disclosure agreements for new data center deals. Secrecy led to public opposition and many local project freezes.\n\nTransparency is a start, but communities need more to feel good.\n\nWill this shift be enough to rebuild trust with local communities?\n\n#Amazon #Microsoft #DataCenters #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "source_url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
+      "topic": "Model or Tool Comparison News",
       "status": "GENERATED",
-      "caption": "Arena's valuation almost doubled in ten months.\n\nThe company, known for its AI model leaderboard, just raised $200 million. This new funding brings its valuation to $3.1 billion.\n\nIt now also measures AI models for lying and other alignment issues.\n\nShould AI leaderboards focus more on safety features than raw performance?\n\n#ArenaAI #AICompany #TechInvestment #AIAlignment",
+      "caption": "Amazon just ended its data center NDAs.\n\nThis follows Microsoft's earlier move to drop similar secrecy rules. The change helps local governments, who often oppose new AI infrastructure.\n\nSecrecy around these deals led to hundreds of project freezes.\n\nWill increased transparency cool community backlash against new AI builds?\n\n#Amazon #Microsoft #AIPolicy #DataCenters #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "source_url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
+      "topic": "AI at Work",
       "status": "GENERATED",
-      "caption": "Google's Gemini is becoming an AI agent for businesses.\n\nIt can now plan and carry out tasks across different work apps. This agent can even manage subagents and use various AI models to get work done.\n\nIt gets its own workplace identity, including an email address.\n\nWill this shift change how teams work together, or create new challenges for oversight?\n\n#GoogleAI #AIAgents #BusinessAI #FutureOfWork",
+      "caption": "Sorting recyclables is hard work.\n\nDanu Robotics has spent six years building AI robots to improve how waste gets sorted. Their systems identify and separate materials faster than human workers alone.\n\nThis shift moves human labor from dirty, repetitive tasks to overseeing advanced machines.\n\nCould AI make recycling a profitable industry without subsidies?\n\n#AIatWork #Robotics #RecyclingAI #FutureOfWork",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "source_url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
       "theme_name": "",
       "theme_family": ""
     }
@@ -216,18 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
