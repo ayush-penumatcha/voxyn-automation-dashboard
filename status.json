@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-12T05:09:09+05:30",
+  "generated_at": "2026-10-12T13:09:31+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,16 +10,16 @@
     "date": "2026-10-12",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 2
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-12T08:30:00+05:30"
+    "scheduled_at": "2026-10-12T13:30:00+05:30"
   },
   "auth": {
     "status": "WARNING",
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Apple reportedly names new smart home device HomeView.\n\nAfter years of rumors, the product is now closer to launch. It could be a central control for connected living spaces.\n\nApple's smart home vision is finally taking shape.\n\nWill HomeView be the device that makes Apple a smart home leader?\n\n#Apple #HomeView #SmartHome #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "TechCrunch Disrupt 2026 starts in 48 hours.\n\nThe event in San Francisco brings together many startups and speakers.\n\nIt's a chance to see new tech and hear from industry builders.\n\nWill the next big AI idea come from an established company or a brand-new startup?\n\n#TechCrunch #AIDevelopment #Startup",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
@@ -116,6 +116,16 @@
   ],
   "recent_activity": [
     {
+      "time": "Today \u00b7 01:09 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 01:09 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
       "time": "Yesterday \u00b7 07:27 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
@@ -202,19 +212,22 @@
     },
     {
       "time": "Oct 07 \u00b7 07:09 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 07 \u00b7 11:53 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 07 \u00b7 11:53 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
