@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-12T13:19:28+05:30",
+  "generated_at": "2026-10-12T22:29:54+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,20 +10,14 @@
     "date": "2026-10-12",
     "total": 5,
     "posted": 0,
-    "ready_generated": 3,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 5
   },
-  "next_post": {
-    "scheduled_time": "1:30 PM",
-    "post_type": "IMAGE",
-    "topic": "Engagement Insight",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-12T13:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "WARNING",
-    "days_remaining": 10,
+    "days_remaining": 9,
     "last_checked": "01:19 PM"
   },
   "systems": {
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "AI data centers face local community pushback.\n\nCommunities are opposing new AI infrastructure projects. Tech companies are now looking at dropping non-disclosure agreements to build trust.\n\nTransparency alone might not be enough.\n\nWill being more open truly fix community trust, or do towns need direct benefits?\n\n#AI #DataCenters #CommunityRelations",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Company Moves",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Voice AI often misses the point.\n\nToday, voice AI frequently struggles with understanding context. This makes the whole conversation break down when it matters most.\n\nGetting voice AI to truly grasp what you mean is the next big hurdle.\n\nWill we see a breakthrough in voice AI this year?\n\n#VoiceAI #TechNews #AIChat #FutureOfVoice",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "a16z sees new consumer AI revenue streams.\n\nOlivia Moore from Andreessen Horowitz says AI companies can earn money beyond subscriptions and API fees. She sees big growth in new ways to monetize consumer AI products.\n\nSubscription fatigue is real.\nNew models are needed.\n\nWhat kind of new revenue streams do you think consumer AI will find?\n\n#AI #ConsumerAI #AIBusiness #AndreessenHorowitz #TechCrunch",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
@@ -116,6 +110,21 @@
   ],
   "recent_activity": [
     {
+      "time": "Today \u00b7 10:29 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:29 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:29 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
       "time": "Today \u00b7 01:09 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
@@ -199,21 +208,6 @@
       "time": "Yesterday \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 07 \u00b7 07:09 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 07 \u00b7 07:09 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 07 \u00b7 07:09 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
   "issues": [
@@ -225,6 +219,24 @@
     },
     {
       "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
