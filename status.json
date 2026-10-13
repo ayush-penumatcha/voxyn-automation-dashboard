@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-13T16:39:57+05:30",
+  "generated_at": "2026-10-13T23:44:21+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,20 +10,14 @@
     "date": "2026-10-13",
     "total": 5,
     "posted": 2,
-    "ready_generated": 1,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 3
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI at Work",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-13T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "WARNING",
-    "days_remaining": 9,
+    "days_remaining": 8,
     "last_checked": "01:42 PM"
   },
   "systems": {
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Blueprints AI creates permit-ready blueprints fast.\n\nThe startup uses AI to turn photos, PDFs, or sketches into construction plans that meet building codes in minutes.\n\nWeeks of work now take moments.\n\nWill this speed up construction projects or just permit applications?\n\n#AIatWork #ConstructionAI #BlueprintsAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 11:44 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 04:39 PM",
       "category": "MISSED",
@@ -209,11 +208,6 @@
       "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 11 \u00b7 06:38 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
@@ -225,6 +219,12 @@
     },
     {
       "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
