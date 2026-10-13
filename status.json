@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-12T22:29:54+05:30",
+  "generated_at": "2026-10-13T05:40:19+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "WARNING",
   "system_label": "Attention Required",
   "today": {
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 5
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-13T08:30:00+05:30"
+  },
   "auth": {
     "status": "WARNING",
     "days_remaining": 9,
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "Apple reportedly names new smart home device HomeView.\n\nAfter years of rumors, the product is now closer to launch. It could be a central control for connected living spaces.\n\nApple's smart home vision is finally taking shape.\n\nWill HomeView be the device that makes Apple a smart home leader?\n\n#Apple #HomeView #SmartHome #TechNews",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Meta just launched Muse Wonder, its first large AI model.\n\nThis new model is bigger and more capable than earlier versions, doing better on complex tasks like writing code.\n\nIt moves Meta into a new league of AI development.\n\nWill bigger models always mean better results for users?\n\n#MetaAI #MuseWonder #AIResearch",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "source_url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "TechCrunch Disrupt 2026 starts in 48 hours.\n\nThe event in San Francisco brings together many startups and speakers.\n\nIt's a chance to see new tech and hear from industry builders.\n\nWill the next big AI idea come from an established company or a brand-new startup?\n\n#TechCrunch #AIDevelopment #Startup",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "WindBorne just secured a major U.S. Air Force contract.\n\nThe Silicon Valley startup uses weather balloons and AI to improve weather forecasting. This new deal is worth almost $50 million.\n\nAI is now shaping even how we predict the weather for defense.\n\nWill military contracts become a main driver for specialized AI development?\n\n#AIPolicy #DefenseTech #WeatherAI #TechNews #GovernmentContracts",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "source_url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,168 +84,137 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "AI data centers face local community pushback.\n\nCommunities are opposing new AI infrastructure projects. Tech companies are now looking at dropping non-disclosure agreements to build trust.\n\nTransparency alone might not be enough.\n\nWill being more open truly fix community trust, or do towns need direct benefits?\n\n#AI #DataCenters #CommunityRelations",
+      "status": "GENERATED",
+      "caption": "Honeyjar launched new AI tools for PR.\n\nIts platform helps companies with press releases and managing media connections. This could make public relations simpler.\n\nPR often feels broken.\n\nWill AI actually make company communications clearer, or just create more messages to sort through?\n\n#Honeyjar #AITools #PublicRelations #Media",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "source_url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "MISSED",
-      "caption": "Voice AI often misses the point.\n\nToday, voice AI frequently struggles with understanding context. This makes the whole conversation break down when it matters most.\n\nGetting voice AI to truly grasp what you mean is the next big hurdle.\n\nWill we see a breakthrough in voice AI this year?\n\n#VoiceAI #TechNews #AIChat #FutureOfVoice",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Microsoft's Brad Smith sees the UK leading AI rules.\n\nHe argues AI companies have less oversight than basic products like milk or washing machines. Smith believes regulation is urgently needed.\n\nRegulating AI means protecting everyone.\nIt means building trust by design.\n\nShould AI regulation prioritize innovation speed or safety controls?\n\n#Microsoft #AIPolicy #UKTech",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source_url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "MISSED",
-      "caption": "a16z sees new consumer AI revenue streams.\n\nOlivia Moore from Andreessen Horowitz says AI companies can earn money beyond subscriptions and API fees. She sees big growth in new ways to monetize consumer AI products.\n\nSubscription fatigue is real.\nNew models are needed.\n\nWhat kind of new revenue streams do you think consumer AI will find?\n\n#AI #ConsumerAI #AIBusiness #AndreessenHorowitz #TechCrunch",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "Blueprints AI creates permit-ready blueprints fast.\n\nThe startup uses AI to turn photos, PDFs, or sketches into construction plans that meet building codes in minutes.\n\nWeeks of work now take moments.\n\nWill this speed up construction projects or just permit applications?\n\n#AIatWork #ConstructionAI #BlueprintsAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+      "source_url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 10:29 PM",
+      "time": "Yesterday \u00b7 10:29 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:29 PM",
+      "time": "Yesterday \u00b7 10:29 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:29 PM",
+      "time": "Yesterday \u00b7 10:29 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:09 PM",
+      "time": "Yesterday \u00b7 01:09 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:09 PM",
+      "time": "Yesterday \u00b7 01:09 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:27 PM",
+      "time": "Oct 11 \u00b7 07:27 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:27 PM",
+      "time": "Oct 11 \u00b7 07:27 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:27 PM",
+      "time": "Oct 11 \u00b7 07:27 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 12:36 PM",
+      "time": "Oct 11 \u00b7 12:36 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:36 PM",
+      "time": "Oct 11 \u00b7 12:36 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:38 AM",
+      "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
