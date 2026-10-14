@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T05:14:26+05:30",
+  "generated_at": "2026-10-14T11:49:35+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-10-14",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 1
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Industry Map",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-14T08:30:00+05:30"
+    "scheduled_at": "2026-10-14T13:30:00+05:30"
   },
   "auth": {
     "status": "WARNING",
@@ -37,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Cerebras CEO pushes back on AI doomsday talk.\n\nAndrew Feldman argues that too much focus on AI's risks overshadows its real-world benefits. He made his points at TechCrunch Disrupt.\n\nIt's a debate between caution and progress.\n\nShould AI leaders focus more on benefits than risks?\n\n#Cerebras #AIDebate #TechCrunch",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Facebook is changing how you see your feed.\n\nMeta just launched \"Your Algorithm\" for Facebook. This AI-powered tool gives users more control over content the platform shows them, a feature first seen on Instagram.\n\nThis is a shift from opaque systems.\n\nWill more platforms follow Meta's lead in giving users this kind of control?\n\n#Meta #Facebook #AIControl #TechNews #UserExperience",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 11:49 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 11:49 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 11:44 PM",
       "category": "MISSED",
@@ -204,17 +214,14 @@
       "time": "Oct 11 \u00b7 06:38 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 11 \u00b7 06:38 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 11 \u00b7 06:38 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
