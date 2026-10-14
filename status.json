@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T17:35:15+05:30",
+  "generated_at": "2026-10-15T04:40:53+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "WARNING",
   "system_label": "Attention Required",
   "today": {
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "total": 5,
-    "posted": 3,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 2
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-15T08:30:00+05:30"
+  },
   "auth": {
     "status": "WARNING",
-    "days_remaining": 8,
+    "days_remaining": 7,
     "last_checked": "12:03 PM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Cerebras CEO pushes back on AI doomsday talk.\n\nAndrew Feldman argues that too much focus on AI's risks overshadows its real-world benefits. He made his points at TechCrunch Disrupt.\n\nIt's a debate between caution and progress.\n\nShould AI leaders focus more on benefits than risks?\n\n#Cerebras #AIDebate #TechCrunch",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "Flock Safety's AI audio detection faces scrutiny.\n\nThe CEO said their microphones only detect gunshots. But the company's website lists glass breaking and car alarms, too.\n\nClarity matters for public trust.\n\nShould companies be more transparent about AI system capabilities?\n\n#FlockSafety #AIPrivacy #TechEthics",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "source_url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "POSTED",
-      "caption": "Facebook is changing how you see your feed.\n\nMeta just launched \"Your Algorithm\" for Facebook. This AI-powered tool gives users more control over content the platform shows them, a feature first seen on Instagram.\n\nThis is a shift from opaque systems.\n\nWill more platforms follow Meta's lead in giving users this kind of control?\n\n#Meta #Facebook #AIControl #TechNews #UserExperience",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "YouTube Music is adding new labels for AI-generated music.\n\nThese labels will appear on the player page for songs made fully by AI or partially, like when AI helps with composition or vocals.\n\nMusic platforms are changing how they identify AI-created content.\n\nDoes this move help artists, listeners, or mainly the platforms themselves?\n\n#YouTubeMusic #AIGeneratedMusic #MusicIndustry #ContentLabels #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "source_url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Science Corporation's vision chip just entered human trials.\n\nMax Hodak's company implanted its PRIMA chip into a Stargardt disease patient. This is a key step toward a new way for brains and computers to connect, aiming to restore sight.\n\nSeeing is believing.\n\nDoes this open the door to widespread human augmentation, or will it stay a medical tool?\n\n#ScienceCorporation #BrainComputerInterface #MedicalAI #TechNews",
+      "status": "GENERATED",
+      "caption": "Apate AI trains agents to get scammed.\n\nThis startup sends its AI agents undercover into fraud operations. The agents collect intelligence by letting themselves be targeted, helping companies understand how scams work.\n\nFighting fraud with AI that learns from the inside.\n\nDoes this approach raise more ethical questions than it answers?\n\n#AI #FraudDetection #Cybersecurity #ApateAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "source_url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "POSTED",
-      "caption": "Cerebras CEO sees home AI assistants coming.\n\nAndrew Feldman, head of AI chip maker Cerebras, predicts personal AI will be as common as household appliances.\n\nAI could soon become a daily fixture, not just a tool.\n\nWill this make smart home devices truly smart, or just more complicated?\n\n#AI #PersonalAI #Cerebras #FutureTech",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "Deezer is adding a new filter for AI-made music.\n\nSoon, users will be able to turn on a setting that hides songs created by AI from their listening experience. This change will roll out by the end of the year.\n\nListeners want to control their feeds.\n\nWill other streaming services follow this move, or will they take a different approach?\n\n#Deezer #AIMusic #Streaming #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "source_url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "POSTED",
-      "caption": "Industrial Next speeds up factory robot changes.\n\nTheir new system lets robots learn new jobs in minutes instead of weeks. This helps manufacturers automate complex tasks that used to need human workers.\n\nQuick changes mean factories can adapt faster.\n\nWill this make custom manufacturing more common?\n\n#IndustrialAutomation #Robotics #ManufacturingAI",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "TechCrunch Disrupt 2026 is half price for the final two days.\n\nThe annual startup conference runs October 14-15 in San Francisco. This year, the focus is on physical and software AI.\n\nIt's a chance to hear from leaders and see new tech.\n\nDoes a last-minute discount change your plans for events like this?\n\n#TechCrunch #AIDisrupt #StartupConference",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "source_url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 05:35 PM",
+      "time": "Yesterday \u00b7 05:35 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 05:34 PM",
+      "time": "Yesterday \u00b7 05:34 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 05:34 PM",
+      "time": "Yesterday \u00b7 05:34 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 11:49 AM",
+      "time": "Yesterday \u00b7 11:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:49 AM",
+      "time": "Yesterday \u00b7 11:49 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 11:44 PM",
+      "time": "Oct 13 \u00b7 11:44 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 04:39 PM",
+      "time": "Oct 13 \u00b7 04:39 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 04:39 PM",
+      "time": "Oct 13 \u00b7 04:39 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 04:39 PM",
+      "time": "Oct 13 \u00b7 04:39 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 09:16 AM",
+      "time": "Oct 13 \u00b7 09:16 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,18 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
