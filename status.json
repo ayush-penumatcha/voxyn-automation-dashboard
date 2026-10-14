@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-14T12:03:32+05:30",
+  "generated_at": "2026-10-14T17:35:15+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-10-14",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 3,
+    "posted": 3,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 1
+    "missed": 2
   },
-  "next_post": {
-    "scheduled_time": "1:30 PM",
-    "post_type": "IMAGE",
-    "topic": "Engagement Insight",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-14T13:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "WARNING",
     "days_remaining": 8,
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Science Corporation's vision chip just entered human trials.\n\nMax Hodak's company implanted its PRIMA chip into a Stargardt disease patient. This is a key step toward a new way for brains and computers to connect, aiming to restore sight.\n\nSeeing is believing.\n\nDoes this open the door to widespread human augmentation, or will it stay a medical tool?\n\n#ScienceCorporation #BrainComputerInterface #MedicalAI #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Cerebras CEO sees home AI assistants coming.\n\nAndrew Feldman, head of AI chip maker Cerebras, predicts personal AI will be as common as household appliances.\n\nAI could soon become a daily fixture, not just a tool.\n\nWill this make smart home devices truly smart, or just more complicated?\n\n#AI #PersonalAI #Cerebras #FutureTech",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Industrial Next speeds up factory robot changes.\n\nTheir new system lets robots learn new jobs in minutes instead of weeks. This helps manufacturers automate complex tasks that used to need human workers.\n\nQuick changes mean factories can adapt faster.\n\nWill this make custom manufacturing more common?\n\n#IndustrialAutomation #Robotics #ManufacturingAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
@@ -115,6 +109,21 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 05:35 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 05:34 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
+    {
+      "time": "Today \u00b7 05:34 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 11:49 AM",
       "category": "MISSED",
@@ -199,26 +208,17 @@
       "time": "Oct 11 \u00b7 12:36 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 11 \u00b7 06:38 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 11 \u00b7 06:38 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 11 \u00b7 06:38 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
     {
       "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
