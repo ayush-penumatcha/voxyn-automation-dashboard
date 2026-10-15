@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T17:14:14+05:30",
+  "generated_at": "2026-10-15T21:14:42+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,17 +10,11 @@
     "date": "2026-10-15",
     "total": 5,
     "posted": 2,
-    "ready_generated": 1,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 3
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Business and Funding",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-15T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "WARNING",
     "days_remaining": 7,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "TechCrunch Disrupt 2026 is half price for the final two days.\n\nThe annual startup conference runs October 14-15 in San Francisco. This year, the focus is on physical and software AI.\n\nIt's a chance to hear from leaders and see new tech.\n\nDoes a last-minute discount change your plans for events like this?\n\n#TechCrunch #AIDisrupt #StartupConference",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 09:14 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 05:14 PM",
       "category": "MISSED",
@@ -209,11 +208,6 @@
       "time": "Oct 12 \u00b7 01:09 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 11 \u00b7 07:27 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
@@ -225,6 +219,12 @@
     },
     {
       "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
