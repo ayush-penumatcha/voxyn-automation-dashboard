@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T11:46:19+05:30",
+  "generated_at": "2026-10-15T11:52:13+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-10-15",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 4,
+    "posted": 1,
+    "ready_generated": 3,
     "failed": 0,
     "missed": 1
   },
   "next_post": {
-    "scheduled_time": "10:55 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "New Model or Product Launch",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-15T10:55:00+05:30"
+    "scheduled_at": "2026-10-15T13:30:00+05:30"
   },
   "auth": {
     "status": "WARNING",
@@ -37,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "YouTube Music is adding new labels for AI-generated music.\n\nThese labels will appear on the player page for songs made fully by AI or partially, like when AI helps with composition or vocals.\n\nMusic platforms are changing how they identify AI-created content.\n\nDoes this move help artists, listeners, or mainly the platforms themselves?\n\n#YouTubeMusic #AIGeneratedMusic #MusicIndustry #ContentLabels #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 11:51 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 11:51 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 05:35 PM",
       "category": "MISSED",
@@ -202,16 +212,6 @@
     },
     {
       "time": "Oct 11 \u00b7 07:27 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 11 \u00b7 12:36 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 11 \u00b7 12:36 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     }
