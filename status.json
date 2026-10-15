@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T21:14:42+05:30",
+  "generated_at": "2026-10-16T04:33:25+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "WARNING",
   "system_label": "Attention Required",
   "today": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-16T08:30:00+05:30"
+  },
   "auth": {
     "status": "WARNING",
-    "days_remaining": 7,
+    "days_remaining": 6,
     "last_checked": "11:46 AM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "Flock Safety's AI audio detection faces scrutiny.\n\nThe CEO said their microphones only detect gunshots. But the company's website lists glass breaking and car alarms, too.\n\nClarity matters for public trust.\n\nShould companies be more transparent about AI system capabilities?\n\n#FlockSafety #AIPrivacy #TechEthics",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Amazon's Panos Panay envisions a shift from apps to AI devices.\n\nHe believes future AI will anticipate needs, working in the background without constant commands. This means devices will simply know what you want to do next.\n\nInstead of launching an app, the AI will just handle it.\n\nCould this make our phones feel less central to daily tasks?\n\n#AmazonAI #FutureTech #AIDevices #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "source_url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "POSTED",
-      "caption": "YouTube Music is adding new labels for AI-generated music.\n\nThese labels will appear on the player page for songs made fully by AI or partially, like when AI helps with composition or vocals.\n\nMusic platforms are changing how they identify AI-created content.\n\nDoes this move help artists, listeners, or mainly the platforms themselves?\n\n#YouTubeMusic #AIGeneratedMusic #MusicIndustry #ContentLabels #TechNews",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Meta's new AI model, Muse Spark Open, now runs on Macs.\n\nThis open-weight model was created in partnership with Apple, allowing it to work directly on Apple silicon chips.\n\nThis means faster processing and more privacy for users.\n\nWill this push more AI development to personal devices over the cloud?\n\n#MetaAI #AppleSilicon #OnDeviceAI #TechNews #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Apate AI trains agents to get scammed.\n\nThis startup sends its AI agents undercover into fraud operations. The agents collect intelligence by letting themselves be targeted, helping companies understand how scams work.\n\nFighting fraud with AI that learns from the inside.\n\nDoes this approach raise more ethical questions than it answers?\n\n#AI #FraudDetection #Cybersecurity #ApateAI",
+      "status": "GENERATED",
+      "caption": "Anthropic just gave outside researchers unprecedented access.\n\nMETR, an independent safety research group, now has employee-level access to Anthropic's AI models. They can inspect the models' inner workings, risks, and safety practices.\n\nThis move could set a new standard for AI transparency.\n\nWill more AI companies follow Anthropic's lead on outside access?\n\n#Anthropic #AISafety #AITransparency #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "source_url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "POSTED",
-      "caption": "Deezer is adding a new filter for AI-made music.\n\nSoon, users will be able to turn on a setting that hides songs created by AI from their listening experience. This change will roll out by the end of the year.\n\nListeners want to control their feeds.\n\nWill other streaming services follow this move, or will they take a different approach?\n\n#Deezer #AIMusic #Streaming #TechNews",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Google launched its Universal Cart shopping tool. \n\nThis AI feature lets you add items from many stores into one cart from Google Search and the Gemini app. You can check out once for everything.\n\nOne cart for everything. \nNo more juggling multiple tabs. \n\nWill this make you change how you shop, or do you prefer individual stores?\n\n#Google #AIShopping #UniversalCart #Gemini",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+      "source_url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "MISSED",
-      "caption": "TechCrunch Disrupt 2026 is half price for the final two days.\n\nThe annual startup conference runs October 14-15 in San Francisco. This year, the focus is on physical and software AI.\n\nIt's a chance to hear from leaders and see new tech.\n\nDoes a last-minute discount change your plans for events like this?\n\n#TechCrunch #AIDisrupt #StartupConference",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "Rivian cars will soon get AI agents.\n\nThis means the company's electric vehicles will move beyond simple voice commands. The AI will learn driver habits and handle complex tasks across different car systems.\n\nYour car will anticipate needs.\nIt will manage more than just navigation.\n\nWill this make cars truly smart, or just more complicated?\n\n#Rivian #AIatWork #AutonomousVehicles #FutureOfDriving #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
+      "source_url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 09:14 PM",
+      "time": "Yesterday \u00b7 09:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 05:14 PM",
+      "time": "Yesterday \u00b7 05:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 05:14 PM",
+      "time": "Yesterday \u00b7 05:14 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 11:51 AM",
+      "time": "Yesterday \u00b7 11:51 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:51 AM",
+      "time": "Yesterday \u00b7 11:51 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 05:35 PM",
+      "time": "Oct 14 \u00b7 05:35 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 05:34 PM",
+      "time": "Oct 14 \u00b7 05:34 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 05:34 PM",
+      "time": "Oct 14 \u00b7 05:34 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 11:49 AM",
+      "time": "Oct 14 \u00b7 11:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:49 AM",
+      "time": "Oct 14 \u00b7 11:49 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,24 +216,5 @@
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
