@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T14:55:49+05:30",
+  "generated_at": "2026-10-16T19:35:06+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,17 +10,11 @@
     "date": "2026-10-16",
     "total": 5,
     "posted": 2,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 1
+    "missed": 3
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "Model or Tool Comparison News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-16T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "WARNING",
     "days_remaining": 6,
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Google launched its Universal Cart shopping tool. \n\nThis AI feature lets you add items from many stores into one cart from Google Search and the Gemini app. You can check out once for everything.\n\nOne cart for everything. \nNo more juggling multiple tabs. \n\nWill this make you change how you shop, or do you prefer individual stores?\n\n#Google #AIShopping #UniversalCart #Gemini",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Rivian cars will soon get AI agents.\n\nThis means the company's electric vehicles will move beyond simple voice commands. The AI will learn driver habits and handle complex tasks across different car systems.\n\nYour car will anticipate needs.\nIt will manage more than just navigation.\n\nWill this make cars truly smart, or just more complicated?\n\n#Rivian #AIatWork #AutonomousVehicles #FutureOfDriving #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
@@ -115,6 +109,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 07:34 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 07:34 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 02:55 PM",
       "category": "MISSED",
@@ -204,21 +208,23 @@
       "time": "Oct 13 \u00b7 09:16 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 12 \u00b7 10:29 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 12 \u00b7 10:29 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
     {
       "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
