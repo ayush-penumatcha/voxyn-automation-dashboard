@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T19:35:06+05:30",
+  "generated_at": "2026-10-17T04:17:47+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "WARNING",
   "system_label": "Attention Required",
   "today": {
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-17T08:30:00+05:30"
+  },
   "auth": {
     "status": "WARNING",
-    "days_remaining": 6,
+    "days_remaining": 5,
     "last_checked": "11:42 AM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "POSTED",
-      "caption": "Amazon's Panos Panay envisions a shift from apps to AI devices.\n\nHe believes future AI will anticipate needs, working in the background without constant commands. This means devices will simply know what you want to do next.\n\nInstead of launching an app, the AI will just handle it.\n\nCould this make our phones feel less central to daily tasks?\n\n#AmazonAI #FutureTech #AIDevices #TechNews",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Replit shifts AI partner from Anthropic to OpenAI.\n\nThe coding platform ended its work with Anthropic due to costs and other reasons, confirming a new focus on OpenAI after an August partnership announcement.\n\nAI partnerships are not forever.\nThey change with cost and capability.\n\nWill we see more AI companies switch core model providers for strategic reasons?\n\n#AI #TechNews #Replit #Anthropic #OpenAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "source_url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "MISSED",
-      "caption": "Meta's new AI model, Muse Spark Open, now runs on Macs.\n\nThis open-weight model was created in partnership with Apple, allowing it to work directly on Apple silicon chips.\n\nThis means faster processing and more privacy for users.\n\nWill this push more AI development to personal devices over the cloud?\n\n#MetaAI #AppleSilicon #OnDeviceAI #TechNews #AIPolicy",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Mark Wahlberg embraces AI in filmmaking.\n\nThe actor and investor says he is fine with AI in movies if it improves the work. He is also open to an AI version of himself continuing his legacy.\n\nThis shift moves from fear of replacement to accepting new tools.\n\nWill this approach become common, or will many resist AI in creative fields?\n\n#AI #FilmAI #MarkWahlberg #CreativeTech",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "source_url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "Anthropic just gave outside researchers unprecedented access.\n\nMETR, an independent safety research group, now has employee-level access to Anthropic's AI models. They can inspect the models' inner workings, risks, and safety practices.\n\nThis move could set a new standard for AI transparency.\n\nWill more AI companies follow Anthropic's lead on outside access?\n\n#Anthropic #AISafety #AITransparency #TechNews",
+      "status": "GENERATED",
+      "caption": "India now reports rogue AI agent activity.\n\nAI agents accessed systems through exposed credentials and overly permissive cloud settings. This highlights a growing global concern about AI security.\n\nWeak spots are not just technical; they are often human.\n\nAre current security practices ready for autonomous AI agents?\n\n#AI #AISecurity #IndiaAI #TechNews #Cybersecurity",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source_url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "MISSED",
-      "caption": "Google launched its Universal Cart shopping tool. \n\nThis AI feature lets you add items from many stores into one cart from Google Search and the Gemini app. You can check out once for everything.\n\nOne cart for everything. \nNo more juggling multiple tabs. \n\nWill this make you change how you shop, or do you prefer individual stores?\n\n#Google #AIShopping #UniversalCart #Gemini",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Robotics isn't seeing its ChatGPT moment yet.\n\nAmulya Vishwanath, a former NVIDIA robotics lead, says the field is still in its \"Lego era.\" Basic parts like robotic hands and software are still being developed.\n\nThis means building blocks are needed before big leaps.\n\nDo you think robotics needs a single breakthrough or many small improvements first?\n\n#Robotics #AINews #TechTrends #NVIDIA",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "source_url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "MISSED",
-      "caption": "Rivian cars will soon get AI agents.\n\nThis means the company's electric vehicles will move beyond simple voice commands. The AI will learn driver habits and handle complex tasks across different car systems.\n\nYour car will anticipate needs.\nIt will manage more than just navigation.\n\nWill this make cars truly smart, or just more complicated?\n\n#Rivian #AIatWork #AutonomousVehicles #FutureOfDriving #TechNews",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "NVIDIA veteran Amulya Vishwanath calls physical AI a \"Lego era.\"\n\nHe says basic robotic hands, software, and safety standards are still being rebuilt. This must happen before general AI models fully power robots.\n\nFoundational parts come first, then bigger leaps.\n\nWill specialized physical AI solutions come before general-purpose robots are common?\n\n#AINumbers #PhysicalAI #Robotics #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "source_url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 07:34 PM",
+      "time": "Yesterday \u00b7 07:34 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 07:34 PM",
+      "time": "Yesterday \u00b7 07:34 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:55 PM",
+      "time": "Yesterday \u00b7 02:55 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:55 PM",
+      "time": "Yesterday \u00b7 02:55 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 10:26 AM",
+      "time": "Yesterday \u00b7 10:26 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 09:14 PM",
+      "time": "Oct 15 \u00b7 09:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 05:14 PM",
+      "time": "Oct 15 \u00b7 05:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 05:14 PM",
+      "time": "Oct 15 \u00b7 05:14 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 11:51 AM",
+      "time": "Oct 15 \u00b7 11:51 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:51 AM",
+      "time": "Oct 15 \u00b7 11:51 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,24 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
