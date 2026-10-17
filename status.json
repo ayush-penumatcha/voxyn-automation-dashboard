@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T04:17:47+05:30",
+  "generated_at": "2026-10-17T10:50:48+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,16 +10,16 @@
     "date": "2026-10-17",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 4,
     "failed": 0,
-    "missed": 0
+    "missed": 1
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "AI Industry Map",
+    "topic": "What the New Release Changes",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-17T08:30:00+05:30"
+    "scheduled_at": "2026-10-17T10:55:00+05:30"
   },
   "auth": {
     "status": "WARNING",
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Replit shifts AI partner from Anthropic to OpenAI.\n\nThe coding platform ended its work with Anthropic due to costs and other reasons, confirming a new focus on OpenAI after an August partnership announcement.\n\nAI partnerships are not forever.\nThey change with cost and capability.\n\nWill we see more AI companies switch core model providers for strategic reasons?\n\n#AI #TechNews #Replit #Anthropic #OpenAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 10:50 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Yesterday \u00b7 07:34 PM",
       "category": "MISSED",
@@ -209,12 +214,14 @@
       "time": "Oct 13 \u00b7 04:39 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 13 \u00b7 09:16 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
