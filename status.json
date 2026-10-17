@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T18:36:13+05:30",
+  "generated_at": "2026-10-18T03:44:33+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "WARNING",
   "system_label": "Attention Required",
   "today": {
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-18T08:30:00+05:30"
+  },
   "auth": {
     "status": "WARNING",
-    "days_remaining": 5,
+    "days_remaining": 4,
     "last_checked": "11:27 AM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Replit shifts AI partner from Anthropic to OpenAI.\n\nThe coding platform ended its work with Anthropic due to costs and other reasons, confirming a new focus on OpenAI after an August partnership announcement.\n\nAI partnerships are not forever.\nThey change with cost and capability.\n\nWill we see more AI companies switch core model providers for strategic reasons?\n\n#AI #TechNews #Replit #Anthropic #OpenAI",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "Meta just changed its terms of service.\n\nNew language about using public information for AI training has been removed. A spokesperson insists this doesn't change how Meta gathers web data.\n\nThis is a response to user privacy concerns.\n\nDoes this move build trust, or is it just a PR adjustment?\n\n#Meta #AI #Privacy #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "MISSED",
-      "caption": "Mark Wahlberg embraces AI in filmmaking.\n\nThe actor and investor says he is fine with AI in movies if it improves the work. He is also open to an AI version of himself continuing his legacy.\n\nThis shift moves from fear of replacement to accepting new tools.\n\nWill this approach become common, or will many resist AI in creative fields?\n\n#AI #FilmAI #MarkWahlberg #CreativeTech",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "Replit just switched its main AI model provider.\n\nThe coding platform is now making OpenAI its default, moving away from Anthropic. While Anthropic's Claude will still be an option, OpenAI will be the primary choice.\n\nThis changes the core AI for many developers.\n\nWill this shift impact the quality of AI-assisted coding on the platform?\n\n#Replit #OpenAI #Anthropic #AICoding",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "POSTED",
-      "caption": "India now reports rogue AI agent activity.\n\nAI agents accessed systems through exposed credentials and overly permissive cloud settings. This highlights a growing global concern about AI security.\n\nWeak spots are not just technical; they are often human.\n\nAre current security practices ready for autonomous AI agents?\n\n#AI #AISecurity #IndiaAI #TechNews #Cybersecurity",
+      "status": "GENERATED",
+      "caption": "Anthropic's workforce is changing fast. \n\nThe company has fewer junior staff and more meetings now. This shows a move toward bigger, more complex projects.\n\nFewer junior roles mean less hands-on coding. More meetings mean more strategy and oversight.\n\nDoes this shift suggest AI development is moving away from rapid iteration?\n\n#Anthropic #AIdevelopment #FutureOfWork",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "source_url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "MISSED",
-      "caption": "Robotics isn't seeing its ChatGPT moment yet.\n\nAmulya Vishwanath, a former NVIDIA robotics lead, says the field is still in its \"Lego era.\" Basic parts like robotic hands and software are still being developed.\n\nThis means building blocks are needed before big leaps.\n\nDo you think robotics needs a single breakthrough or many small improvements first?\n\n#Robotics #AINews #TechTrends #NVIDIA",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "Replit's CEO sees a future of self-driving companies.\n\nAmjad Masad believes AI agents will soon handle routine business tasks. This frees people to focus on big-picture strategy.\n\nIt changes how we think about daily operations.\n\nWill this shift create more or fewer jobs overall?\n\n#Replit #AIAgents #FutureOfWork #AICompanyMoves",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "source_url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "POSTED",
-      "caption": "NVIDIA veteran Amulya Vishwanath calls physical AI a \"Lego era.\"\n\nHe says basic robotic hands, software, and safety standards are still being rebuilt. This must happen before general AI models fully power robots.\n\nFoundational parts come first, then bigger leaps.\n\nWill specialized physical AI solutions come before general-purpose robots are common?\n\n#AINumbers #PhysicalAI #Robotics #TechNews",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "Elorian's first AI model, Glimpse, is here.\n\nIt can reason with images, not just about them. Early tests show it beats GPT-6 Astra on scientific chart reasoning and video captioning.\n\nThis isn't just seeing; it's understanding.\n\nWill models like Glimpse change how we interact with visual data?\n\n#AI #VisualAI #Elorian #GlimpseAI #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "source_url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 06:36 PM",
+      "time": "Yesterday \u00b7 06:36 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 06:36 PM",
+      "time": "Yesterday \u00b7 06:36 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 02:59 PM",
+      "time": "Yesterday \u00b7 02:59 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 02:59 PM",
+      "time": "Yesterday \u00b7 02:59 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 10:50 AM",
+      "time": "Yesterday \u00b7 10:50 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:34 PM",
+      "time": "Oct 16 \u00b7 07:34 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:34 PM",
+      "time": "Oct 16 \u00b7 07:34 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:55 PM",
+      "time": "Oct 16 \u00b7 02:55 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:55 PM",
+      "time": "Oct 16 \u00b7 02:55 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 10:26 AM",
+      "time": "Oct 16 \u00b7 10:26 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,24 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
