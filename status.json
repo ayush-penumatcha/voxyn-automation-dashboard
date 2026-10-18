@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-18T03:44:33+05:30",
+  "generated_at": "2026-10-18T10:15:59+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-10-18",
     "total": 5,
-    "posted": 0,
-    "ready_generated": 5,
+    "posted": 1,
+    "ready_generated": 4,
     "failed": 0,
     "missed": 0
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "10:55 AM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "New Model or Product Launch",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-18T08:30:00+05:30"
+    "scheduled_at": "2026-10-18T10:55:00+05:30"
   },
   "auth": {
     "status": "WARNING",
@@ -37,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "state": {
       "status": "HEALTHY"
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Meta just changed its terms of service.\n\nNew language about using public information for AI training has been removed. A spokesperson insists this doesn't change how Meta gathers web data.\n\nThis is a response to user privacy concerns.\n\nDoes this move build trust, or is it just a PR adjustment?\n\n#Meta #AI #Privacy #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
@@ -115,6 +115,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 10:15 AM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Yesterday \u00b7 06:36 PM",
       "category": "MISSED",
@@ -209,11 +214,6 @@
       "time": "Oct 14 \u00b7 11:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 14 \u00b7 11:49 AM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
   "issues": []
