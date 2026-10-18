@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-18T14:37:57+05:30",
+  "generated_at": "2026-10-18T18:42:55+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,18 +9,12 @@
   "today": {
     "date": "2026-10-18",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 2,
+    "posted": 3,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 1
+    "missed": 2
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Company Moves",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-18T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "WARNING",
     "days_remaining": 4,
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Company Moves",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Replit's CEO sees a future of self-driving companies.\n\nAmjad Masad believes AI agents will soon handle routine business tasks. This frees people to focus on big-picture strategy.\n\nIt changes how we think about daily operations.\n\nWill this shift create more or fewer jobs overall?\n\n#Replit #AIAgents #FutureOfWork #AICompanyMoves",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Elorian's first AI model, Glimpse, is here.\n\nIt can reason with images, not just about them. Early tests show it beats GPT-6 Astra on scientific chart reasoning and video captioning.\n\nThis isn't just seeing; it's understanding.\n\nWill models like Glimpse change how we interact with visual data?\n\n#AI #VisualAI #Elorian #GlimpseAI #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
@@ -115,6 +109,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 06:42 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 06:42 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 02:37 PM",
       "category": "MISSED",
@@ -204,21 +208,17 @@
       "time": "Oct 15 \u00b7 11:51 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 14 \u00b7 05:35 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 14 \u00b7 05:34 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
   "issues": [
     {
       "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
