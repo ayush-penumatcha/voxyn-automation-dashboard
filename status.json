@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-18T11:55:50+05:30",
+  "generated_at": "2026-10-18T14:37:57+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -9,17 +9,17 @@
   "today": {
     "date": "2026-10-18",
     "total": 5,
-    "posted": 1,
-    "ready_generated": 4,
+    "posted": 2,
+    "ready_generated": 2,
     "failed": 0,
-    "missed": 0
+    "missed": 1
   },
   "next_post": {
-    "scheduled_time": "10:55 AM",
+    "scheduled_time": "4:30 PM",
     "post_type": "IMAGE",
-    "topic": "New Model or Product Launch",
+    "topic": "AI Company Moves",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-18T10:55:00+05:30"
+    "scheduled_at": "2026-10-18T16:30:00+05:30"
   },
   "auth": {
     "status": "WARNING",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Replit just switched its main AI model provider.\n\nThe coding platform is now making OpenAI its default, moving away from Anthropic. While Anthropic's Claude will still be an option, OpenAI will be the primary choice.\n\nThis changes the core AI for many developers.\n\nWill this shift impact the quality of AI-assisted coding on the platform?\n\n#Replit #OpenAI #Anthropic #AICoding",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
@@ -84,7 +84,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "POSTED",
       "caption": "Anthropic's workforce is changing fast. \n\nThe company has fewer junior staff and more meetings now. This shows a move toward bigger, more complex projects.\n\nFewer junior roles mean less hands-on coding. More meetings mean more strategy and oversight.\n\nDoes this shift suggest AI development is moving away from rapid iteration?\n\n#Anthropic #AIdevelopment #FutureOfWork",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 02:37 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 02:37 PM",
+      "category": "POSTED",
+      "message": "LinkedIn post published"
+    },
     {
       "time": "Today \u00b7 10:15 AM",
       "category": "POSTED",
@@ -204,17 +214,14 @@
       "time": "Oct 14 \u00b7 05:34 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 14 \u00b7 05:34 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 14 \u00b7 11:49 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
