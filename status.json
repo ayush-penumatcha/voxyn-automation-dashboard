@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T17:43:49+05:30",
+  "generated_at": "2026-10-20T05:05:32+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "WARNING",
   "system_label": "Attention Required",
   "today": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "total": 5,
-    "posted": 3,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 2
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-20T08:30:00+05:30"
+  },
   "auth": {
     "status": "WARNING",
-    "days_remaining": 3,
+    "days_remaining": 2,
     "last_checked": "12:07 PM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "Anthropic is dedicating 5% of its company shares.\n\nThese shares will go into a new public benefit fund. The fund's goal is to ensure the company's AI development stays aligned with safety and ethical principles as it grows.\n\nThis move aims to balance profit with a broader societal mission.\n\nDoes setting aside shares for public benefit truly change a company's long-term direction?\n\n#Anthropic #AIEthics #AIGovernance #TechNews",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Hugging Face sees challenges for AI model evaluations.\n\nIrene Solaiman, their policy chief, noted that current methods for judging AI models are still developing. Benchmarking, meant to show which AI is better, remains complex.\n\nJudging AI fairly is harder than it looks.\n\nDo current AI evaluation methods truly capture a model's real-world safety and usefulness?\n\n#HuggingFace #AIEvaluation #TechPolicy #AIEthics",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source_url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "POSTED",
-      "caption": "Disney just agreed to hire most of Character.AI's team.\n\nThis move signals a major talent acquisition, with the vast majority of Character.AI employees accepting job offers from Disney.\n\nIt is a \"stalking horse\" bid, meaning another company could still make a higher offer.\n\nDoes this acquisition strategy hint at Disney's big AI plans?\n\n#Disney #CharacterAI #AITalent #TechNews",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Amazon just launched TorchNeuron to challenge NVIDIA.\n\nThis new development tool lets AI builders use Amazon's own specialized chips more easily with PyTorch, the main software framework for AI apps.\n\nIt's a direct move to get more developers off NVIDIA's hardware and onto Amazon's.\n\nWill this shift change how AI apps are built?\n\n#AmazonAI #NVIDIA #PyTorch",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "source_url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Vercel's new AI model, Jev, became its fastest-adopted ever.\n\nThis happened through Vercel's AI gateway, a single service that lets developers use many different AI models easily.\n\nSimplicity often wins.\n\nWill ease of integration become more important than raw model performance?\n\n#Vercel #AIModels #DeveloperTools #TechNews",
+      "status": "GENERATED",
+      "caption": "Microsoft warns about AI agents and insider threats.\n\nThe company says businesses need to watch how employees use AI agents with models not directly controlled by big AI labs.\n\nIt's about keeping company data safe.\n\nShould companies block access to unapproved AI tools entirely?\n\n#MicrosoftAI #AIAgents #CyberSecurity #EnterpriseAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "source_url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "POSTED",
-      "caption": "Veritas expands its anti-counterfeit chip to new markets.\n\nThe company's tiny verification chip, initially for luxury goods, will now be used in jewelry, trophies, and fragrance bottles.\n\nFakes are getting harder to spot.\nThis chip aims to make verification simple and reliable.\n\nWill physical verification chips become standard for all high-value items?\n\n#Veritas #AntiCounterfeit #LuxuryGoods #TechNews",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Nvidia just released new open AI models.\n\nThese models help businesses run their own AI agents in their data centers and also make private AI agents work on personal computers.\n\nThis means more control for companies and more privacy for users.\n\nWill this shift lead to a new wave of personalized AI experiences?\n\n#Nvidia #AIAgents #EnterpriseAI #EdgeAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+      "source_url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "POSTED",
-      "caption": "Cal AI used influencers to drive its rapid growth.\n\nThe health and fitness app generated over $30 million in revenue in just two years. This success led to its acquisition by MyFitnessPal.\n\nOrganic reach is getting harder to find.\n\nWill this shift change how most startups approach their first users?\n\n#AI #TechNews #CalAI #MyFitnessPal #InfluencerMarketing",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "OpenCode users just got hit by hackers.\n\nAttackers stole API keys from the AI coding tool, running up charges on user accounts. The AI tools OpenCode turned to for help wouldn't look at the malicious code.\n\nEven AI tools need better security against bad code.\n\nShould AI tools refuse to analyze code, even if it's malicious?\n\n#AI #Cybersecurity #OpenCode",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "source_url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 05:43 PM",
+      "time": "Yesterday \u00b7 05:43 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 05:43 PM",
+      "time": "Yesterday \u00b7 05:43 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 05:43 PM",
+      "time": "Yesterday \u00b7 05:43 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 11:28 AM",
+      "time": "Yesterday \u00b7 11:28 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:28 AM",
+      "time": "Yesterday \u00b7 11:28 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 06:42 PM",
+      "time": "Oct 18 \u00b7 06:42 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:42 PM",
+      "time": "Oct 18 \u00b7 06:42 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 02:37 PM",
+      "time": "Oct 18 \u00b7 02:37 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:37 PM",
+      "time": "Oct 18 \u00b7 02:37 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 10:15 AM",
+      "time": "Oct 18 \u00b7 10:15 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,18 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
