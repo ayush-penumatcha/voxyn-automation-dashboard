@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T16:51:45+05:30",
+  "generated_at": "2026-10-20T21:11:35+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,17 +10,11 @@
     "date": "2026-10-20",
     "total": 5,
     "posted": 2,
-    "ready_generated": 1,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 3
   },
-  "next_post": {
-    "scheduled_time": "5:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Numbers Today",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-20T17:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "WARNING",
     "days_remaining": 2,
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenCode users just got hit by hackers.\n\nAttackers stole API keys from the AI coding tool, running up charges on user accounts. The AI tools OpenCode turned to for help wouldn't look at the malicious code.\n\nEven AI tools need better security against bad code.\n\nShould AI tools refuse to analyze code, even if it's malicious?\n\n#AI #Cybersecurity #OpenCode",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
@@ -115,6 +109,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 09:11 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 04:51 PM",
       "category": "MISSED",
@@ -209,11 +208,6 @@
       "time": "Oct 17 \u00b7 10:50 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 16 \u00b7 07:34 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
@@ -225,6 +219,12 @@
     },
     {
       "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
