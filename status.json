@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T21:11:35+05:30",
+  "generated_at": "2026-10-21T04:40:47+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "WARNING",
   "system_label": "Attention Required",
   "today": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "total": 5,
-    "posted": 2,
-    "ready_generated": 0,
+    "posted": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-21T08:30:00+05:30"
+  },
   "auth": {
     "status": "WARNING",
-    "days_remaining": 2,
+    "days_remaining": 1,
     "last_checked": "11:53 AM"
   },
   "systems": {
@@ -31,7 +37,7 @@
       "status": "WARNING"
     },
     "renderer": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "state": {
       "status": "HEALTHY"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Hugging Face sees challenges for AI model evaluations.\n\nIrene Solaiman, their policy chief, noted that current methods for judging AI models are still developing. Benchmarking, meant to show which AI is better, remains complex.\n\nJudging AI fairly is harder than it looks.\n\nDo current AI evaluation methods truly capture a model's real-world safety and usefulness?\n\n#HuggingFace #AIEvaluation #TechPolicy #AIEthics",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "Anthropic proposed a new AI safety bill.\n\nFederal agencies could block dangerous AI models, but only with a judge's approval. This would apply if a model could cause 50 or more deaths.\n\nSafety is coming, but with judicial delays.\n\nWill this make AI safer, or just slower to regulate?\n\n#Anthropic #AISafety #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "source_url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "POSTED",
-      "caption": "Amazon just launched TorchNeuron to challenge NVIDIA.\n\nThis new development tool lets AI builders use Amazon's own specialized chips more easily with PyTorch, the main software framework for AI apps.\n\nIt's a direct move to get more developers off NVIDIA's hardware and onto Amazon's.\n\nWill this shift change how AI apps are built?\n\n#AmazonAI #NVIDIA #PyTorch",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "OpenAI just bought a biotech startup, Orchestra Bio.\n\nThis acquisition brings Orchestra Bio's team and technology to Rosalind, OpenAI's life sciences AI model, and its Workbench tool.\n\nAI is moving deeper into specialized fields.\n\nWill we see more AI companies buying up niche startups outside of software?\n\n#OpenAI #Biotech #AILabs",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "source_url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Microsoft warns about AI agents and insider threats.\n\nThe company says businesses need to watch how employees use AI agents with models not directly controlled by big AI labs.\n\nIt's about keeping company data safe.\n\nShould companies block access to unapproved AI tools entirely?\n\n#MicrosoftAI #AIAgents #CyberSecurity #EnterpriseAI",
+      "status": "GENERATED",
+      "caption": "Netflix's new AI documentary is drawing fire.\n\nHugging Face CEO Clem Delangue, featured in the film \"AI Gone Rogue,\" says it's inaccurate and goes \"full doomer mode.\"\n\nWhen facts get stretched, the real debate suffers.\n\nDoes a dramatic story help or hurt public understanding of AI?\n\n#Netflix #HuggingFace #AIDocumentary #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "source_url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "POSTED",
-      "caption": "Nvidia just released new open AI models.\n\nThese models help businesses run their own AI agents in their data centers and also make private AI agents work on personal computers.\n\nThis means more control for companies and more privacy for users.\n\nWill this shift lead to a new wave of personalized AI experiences?\n\n#Nvidia #AIAgents #EnterpriseAI #EdgeAI",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "ChatGPT users can now lock their chats.\n\nOpenAI added a new privacy feature allowing users to secure individual conversations. This helps keep personal or private discussions hidden when someone else uses your device.\n\nIt's a small change, but a big step for personal privacy.\n\nWill this feature change how you use AI on shared devices?\n\n#OpenAI #ChatGPT #AIPrivacy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "source_url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "MISSED",
-      "caption": "OpenCode users just got hit by hackers.\n\nAttackers stole API keys from the AI coding tool, running up charges on user accounts. The AI tools OpenCode turned to for help wouldn't look at the malicious code.\n\nEven AI tools need better security against bad code.\n\nShould AI tools refuse to analyze code, even if it's malicious?\n\n#AI #Cybersecurity #OpenCode",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "SpaceX just hit a huge financial milestone.\n\nIts AI business was the main reason, driving the company to a $4.4 billion net income in the third quarter. This shows how much AI can change a company's bottom line.\n\nAI is not just for tech companies anymore.\n\nWill we see more traditional companies pivot to AI as their core growth engine?\n\n#SpaceX #AIBusiness #TechNews #Profitability",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "source_url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 09:11 PM",
+      "time": "Yesterday \u00b7 09:11 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 04:51 PM",
+      "time": "Yesterday \u00b7 04:51 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 04:51 PM",
+      "time": "Yesterday \u00b7 04:51 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Today \u00b7 11:31 AM",
+      "time": "Yesterday \u00b7 11:31 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:31 AM",
+      "time": "Yesterday \u00b7 11:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 05:43 PM",
+      "time": "Oct 19 \u00b7 05:43 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 05:43 PM",
+      "time": "Oct 19 \u00b7 05:43 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 05:43 PM",
+      "time": "Oct 19 \u00b7 05:43 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 11:28 AM",
+      "time": "Oct 19 \u00b7 11:28 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:28 AM",
+      "time": "Oct 19 \u00b7 11:28 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,24 +216,5 @@
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
