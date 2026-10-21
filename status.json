@@ -1,23 +1,29 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-21T20:51:25+05:30",
+  "generated_at": "2026-10-22T04:44:39+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "WARNING",
   "system_label": "Attention Required",
   "today": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 5
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-22T08:30:00+05:30"
+  },
   "auth": {
     "status": "WARNING",
-    "days_remaining": 1,
+    "days_remaining": 0,
     "last_checked": "11:53 AM"
   },
   "systems": {
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "Anthropic proposed a new AI safety bill.\n\nFederal agencies could block dangerous AI models, but only with a judge's approval. This would apply if a model could cause 50 or more deaths.\n\nSafety is coming, but with judicial delays.\n\nWill this make AI safer, or just slower to regulate?\n\n#Anthropic #AISafety #AIPolicy",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Recursive just launched Flint, a new coding model.\n\nWhat makes it different? Flint was largely built by Recursive's own AI system. It is designed to run on a laptop for free, acting as an early test of AI that improves itself.\n\nThis is a step toward AI building more AI.\n\nCould this approach change how new models are developed?\n\n#AIResearch #CodingAI #RecursiveAI #FlintModel #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "source_url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "OpenAI just bought a biotech startup, Orchestra Bio.\n\nThis acquisition brings Orchestra Bio's team and technology to Rosalind, OpenAI's life sciences AI model, and its Workbench tool.\n\nAI is moving deeper into specialized fields.\n\nWill we see more AI companies buying up niche startups outside of software?\n\n#OpenAI #Biotech #AILabs",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Blackstone says AI infrastructure debt fears are overblown.\n\nMany worry about the huge costs of building AI data centers. Jas Khaira notes these projects have long-term contracts with stable companies.\n\nThese are not risky bets.\n\nWill this perspective change how investors approach AI infrastructure?\n\n#AI #TechNews #Blackstone #AIFinance",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "source_url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Netflix's new AI documentary is drawing fire.\n\nHugging Face CEO Clem Delangue, featured in the film \"AI Gone Rogue,\" says it's inaccurate and goes \"full doomer mode.\"\n\nWhen facts get stretched, the real debate suffers.\n\nDoes a dramatic story help or hurt public understanding of AI?\n\n#Netflix #HuggingFace #AIDocumentary #TechNews",
+      "status": "GENERATED",
+      "caption": "Founder Summit 2026: Tactical Insights.\n\nTechCrunch is hosting its Founder Summit in Boston on November 4, 2026. This event connects founders with top venture capitalists and experienced entrepreneurs.\n\nThe goal is to provide practical advice for building and growing companies.\n\nWill this direct approach to networking and learning be more effective than larger conferences?\n\n#TechCrunch #FounderSummit #StartupGrowth #VentureCapital #Entrepreneurship",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "source_url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "MISSED",
-      "caption": "ChatGPT users can now lock their chats.\n\nOpenAI added a new privacy feature allowing users to secure individual conversations. This helps keep personal or private discussions hidden when someone else uses your device.\n\nIt's a small change, but a big step for personal privacy.\n\nWill this feature change how you use AI on shared devices?\n\n#OpenAI #ChatGPT #AIPrivacy",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Meta's AI assistant, Muse, now has over 10 million users.\n\nThe company announced shopping and personal productivity are top activities for the app. This shows how quickly people adopt AI tools for daily tasks.\n\nAI is moving beyond chatbots to practical, everyday help.\n\nDo you see AI assistants becoming central to online shopping?\n\n#Meta #MetaAI #AIMuse",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "source_url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "MISSED",
-      "caption": "SpaceX just hit a huge financial milestone.\n\nIts AI business was the main reason, driving the company to a $4.4 billion net income in the third quarter. This shows how much AI can change a company's bottom line.\n\nAI is not just for tech companies anymore.\n\nWill we see more traditional companies pivot to AI as their core growth engine?\n\n#SpaceX #AIBusiness #TechNews #Profitability",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "AI promised to boost employee output.\n\nBut for over half of managers, new survey data shows it is making their job harder. Evaluating work quality with AI tools now takes more effort.\n\nNew tools often create new challenges.\n\nAre current AI tools making it harder or easier to manage teams?\n\n#AIatWork #Productivity #Management",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "source_url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 08:51 PM",
+      "time": "Yesterday \u00b7 08:51 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:51 PM",
+      "time": "Yesterday \u00b7 08:51 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:49 PM",
+      "time": "Yesterday \u00b7 03:49 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:49 PM",
+      "time": "Yesterday \u00b7 03:49 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:52 AM",
+      "time": "Yesterday \u00b7 10:52 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:11 PM",
+      "time": "Oct 20 \u00b7 09:11 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 04:51 PM",
+      "time": "Oct 20 \u00b7 04:51 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 04:51 PM",
+      "time": "Oct 20 \u00b7 04:51 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
     {
-      "time": "Yesterday \u00b7 11:31 AM",
+      "time": "Oct 20 \u00b7 11:31 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:31 AM",
+      "time": "Oct 20 \u00b7 11:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
