@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T15:53:07+05:30",
+  "generated_at": "2026-10-22T20:54:15+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,17 +10,11 @@
     "date": "2026-10-22",
     "total": 5,
     "posted": 1,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 4
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "Model or Tool Comparison News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-22T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "WARNING",
     "days_remaining": 0,
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Meta's AI assistant, Muse, now has over 10 million users.\n\nThe company announced shopping and personal productivity are top activities for the app. This shows how quickly people adopt AI tools for daily tasks.\n\nAI is moving beyond chatbots to practical, everyday help.\n\nDo you see AI assistants becoming central to online shopping?\n\n#Meta #MetaAI #AIMuse",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "AI promised to boost employee output.\n\nBut for over half of managers, new survey data shows it is making their job harder. Evaluating work quality with AI tools now takes more effort.\n\nNew tools often create new challenges.\n\nAre current AI tools making it harder or easier to manage teams?\n\n#AIatWork #Productivity #Management",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
@@ -115,6 +109,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:53 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 08:53 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 03:52 PM",
       "category": "MISSED",
@@ -204,16 +208,6 @@
       "time": "Oct 19 \u00b7 11:28 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 18 \u00b7 06:42 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 18 \u00b7 06:42 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
   "issues": [
@@ -225,6 +219,18 @@
     },
     {
       "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
