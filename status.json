@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T10:55:10+05:30",
+  "generated_at": "2026-10-23T15:46:50+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,21 @@
     "date": "2026-10-23",
     "total": 5,
     "posted": 0,
-    "ready_generated": 4,
+    "ready_generated": 2,
     "failed": 0,
-    "missed": 1
+    "missed": 3
   },
   "next_post": {
-    "scheduled_time": "10:55 AM",
+    "scheduled_time": "4:30 PM",
     "post_type": "IMAGE",
-    "topic": "What the New Release Changes",
+    "topic": "AI Trend in the News",
     "status": "GENERATED",
-    "scheduled_at": "2026-10-23T10:55:00+05:30"
+    "scheduled_at": "2026-10-23T16:30:00+05:30"
   },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "11:56 AM"
+    "last_checked": "11:51 AM"
   },
   "systems": {
     "generator": {
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "1Password now lets AI agents log in for you.\n\nThis new feature allows AI to access your accounts without seeing or storing your passwords. It keeps your private info safe.\n\nYour AI can sign in without you giving up the secret.\n\nDoes this change how you would use AI for online tasks?\n\n#1Password #AIAgents #Cybersecurity #Privacy",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
@@ -84,7 +84,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Canva just released its first image generation model.\n\nThe new tool is available to all users, offering better, more customizable results for less money.\n\nThis makes advanced image creation more accessible.\n\nWill this shift lead to more visual content, or just better looking content?\n\n#Canva #AI #ImageGeneration",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 03:46 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 03:46 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 10:54 AM",
       "category": "MISSED",
@@ -204,21 +214,23 @@
       "time": "Oct 19 \u00b7 05:43 PM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 19 \u00b7 05:43 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 19 \u00b7 11:28 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
     {
       "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
