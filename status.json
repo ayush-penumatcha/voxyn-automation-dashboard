@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T15:46:50+05:30",
+  "generated_at": "2026-10-23T20:38:40+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,17 +10,11 @@
     "date": "2026-10-23",
     "total": 5,
     "posted": 0,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 3
+    "missed": 5
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Trend in the News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-23T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI just launched its decision model widely.\n\nThe new model is now available to a broad audience, intensifying competition with existing tools like Jev.\n\nMore access means more choices for complex problems.\n\nWill this shift how businesses make daily decisions?\n\n#OpenAI #AIDecisionMaking #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Microsoft's AI just beat doctors on tough cases.\n\nA new study shows Microsoft's diagnostic AI performed better than general doctors on complex medical scenarios.\n\nIt's a big step for AI in medicine, but the core AI models did most of the heavy lifting.\n\nCould AI become a standard for challenging diagnoses, or will it remain a specialized tool?\n\n#MicrosoftAI #MedicalAI #AIDiagnostics",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
@@ -115,6 +109,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:38 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 08:38 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 03:46 PM",
       "category": "MISSED",
@@ -204,16 +208,6 @@
       "time": "Oct 20 \u00b7 11:31 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 19 \u00b7 05:43 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 19 \u00b7 05:43 PM",
-      "category": "POSTED",
-      "message": "LinkedIn post published"
     }
   ],
   "issues": [
@@ -231,6 +225,18 @@
     },
     {
       "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
