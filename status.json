@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T20:38:40+05:30",
+  "generated_at": "2026-10-24T04:35:58+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 5
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-24T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "OpenAI is reportedly seeking a massive new funding round.\n\nThe company aims to raise $30 billion, which could push its valuation to an astonishing $1.25 trillion before its public offering.\n\nThis would make it the most valuable private company ever.\n\nDoes this valuation reflect real growth, or is it driven by market speculation?\n\n#OpenAI #AIFinance #TechNews",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "NVIDIA's Microduck robots sold 20,000 units.\n\nCEO Jensen Huang showed off the tiny, voice-controlled robots. They can walk, fall, and do somersaults.\n\nAI is now a toy.\n\nWill these robots become a holiday hit?\n\n#NVIDIA #AI #Robotics #ConsumerAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "source_url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "MISSED",
-      "caption": "1Password now lets AI agents log in for you.\n\nThis new feature allows AI to access your accounts without seeing or storing your passwords. It keeps your private info safe.\n\nYour AI can sign in without you giving up the secret.\n\nDoes this change how you would use AI for online tasks?\n\n#1Password #AIAgents #Cybersecurity #Privacy",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "TechCrunch just announced its Founder Summit 2026.\n\nThis year's event goes beyond just fundraising and AI. Founders will learn about finding customers, building teams, and scaling companies.\n\nIt's a shift from pure tech hype to practical business growth.\n\nWill this more grounded approach attract a different kind of founder?\n\n#TechCrunch #FounderSummit #StartupLife #BusinessGrowth",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "source_url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Canva just released its first image generation model.\n\nThe new tool is available to all users, offering better, more customizable results for less money.\n\nThis makes advanced image creation more accessible.\n\nWill this shift lead to more visual content, or just better looking content?\n\n#Canva #AI #ImageGeneration",
+      "status": "GENERATED",
+      "caption": "Ride-hailing company inDrive is looking ahead to 2027.\n\nThe Uber competitor plans to start testing robotaxis in Kazakhstan's capital, Astana. They are partnering with Pony.ai and NVIDIA for the self-driving vehicle technology.\n\nAutomated rides might be closer than you think.\n\nWill robotaxis change how people use public transportation in these regions?\n\n#Robotaxi #inDrive #PonyAI #NVIDIA #FutureOfMobility",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "source_url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "MISSED",
-      "caption": "OpenAI just launched its decision model widely.\n\nThe new model is now available to a broad audience, intensifying competition with existing tools like Jev.\n\nMore access means more choices for complex problems.\n\nWill this shift how businesses make daily decisions?\n\n#OpenAI #AIDecisionMaking #TechNews",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "MIT researchers put 13 AI agents on a virtual island.\n\nWithout specific tasks, the agents invented games and even mourned a lost virtual ring. They improved their skills over time.\n\nIdle time led to unexpected development.\n\nCould this type of unstructured 'play' become a standard part of AI training?\n\n#AIResearch #MIT #AIAgents #FutureOfAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source_url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "MISSED",
-      "caption": "Microsoft's AI just beat doctors on tough cases.\n\nA new study shows Microsoft's diagnostic AI performed better than general doctors on complex medical scenarios.\n\nIt's a big step for AI in medicine, but the core AI models did most of the heavy lifting.\n\nCould AI become a standard for challenging diagnoses, or will it remain a specialized tool?\n\n#MicrosoftAI #MedicalAI #AIDiagnostics",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "DeepSeek raised $15 billion after US tech restrictions.\n\nThis funding round is one of China's largest ever. It happened right after the U.S. told federal agencies to stop using DeepSeek's technology.\n\nWill this funding help DeepSeek overcome government limits?\n\n#DeepSeek #AIFunding #ChinaAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "source_url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 08:38 PM",
+      "time": "Yesterday \u00b7 08:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:38 PM",
+      "time": "Yesterday \u00b7 08:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:46 PM",
+      "time": "Yesterday \u00b7 03:46 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:46 PM",
+      "time": "Yesterday \u00b7 03:46 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:54 AM",
+      "time": "Yesterday \u00b7 10:54 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 08:53 PM",
+      "time": "Oct 22 \u00b7 08:53 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 08:53 PM",
+      "time": "Oct 22 \u00b7 08:53 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:52 PM",
+      "time": "Oct 22 \u00b7 03:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:56 AM",
+      "time": "Oct 22 \u00b7 10:56 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:56 AM",
+      "time": "Oct 22 \u00b7 10:56 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
