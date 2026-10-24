@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-24T22:12:07+05:30",
+  "generated_at": "2026-10-25T03:56:40+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 3,
-    "missed": 2
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-25T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "AUTH_REQUIRED",
-      "caption": "NVIDIA's Microduck robots sold 20,000 units.\n\nCEO Jensen Huang showed off the tiny, voice-controlled robots. They can walk, fall, and do somersaults.\n\nAI is now a toy.\n\nWill these robots become a holiday hit?\n\n#NVIDIA #AI #Robotics #ConsumerAI",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "TechCrunch lists AI projects that did not work out.\n\nThis includes Apple's Siri, which saw many delays. OpenAI's \"super app\" also struggled to launch.\n\nEven with big money, making things work and fit the market is tough.\n\nWill the AI industry have fewer big failures over time?\n\n#AI #TechNews #OpenAI #AppleAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "source_url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "TechCrunch just announced its Founder Summit 2026.\n\nThis year's event goes beyond just fundraising and AI. Founders will learn about finding customers, building teams, and scaling companies.\n\nIt's a shift from pure tech hype to practical business growth.\n\nWill this more grounded approach attract a different kind of founder?\n\n#TechCrunch #FounderSummit #StartupLife #BusinessGrowth",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Block just unveiled a new voice model.\n\nIt sounds so much like a real person that it's hard to tell the difference. This model can even run on a MacBook M4 Max, meaning it doesn't need a huge cloud server.\n\nHuman-like AI voices are here.\n\nWill we need new laws to disclose when we're talking to an AI?\n\n#BlockAI #VoiceAI #AIethics",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "source_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "AUTH_REQUIRED",
-      "caption": "Ride-hailing company inDrive is looking ahead to 2027.\n\nThe Uber competitor plans to start testing robotaxis in Kazakhstan's capital, Astana. They are partnering with Pony.ai and NVIDIA for the self-driving vehicle technology.\n\nAutomated rides might be closer than you think.\n\nWill robotaxis change how people use public transportation in these regions?\n\n#Robotaxi #inDrive #PonyAI #NVIDIA #FutureOfMobility",
+      "status": "GENERATED",
+      "caption": "AI models show political leanings.\n\nA new study found Grok's AI favored Republican candidates, while OpenAI's GPT preferred Democrats. The two disagreed in over 90% of nearly 500 simulated election races.\n\nBias is not always about bad intentions.\n\nShould AI developers actively filter for political neutrality?\n\n#AI #PoliticalBias #AIEthics",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source_url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "MISSED",
-      "caption": "MIT researchers put 13 AI agents on a virtual island.\n\nWithout specific tasks, the agents invented games and even mourned a lost virtual ring. They improved their skills over time.\n\nIdle time led to unexpected development.\n\nCould this type of unstructured 'play' become a standard part of AI training?\n\n#AIResearch #MIT #AIAgents #FutureOfAI",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "AI agents are moving into your text messages.\n\nTechCrunch compiled a list of the top AI agents that can now live directly in your messaging apps. These tools range from general assistants to specialized agents for family, travel, and work.\n\nYour phone is becoming a command center.\n\nWhich task would you trust an AI agent with first: scheduling, travel planning, or managing family communications?\n\n#AI #AIAgents #MessagingAI #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "AUTH_REQUIRED",
-      "caption": "DeepSeek raised $15 billion after US tech restrictions.\n\nThis funding round is one of China's largest ever. It happened right after the U.S. told federal agencies to stop using DeepSeek's technology.\n\nWill this funding help DeepSeek overcome government limits?\n\n#DeepSeek #AIFunding #ChinaAI",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "OpenAI stops training AI on live internet.\n\nThe company will no longer use live internet data to train its frontier AI models. This change addresses significant risks.\n\nNo more live internet, just curated datasets.\n\nWill this make AI models safer, or limit their real-world understanding?\n\n#OpenAI #AI #AITraining #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "source_url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 10:11 PM",
+      "time": "Yesterday \u00b7 10:11 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:11 PM",
+      "time": "Yesterday \u00b7 10:11 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 06:49 PM",
+      "time": "Yesterday \u00b7 06:49 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 02:43 PM",
+      "time": "Yesterday \u00b7 02:43 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 10:25 AM",
+      "time": "Yesterday \u00b7 10:25 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 08:38 PM",
+      "time": "Oct 23 \u00b7 08:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 08:38 PM",
+      "time": "Oct 23 \u00b7 08:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:46 PM",
+      "time": "Oct 23 \u00b7 03:46 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:46 PM",
+      "time": "Oct 23 \u00b7 03:46 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:54 AM",
+      "time": "Oct 23 \u00b7 10:54 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
@@ -210,36 +216,5 @@
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    }
-  ]
+  "issues": []
 }
