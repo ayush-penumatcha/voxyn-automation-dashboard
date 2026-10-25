@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T20:36:55+05:30",
+  "generated_at": "2026-10-26T04:00:58+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 2,
-    "missed": 3
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-26T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "TechCrunch lists AI projects that did not work out.\n\nThis includes Apple's Siri, which saw many delays. OpenAI's \"super app\" also struggled to launch.\n\nEven with big money, making things work and fit the market is tough.\n\nWill the AI industry have fewer big failures over time?\n\n#AI #TechNews #OpenAI #AppleAI",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Grok released the first seven minutes of its AI film, \"Odyssey.\"\n\nThe footage is out. Early reactions say it looks good, but it's not very artistic.\n\nAI can make visuals fast.\nBut can it tell a story people care about?\n\nWill AI ever direct a truly compelling film, or just technically perfect scenes?\n\n#Grok #AIFilm #AIEntertainment",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source_url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "AUTH_REQUIRED",
-      "caption": "Block just unveiled a new voice model.\n\nIt sounds so much like a real person that it's hard to tell the difference. This model can even run on a MacBook M4 Max, meaning it doesn't need a huge cloud server.\n\nHuman-like AI voices are here.\n\nWill we need new laws to disclose when we're talking to an AI?\n\n#BlockAI #VoiceAI #AIethics",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Most companies are seeing no financial return from AI.\n\nAn Apollo Global Management economist reports that outside of the tech industry, AI investments have not yet paid off for corporate America.\n\nSpending is up, but the bottom line is not.\n\nAre companies missing the point of AI, or is the technology just not ready for them?\n\n#AI #BusinessAI #TechInvestment",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "AI models show political leanings.\n\nA new study found Grok's AI favored Republican candidates, while OpenAI's GPT preferred Democrats. The two disagreed in over 90% of nearly 500 simulated election races.\n\nBias is not always about bad intentions.\n\nShould AI developers actively filter for political neutrality?\n\n#AI #PoliticalBias #AIEthics",
+      "status": "GENERATED",
+      "caption": "AI wearables are hitting the market.\n\nDevices like the Muse Charm and the Bee offer different ways to interact with AI in daily life. This shift brings AI out of screens and into constant, background use.\n\nIt\u2019s a new kind of interaction.\n\nWill these devices truly change how we use AI, or are they just niche gadgets?\n\n#AI #WearableTech #FutureOfWork",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source_url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "AUTH_REQUIRED",
-      "caption": "AI agents are moving into your text messages.\n\nTechCrunch compiled a list of the top AI agents that can now live directly in your messaging apps. These tools range from general assistants to specialized agents for family, travel, and work.\n\nYour phone is becoming a command center.\n\nWhich task would you trust an AI agent with first: scheduling, travel planning, or managing family communications?\n\n#AI #AIAgents #MessagingAI #TechNews",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Chinese hackers used AI agents to breach ConnectWise.\n\nMicrosoft reports the group, linked to China, rapidly infiltrated thousands of customer networks. They exploited weaknesses in the IT management software.\n\nThis isn't just a data breach; it's a new kind of digital warfare.\n\nShould companies be required to disclose when AI is used in an attack?\n\n#AI #Cybersecurity #TechNews #ConnectWise #Microsoft",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source_url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "MISSED",
-      "caption": "OpenAI stops training AI on live internet.\n\nThe company will no longer use live internet data to train its frontier AI models. This change addresses significant risks.\n\nNo more live internet, just curated datasets.\n\nWill this make AI models safer, or limit their real-world understanding?\n\n#OpenAI #AI #AITraining #TechNews",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Uber is rolling out ChatGPT Work to all 30,000 employees.\n\nAfter a smaller pilot program, the company is now making the AI assistant available across its entire workforce.\n\nEvery employee can now use AI for daily tasks.\n\nWill this become standard for large companies?\n\n#Uber #ChatGPT #EnterpriseAI #FutureOfWork",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "source_url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 08:36 PM",
+      "time": "Yesterday \u00b7 08:36 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:36 PM",
+      "time": "Yesterday \u00b7 08:36 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:36 PM",
+      "time": "Yesterday \u00b7 08:36 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 05:24 PM",
+      "time": "Yesterday \u00b7 05:24 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 11:58 AM",
+      "time": "Yesterday \u00b7 11:58 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 10:11 PM",
+      "time": "Oct 24 \u00b7 10:11 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:11 PM",
+      "time": "Oct 24 \u00b7 10:11 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:49 PM",
+      "time": "Oct 24 \u00b7 06:49 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 02:43 PM",
+      "time": "Oct 24 \u00b7 02:43 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 10:25 AM",
+      "time": "Oct 24 \u00b7 10:25 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn post published"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
