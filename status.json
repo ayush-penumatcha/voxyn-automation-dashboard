@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T03:56:40+05:30",
+  "generated_at": "2026-10-25T20:36:55+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,15 @@
     "date": "2026-10-25",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
-    "failed": 0,
-    "missed": 0
+    "ready_generated": 0,
+    "failed": 2,
+    "missed": 3
   },
-  "next_post": {
-    "scheduled_time": "8:30 AM",
-    "post_type": "IMAGE",
-    "topic": "AI Research Breakthrough",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-25T08:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "11:47 AM"
+    "last_checked": "12:05 PM"
   },
   "systems": {
     "generator": {
@@ -43,7 +37,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ACTIVE"
+      "status": "ERROR"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -62,7 +56,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Research Breakthrough",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "TechCrunch lists AI projects that did not work out.\n\nThis includes Apple's Siri, which saw many delays. OpenAI's \"super app\" also struggled to launch.\n\nEven with big money, making things work and fit the market is tough.\n\nWill the AI industry have fewer big failures over time?\n\n#AI #TechNews #OpenAI #AppleAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
@@ -73,7 +67,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "AI Policy and Safety News",
-      "status": "GENERATED",
+      "status": "AUTH_REQUIRED",
       "caption": "Block just unveiled a new voice model.\n\nIt sounds so much like a real person that it's hard to tell the difference. This model can even run on a MacBook M4 Max, meaning it doesn't need a huge cloud server.\n\nHuman-like AI voices are here.\n\nWill we need new laws to disclose when we're talking to an AI?\n\n#BlockAI #VoiceAI #AIethics",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "AI models show political leanings.\n\nA new study found Grok's AI favored Republican candidates, while OpenAI's GPT preferred Democrats. The two disagreed in over 90% of nearly 500 simulated election races.\n\nBias is not always about bad intentions.\n\nShould AI developers actively filter for political neutrality?\n\n#AI #PoliticalBias #AIEthics",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "GENERATED",
+      "status": "AUTH_REQUIRED",
       "caption": "AI agents are moving into your text messages.\n\nTechCrunch compiled a list of the top AI agents that can now live directly in your messaging apps. These tools range from general assistants to specialized agents for family, travel, and work.\n\nYour phone is becoming a command center.\n\nWhich task would you trust an AI agent with first: scheduling, travel planning, or managing family communications?\n\n#AI #AIAgents #MessagingAI #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI stops training AI on live internet.\n\nThe company will no longer use live internet data to train its frontier AI models. This change addresses significant risks.\n\nNo more live internet, just curated datasets.\n\nWill this make AI models safer, or limit their real-world understanding?\n\n#OpenAI #AI #AITraining #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
@@ -115,6 +109,31 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:36 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 08:36 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 08:36 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 05:24 PM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
+    {
+      "time": "Today \u00b7 11:58 AM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
     {
       "time": "Yesterday \u00b7 10:11 PM",
       "category": "MISSED",
@@ -189,32 +208,38 @@
       "time": "Oct 22 \u00b7 10:56 AM",
       "category": "POSTED",
       "message": "LinkedIn post published"
-    },
-    {
-      "time": "Oct 21 \u00b7 08:51 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 21 \u00b7 08:51 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 21 \u00b7 03:49 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 21 \u00b7 03:49 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 21 \u00b7 10:52 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "AUTH_REQUIRED",
+      "recommendation": "Renew LinkedIn authentication."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "AUTH_REQUIRED",
+      "recommendation": "Renew LinkedIn authentication."
+    },
+    {
+      "scheduled_time": "5:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
