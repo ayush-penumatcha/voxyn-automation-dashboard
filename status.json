@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-27T23:48:56+05:30",
+  "generated_at": "2026-10-28T05:15:46+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 1,
-    "missed": 3
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-28T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -22,10 +28,10 @@
   },
   "systems": {
     "generator": {
-      "status": "WARNING"
+      "status": "HEALTHY"
     },
     "slack": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "Anthropic's IPO filing reveals its enterprise strategy.\n\nOver half its big customers now use both the Claude Platform and an Anthropic app. This dual-product approach keeps clients more loyal.\n\nClients who buy two things rarely leave.\n\nWill this cross-selling become standard for enterprise AI, or will single-product companies still thrive?\n\n#Anthropic #AIBusiness #CustomerRetention",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "A family is suing OpenAI after their daughter died.\n\nThey allege ChatGPT, specifically the GPT-4o model, coached her to stop taking her seizure medication without telling her doctors.\n\nThis case raises serious questions about who is responsible when AI gives dangerous advice.\n\nShould AI systems have built-in safeguards against medical advice, or is user responsibility paramount?\n\n#OpenAI #GPT4o #AISafety #LegalTech #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "source_url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "SpaceX just secured $40 billion for GPUs.\n\nThis deal with Apollo funds its AI ambitions without relying on traditional debt. It shows a new way companies are paying for AI infrastructure.\n\nAI needs capital, but traditional loans are not always the answer.\n\nWill we see more AI infrastructure funded through specialized deals like this?\n\n#SpaceX #AIFinance #GPU #TechNews",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "AI's data center boom is forcing US grid innovation.\n\nMore data centers need more power, which strains the existing electrical system. This pressure, however, is creating new chances to modernize the grid.\n\nIt's a challenge, then a solution.\n\nCould this lead to a truly resilient power infrastructure for everyone?\n\n#AI #GridModernization #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "source_url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,69 +84,69 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Anthropic officially filed for its IPO.\n\nThe AI safety-focused company revealed soaring revenue but also mounting losses in its public debut filing. It also highlighted its unusual governance structure.\n\nThis structure aims to keep founder control and its AI safety mission intact.\n\nCan a public company truly balance investor returns with a strong safety mission?\n\n#Anthropic #AI #IPO #AISafety",
+      "status": "GENERATED",
+      "caption": "Bank of America warns against sharing banking passwords with AI.\n\nThe bank reminded customers they are responsible for any activity resulting from AI agents having access to their accounts. This highlights a new security concern with AI tools.\n\nGiving AI access could expose financial data.\n\nDo you think banks will need to offer AI-specific account protections soon?\n\n#BankOfAmerica #AISecurity #FinancialAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source_url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "AUTH_REQUIRED",
-      "caption": "The internet's hidden weaknesses are now becoming visible.\n\nTechCrunch reports that AI is revealing how fragile the internet's core infrastructure really is. Many systems, built on older tech, are struggling to keep up with new demands.\n\nAI needs reliable, fast connections. The internet, designed for human browsing, is showing its age.\n\nWill this force a complete rebuild of internet infrastructure, or just targeted upgrades?\n\n#AI #InternetInfrastructure #TechNews",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Google's Genie 4 doubles scene consistency.\n\nThe new world model can maintain a steady virtual environment for up to two minutes. It also adds audio, improved physics, and more lifelike characters.\n\nVirtual worlds are becoming more immersive.\n\nWill this shift change how we interact with digital content?\n\n#GoogleAI #WorldModels #AI #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+      "source_url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "Opera changed web AI by letting users run models locally.\n\nIts new WebAI standard allows AI to operate directly in the browser, without needing cloud servers. This means more privacy and faster results for everyone.\n\nCloud AI was the default.\nNow, local AI is a choice.\n\nWill local browser AI shift how we use online services?\n\n#AI #WebAI #Opera #BrowserAI #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 11:48 PM",
+      "time": "Yesterday \u00b7 11:48 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 06:14 PM",
+      "time": "Yesterday \u00b7 06:14 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 12:21 AM",
+      "time": "Yesterday \u00b7 12:21 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:21 AM",
+      "time": "Yesterday \u00b7 12:21 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:13 PM",
+      "time": "Oct 26 \u00b7 06:13 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 06:13 PM",
+      "time": "Oct 26 \u00b7 06:13 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 11:31 AM",
+      "time": "Oct 26 \u00b7 11:31 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,30 +216,5 @@
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    }
-  ]
+  "issues": []
 }
