@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-29T00:49:33+05:30",
+  "generated_at": "2026-10-29T05:30:26+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,11 +10,17 @@
     "date": "2026-10-29",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
     "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-29T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -22,10 +28,10 @@
   },
   "systems": {
     "generator": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "slack": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -56,10 +62,10 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "South Korea faces new AI-driven cyberattacks.\n\nMajor financial groups are seeing attacks that use new AI tools. This shows a growing risk for institutions across Asia.\n\nOld defenses struggle against new methods.\n\nWill these attacks lead to completely new cybersecurity approaches, or just better fixes?\n\n#Cybersecurity #AIAttacks #SouthKorea",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -67,10 +73,10 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Anthropic now shows companies their AI spending.\n\nAnthropic launched new tools to help businesses understand how their money is being used on its AI models. This gives companies a clear view of their AI investments.\n\nSeeing what you pay for changes how you build.\n\nWill this transparency lead more companies to adopt Anthropic's models?\n\n#Anthropic #AIBusiness #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,10 +84,10 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Microsoft just revealed Azure's exact revenue for the first time.\n\nThe cloud computing service brought in $33.2 billion. This shows how close Azure is to Amazon Web Services, its biggest competitor.\n\nKnowing the real numbers changes how we see the cloud market.\n\nWill this transparency push other cloud providers to reveal more?\n\n#Microsoft #Azure #CloudComputing",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -89,10 +95,10 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Google expands AI search ads globally.\n\nThis comes as growth slows for its traditional search advertising. Alphabet still reported $127.6 billion in revenue this quarter.\n\nOld ad models are changing.\nNew AI tools are taking their place.\n\nWill AI-powered ads be as profitable as traditional search ads for Google?\n\n#Google #AIAds #SearchAdvertising #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -100,10 +106,10 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Microsoft just reported a huge $10 billion from OpenAI.\n\nThis revenue came from their commercial deals, including profit sharing, in the last quarter. It shows how much the two companies rely on each other financially.\n\nOne partner's success clearly fuels the other.\n\nDoes this level of financial integration risk stifling future AI competition?\n\n#MicrosoftAI #OpenAI #TechRevenue #AIBusiness",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
       "theme_name": "",
       "theme_family": ""
     }
