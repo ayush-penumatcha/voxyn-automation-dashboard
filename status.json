@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-30T05:25:56+05:30",
+  "generated_at": "2026-10-30T22:38:54+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,15 @@
     "date": "2026-10-30",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
-    "failed": 0,
-    "missed": 0
+    "ready_generated": 0,
+    "failed": 2,
+    "missed": 3
   },
-  "next_post": {
-    "scheduled_time": "8:30 AM",
-    "post_type": "IMAGE",
-    "topic": "Breaking AI News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-10-30T08:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "01:02 PM"
+    "last_checked": "01:06 PM"
   },
   "systems": {
     "generator": {
@@ -43,7 +37,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ACTIVE"
+      "status": "ERROR"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -62,7 +56,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "AWS targets $1 trillion with huge AI cloud bet.\n\nCEO Andy Jassy says Amazon Web Services will get there by investing big in AI cloud computing.\n\nIt's a massive push.\n\nCan one cloud provider really corner the AI infrastructure market?\n\n#AWS #CloudComputing #AIBusiness",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
@@ -73,7 +67,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "AUTH_REQUIRED",
       "caption": "Mistral releases trillion-parameter AI model for cybersecurity.\n\nThe new model offers its core components directly to companies. This gives organizations more control over their AI defenses.\n\nMore control means better protection.\n\nWill open AI models become standard for company security?\n\n#MistralAI #Cybersecurity #OpenSourceAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Reddit wants everyone to log in now.\n\nSearch traffic to Reddit is dropping because AI models answer questions directly. This move protects Reddit's audience and business.\n\nThe open web is changing fast.\n\nWill more websites try to make users log in to see content?\n\n#Reddit #AI #TechNews #FutureOfSearch",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Company Moves",
-      "status": "GENERATED",
+      "status": "AUTH_REQUIRED",
       "caption": "A Singapore AI cloud executive was investigated for spying.\n\nUS officials suspected the executive, accused of illegally selling Nvidia chips to China, was a Chinese intelligence agent. The investigation reportedly targeted Nvidia's CEO.\n\nNational security concerns are now directly reaching tech leadership.\n\nDoes this shift how companies will protect their top executives?\n\n#Nvidia #AIPolicy #USChina #TechNews #Geopolitics",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Thrive Holdings just bought ADT for $15.3 billion.\n\nThis OpenAI-backed company plans to bring artificial intelligence into home security systems.\n\nHome security could get smarter.\n\nWill this shift make AI-powered home security a common feature in new homes?\n\n#AIBusiness #Acquisition #HomeSecurity",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
@@ -115,6 +109,31 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 10:38 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:38 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:38 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 05:07 PM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
+    {
+      "time": "Today \u00b7 11:10 AM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
     {
       "time": "Yesterday \u00b7 09:06 PM",
       "category": "MISSED",
@@ -189,32 +208,38 @@
       "time": "Oct 26 \u00b7 06:13 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Oct 26 \u00b7 06:13 PM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Oct 26 \u00b7 11:31 AM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Oct 25 \u00b7 08:36 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 25 \u00b7 08:36 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 25 \u00b7 08:36 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "AUTH_REQUIRED",
+      "recommendation": "Renew LinkedIn authentication."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "AUTH_REQUIRED",
+      "recommendation": "Renew LinkedIn authentication."
+    },
+    {
+      "scheduled_time": "5:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
