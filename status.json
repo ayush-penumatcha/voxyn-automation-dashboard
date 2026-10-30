@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-30T22:38:54+05:30",
+  "generated_at": "2026-10-31T05:10:46+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 2,
-    "missed": 3
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-10-31T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "AWS targets $1 trillion with huge AI cloud bet.\n\nCEO Andy Jassy says Amazon Web Services will get there by investing big in AI cloud computing.\n\nIt's a massive push.\n\nCan one cloud provider really corner the AI infrastructure market?\n\n#AWS #CloudComputing #AIBusiness",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Ollie, a privacy-focused AI assistant, is shutting down.\n\nIts founder said the market became too crowded, even with a strong privacy focus.\n\nGood ideas need more than just a good angle.\n\nCan a strong niche still win in a saturated market?\n\n#AI #TechNews #PrivacyTech #AIAssistants #Startup",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source_url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "AUTH_REQUIRED",
-      "caption": "Mistral releases trillion-parameter AI model for cybersecurity.\n\nThe new model offers its core components directly to companies. This gives organizations more control over their AI defenses.\n\nMore control means better protection.\n\nWill open AI models become standard for company security?\n\n#MistralAI #Cybersecurity #OpenSourceAI",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Intel's stock falls, government's stake down $12 billion.\n\nLow PC sales and high AI component demand are pushing PC prices up. This makes it harder for Intel to sell its products.\n\nIt's a tough market shift.\n\nShould governments invest in individual companies, or broader industry support?\n\n#Intel #TechNews #AIEconomy #StockMarket",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "source_url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,99 +84,99 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Reddit wants everyone to log in now.\n\nSearch traffic to Reddit is dropping because AI models answer questions directly. This move protects Reddit's audience and business.\n\nThe open web is changing fast.\n\nWill more websites try to make users log in to see content?\n\n#Reddit #AI #TechNews #FutureOfSearch",
+      "status": "GENERATED",
+      "caption": "Anthropic faces high 'junk' credit rating.\n\nAfter its IPO, credit agencies are expected to give the AI company a low rating. This could make future borrowing much harder and more expensive.\n\nBuilding powerful AI models costs a lot of money.\n\nWill this rating change how Anthropic approaches its growth strategy?\n\n#Anthropic #AIBusiness #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "source_url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "AUTH_REQUIRED",
-      "caption": "A Singapore AI cloud executive was investigated for spying.\n\nUS officials suspected the executive, accused of illegally selling Nvidia chips to China, was a Chinese intelligence agent. The investigation reportedly targeted Nvidia's CEO.\n\nNational security concerns are now directly reaching tech leadership.\n\nDoes this shift how companies will protect their top executives?\n\n#Nvidia #AIPolicy #USChina #TechNews #Geopolitics",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Google's first data center satellite is online.\n\nIt uses a DeepMind Gemma 4 model to write poetry. This moves AI operations beyond Earth's surface.\n\nComputation in space cuts down on global data delays.\n\nWill satellite AI become common, or stay a niche experiment?\n\n#GoogleAI #DeepMind #SpaceTech",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "source_url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "MISSED",
-      "caption": "Thrive Holdings just bought ADT for $15.3 billion.\n\nThis OpenAI-backed company plans to bring artificial intelligence into home security systems.\n\nHome security could get smarter.\n\nWill this shift make AI-powered home security a common feature in new homes?\n\n#AIBusiness #Acquisition #HomeSecurity",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "Religious exemptions for AI use at work are now a reality.\n\nDavid Durman, a University of Kentucky administrator, received an exemption from using AI, citing personal beliefs without needing a traditional religious affiliation.\n\nThis opens new legal ground for employees.\n\nCould this lead to more widespread opt-outs from AI tools?\n\n#AIatWork #WorkplaceAI #EmployeeRights #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source_url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 10:38 PM",
+      "time": "Yesterday \u00b7 10:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:38 PM",
+      "time": "Yesterday \u00b7 10:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:38 PM",
+      "time": "Yesterday \u00b7 10:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 05:07 PM",
+      "time": "Yesterday \u00b7 05:07 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 11:10 AM",
+      "time": "Yesterday \u00b7 11:10 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 09:06 PM",
+      "time": "Oct 29 \u00b7 09:06 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:06 PM",
+      "time": "Oct 29 \u00b7 09:06 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:06 PM",
+      "time": "Oct 29 \u00b7 09:06 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:06 PM",
+      "time": "Oct 29 \u00b7 09:06 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:16 PM",
+      "time": "Oct 29 \u00b7 02:16 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 12:49 AM",
+      "time": "Oct 29 \u00b7 12:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:49 AM",
+      "time": "Oct 29 \u00b7 12:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:49 AM",
+      "time": "Oct 29 \u00b7 12:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
