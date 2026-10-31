@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-31T23:01:05+05:30",
+  "generated_at": "2026-11-01T04:49:47+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 3,
-    "missed": 2
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-01T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "Ollie, a privacy-focused AI assistant, is shutting down.\n\nIts founder said the market became too crowded, even with a strong privacy focus.\n\nGood ideas need more than just a good angle.\n\nCan a strong niche still win in a saturated market?\n\n#AI #TechNews #PrivacyTech #AIAssistants #Startup",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Apple's CEO outlined a clear product strategy for AI.\n\nThe company will focus on integrating AI where it genuinely improves user experience, not just adding it as a feature.\n\nThis means a slower, more thoughtful release cycle.\n\nWill this approach lead to better products or missed opportunities?\n\n#AppleAI #ProductStrategy #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source_url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "AUTH_REQUIRED",
-      "caption": "Intel's stock falls, government's stake down $12 billion.\n\nLow PC sales and high AI component demand are pushing PC prices up. This makes it harder for Intel to sell its products.\n\nIt's a tough market shift.\n\nShould governments invest in individual companies, or broader industry support?\n\n#Intel #TechNews #AIEconomy #StockMarket",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "OpenAI just lowered its funding goal for its latest round.\n\nOriginally aiming for a higher valuation, the company is reportedly adjusting expectations for new investment.\n\nThis shift could mean a tougher market for AI startups.\n\nAre funding targets becoming more realistic across the AI industry?\n\n#OpenAI #AIFunding #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "source_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Anthropic faces high 'junk' credit rating.\n\nAfter its IPO, credit agencies are expected to give the AI company a low rating. This could make future borrowing much harder and more expensive.\n\nBuilding powerful AI models costs a lot of money.\n\nWill this rating change how Anthropic approaches its growth strategy?\n\n#Anthropic #AIBusiness #TechNews",
+      "status": "GENERATED",
+      "caption": "Connecting with the right people matters.\n\nTechCrunch's Founder Summit is designed to help founders build useful connections for scaling their businesses. It focuses on actionable insights and networking opportunities.\n\nAre you looking for broad exposure or targeted, deep connections?\n\nHow do you decide which events are worth your time?\n\n#FounderSummit #TechCrunch #Networking",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "source_url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "AUTH_REQUIRED",
-      "caption": "Google's first data center satellite is online.\n\nIt uses a DeepMind Gemma 4 model to write poetry. This moves AI operations beyond Earth's surface.\n\nComputation in space cuts down on global data delays.\n\nWill satellite AI become common, or stay a niche experiment?\n\n#GoogleAI #DeepMind #SpaceTech",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "A judge just advanced the NAACP's pollution lawsuit against xAI.\n\nThe lawsuit claims xAI's data center in Texas is violating the Clean Air Act, leading to environmental justice concerns.\n\nAI's growth needs power. Power plants need air. The conflict is real.\n\nWill environmental regulations significantly slow down AI infrastructure expansion?\n\n#AI #AIPolicy #EnvironmentalJustice",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "source_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "AUTH_REQUIRED",
-      "caption": "Religious exemptions for AI use at work are now a reality.\n\nDavid Durman, a University of Kentucky administrator, received an exemption from using AI, citing personal beliefs without needing a traditional religious affiliation.\n\nThis opens new legal ground for employees.\n\nCould this lead to more widespread opt-outs from AI tools?\n\n#AIatWork #WorkplaceAI #EmployeeRights #TechNews",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Nvidia might back Nscale's West Virginia data center.\n\nThis move could ease investor worries about big AI spending. Nvidia would essentially guarantee Nscale's loan for the new facility.\n\nWhen big money gets nervous, the chip maker steps in.\n\nDoes this signal a new trend for AI infrastructure deals?\n\n#Nvidia #Nscale #AIDataCenter #WestVirginia #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "source_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 11:00 PM",
+      "time": "Yesterday \u00b7 11:00 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:00 PM",
+      "time": "Yesterday \u00b7 11:00 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 06:28 PM",
+      "time": "Yesterday \u00b7 06:28 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 06:28 PM",
+      "time": "Yesterday \u00b7 06:28 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 12:02 PM",
+      "time": "Yesterday \u00b7 12:02 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 10:38 PM",
+      "time": "Oct 30 \u00b7 10:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:38 PM",
+      "time": "Oct 30 \u00b7 10:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:38 PM",
+      "time": "Oct 30 \u00b7 10:38 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 05:07 PM",
+      "time": "Oct 30 \u00b7 05:07 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 11:10 AM",
+      "time": "Oct 30 \u00b7 11:10 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    }
-  ]
+  "issues": []
 }
