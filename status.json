@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-01T21:49:58+05:30",
+  "generated_at": "2026-11-02T05:02:26+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 1,
-    "missed": 4
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-02T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Apple's CEO outlined a clear product strategy for AI.\n\nThe company will focus on integrating AI where it genuinely improves user experience, not just adding it as a feature.\n\nThis means a slower, more thoughtful release cycle.\n\nWill this approach lead to better products or missed opportunities?\n\n#AppleAI #ProductStrategy #TechNews",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "OpenAI may rename its data centers to \u201cAI compute campuses.\u201d\n\nThis move aims to improve public perception, as traditional data centers often face local opposition. The new name highlights the advanced AI work happening inside.\n\nIt's a shift from infrastructure to innovation.\n\nWill a name change genuinely alter public sentiment about these facilities?\n\n#OpenAI #AIInfrastructure #TechNews #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "source_url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "MISSED",
-      "caption": "OpenAI just lowered its funding goal for its latest round.\n\nOriginally aiming for a higher valuation, the company is reportedly adjusting expectations for new investment.\n\nThis shift could mean a tougher market for AI startups.\n\nAre funding targets becoming more realistic across the AI industry?\n\n#OpenAI #AIFunding #TechNews",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "AI makes tech CEOs' jobs simpler, but what about the rest of us?\n\nTechCrunch's latest column explores why executive statements on AI can often seem out of touch with everyday employees.\n\nSimpler for leaders. Harder for many more.\n\nDoes AI make your job easier or more complex?\n\n#AI #FutureOfWork #TechCrunchAI #Leadership",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source_url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "AUTH_REQUIRED",
-      "caption": "Connecting with the right people matters.\n\nTechCrunch's Founder Summit is designed to help founders build useful connections for scaling their businesses. It focuses on actionable insights and networking opportunities.\n\nAre you looking for broad exposure or targeted, deep connections?\n\nHow do you decide which events are worth your time?\n\n#FounderSummit #TechCrunch #Networking",
+      "status": "GENERATED",
+      "caption": "TechCrunch shares last-minute Halloween tech costume ideas.\n\nThey suggest dressing as an AI agent icon, a PHP problem, or Bryan Johnson at bedtime.\n\nSimple ideas for tech culture.\n\nWhich costume would you pick for a quick Halloween outfit?\n\n#Halloween #TechCostumes #AICulture",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "source_url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "MISSED",
-      "caption": "A judge just advanced the NAACP's pollution lawsuit against xAI.\n\nThe lawsuit claims xAI's data center in Texas is violating the Clean Air Act, leading to environmental justice concerns.\n\nAI's growth needs power. Power plants need air. The conflict is real.\n\nWill environmental regulations significantly slow down AI infrastructure expansion?\n\n#AI #AIPolicy #EnvironmentalJustice",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "AI spending faces new scrutiny.\n\nBig tech companies are investing billions in AI infrastructure. However, rising debt and negative cash flow are making investors question if this spending can last.\n\nIt's a big shift from earlier optimism.\n\nWill companies scale back their AI infrastructure plans?\n\n#AI #TechNews #AISpending",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source_url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "MISSED",
-      "caption": "Nvidia might back Nscale's West Virginia data center.\n\nThis move could ease investor worries about big AI spending. Nvidia would essentially guarantee Nscale's loan for the new facility.\n\nWhen big money gets nervous, the chip maker steps in.\n\nDoes this signal a new trend for AI infrastructure deals?\n\n#Nvidia #Nscale #AIDataCenter #WestVirginia #TechNews",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "Zest's new AI agent will find and book restaurants for you.\n\nIt combines everyone's tastes, puts options to a vote, and handles the reservation, all via text.\n\nNo more endless scrolling.\nJust dinner plans, made easy.\n\nWould a specialized AI agent for daily tasks change how you plan social outings?\n\n#AI #AIAgents #ZestAI #ConsumerAI #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source_url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 09:49 PM",
+      "time": "Yesterday \u00b7 09:49 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:49 PM",
+      "time": "Yesterday \u00b7 09:49 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:49 PM",
+      "time": "Yesterday \u00b7 09:49 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:49 PM",
+      "time": "Yesterday \u00b7 09:49 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:08 PM",
+      "time": "Yesterday \u00b7 03:08 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 11:00 PM",
+      "time": "Oct 31 \u00b7 11:00 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:00 PM",
+      "time": "Oct 31 \u00b7 11:00 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:28 PM",
+      "time": "Oct 31 \u00b7 06:28 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 06:28 PM",
+      "time": "Oct 31 \u00b7 06:28 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 12:02 PM",
+      "time": "Oct 31 \u00b7 12:02 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
