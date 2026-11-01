@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-01T04:49:47+05:30",
+  "generated_at": "2026-11-01T21:49:58+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,15 @@
     "date": "2026-11-01",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
-    "failed": 0,
-    "missed": 0
+    "ready_generated": 0,
+    "failed": 1,
+    "missed": 4
   },
-  "next_post": {
-    "scheduled_time": "8:30 AM",
-    "post_type": "IMAGE",
-    "topic": "AI Industry Map",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-01T08:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "12:53 PM"
+    "last_checked": "01:25 PM"
   },
   "systems": {
     "generator": {
@@ -43,7 +37,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ACTIVE"
+      "status": "ERROR"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -62,7 +56,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Apple's CEO outlined a clear product strategy for AI.\n\nThe company will focus on integrating AI where it genuinely improves user experience, not just adding it as a feature.\n\nThis means a slower, more thoughtful release cycle.\n\nWill this approach lead to better products or missed opportunities?\n\n#AppleAI #ProductStrategy #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
@@ -73,7 +67,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI just lowered its funding goal for its latest round.\n\nOriginally aiming for a higher valuation, the company is reportedly adjusting expectations for new investment.\n\nThis shift could mean a tougher market for AI startups.\n\nAre funding targets becoming more realistic across the AI industry?\n\n#OpenAI #AIFunding #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "AUTH_REQUIRED",
       "caption": "Connecting with the right people matters.\n\nTechCrunch's Founder Summit is designed to help founders build useful connections for scaling their businesses. It focuses on actionable insights and networking opportunities.\n\nAre you looking for broad exposure or targeted, deep connections?\n\nHow do you decide which events are worth your time?\n\n#FounderSummit #TechCrunch #Networking",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "A judge just advanced the NAACP's pollution lawsuit against xAI.\n\nThe lawsuit claims xAI's data center in Texas is violating the Clean Air Act, leading to environmental justice concerns.\n\nAI's growth needs power. Power plants need air. The conflict is real.\n\nWill environmental regulations significantly slow down AI infrastructure expansion?\n\n#AI #AIPolicy #EnvironmentalJustice",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Nvidia might back Nscale's West Virginia data center.\n\nThis move could ease investor worries about big AI spending. Nvidia would essentially guarantee Nscale's loan for the new facility.\n\nWhen big money gets nervous, the chip maker steps in.\n\nDoes this signal a new trend for AI infrastructure deals?\n\n#Nvidia #Nscale #AIDataCenter #WestVirginia #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
@@ -115,6 +109,31 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 09:49 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 09:49 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 09:49 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 09:49 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 03:08 PM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
     {
       "time": "Yesterday \u00b7 11:00 PM",
       "category": "MISSED",
@@ -189,32 +208,38 @@
       "time": "Oct 29 \u00b7 02:16 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Oct 29 \u00b7 12:49 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 29 \u00b7 12:49 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 29 \u00b7 12:49 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 28 \u00b7 07:27 PM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Oct 28 \u00b7 12:37 PM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "AUTH_REQUIRED",
+      "recommendation": "Renew LinkedIn authentication."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
