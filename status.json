@@ -1,26 +1,20 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-02T15:32:20+05:30",
+  "generated_at": "2026-11-03T01:42:30+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "total": 5,
     "posted": 0,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Company Moves",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-02T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -28,10 +22,10 @@
   },
   "systems": {
     "generator": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "slack": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -61,22 +55,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "OpenAI may rename its data centers to \u201cAI compute campuses.\u201d\n\nThis move aims to improve public perception, as traditional data centers often face local opposition. The new name highlights the advanced AI work happening inside.\n\nIt's a shift from infrastructure to innovation.\n\nWill a name change genuinely alter public sentiment about these facilities?\n\n#OpenAI #AIInfrastructure #TechNews #AIPolicy",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "topic": "AI Research Breakthrough",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "AI makes tech CEOs' jobs simpler, but what about the rest of us?\n\nTechCrunch's latest column explores why executive statements on AI can often seem out of touch with everyday employees.\n\nSimpler for leaders. Harder for many more.\n\nDoes AI make your job easier or more complex?\n\n#AI #FutureOfWork #TechCrunchAI #Leadership",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "topic": "AI Policy and Safety News",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
@@ -84,74 +78,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "TechCrunch shares last-minute Halloween tech costume ideas.\n\nThey suggest dressing as an AI agent icon, a PHP problem, or Bryan Johnson at bedtime.\n\nSimple ideas for tech culture.\n\nWhich costume would you pick for a quick Halloween outfit?\n\n#Halloween #TechCostumes #AICulture",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "GENERATED",
-      "caption": "AI spending faces new scrutiny.\n\nBig tech companies are investing billions in AI infrastructure. However, rising debt and negative cash flow are making investors question if this spending can last.\n\nIt's a big shift from earlier optimism.\n\nWill companies scale back their AI infrastructure plans?\n\n#AI #TechNews #AISpending",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "topic": "Model or Tool Comparison News",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "GENERATED",
-      "caption": "Zest's new AI agent will find and book restaurants for you.\n\nIt combines everyone's tastes, puts options to a vote, and handles the reservation, all via text.\n\nNo more endless scrolling.\nJust dinner plans, made easy.\n\nWould a specialized AI agent for daily tasks change how you plan social outings?\n\n#AI #AIAgents #ZestAI #ConsumerAI #TechNews",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "topic": "AI at Work",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 03:32 PM",
+      "time": "Today \u00b7 01:42 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:32 PM",
+      "time": "Today \u00b7 01:42 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:32 PM",
+      "time": "Yesterday \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:49 PM",
+      "time": "Yesterday \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:49 PM",
+      "time": "Yesterday \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:49 PM",
+      "time": "Nov 01 \u00b7 09:49 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 09:49 PM",
+      "time": "Nov 01 \u00b7 09:49 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:08 PM",
+      "time": "Nov 01 \u00b7 09:49 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Nov 01 \u00b7 09:49 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Nov 01 \u00b7 03:08 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -204,36 +208,7 @@
       "time": "Oct 30 \u00b7 11:10 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Oct 29 \u00b7 09:06 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Oct 29 \u00b7 09:06 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
