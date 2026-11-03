@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-03T01:42:30+05:30",
+  "generated_at": "2026-11-03T05:40:17+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,11 +10,17 @@
     "date": "2026-11-03",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
     "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-03T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -22,10 +28,10 @@
   },
   "systems": {
     "generator": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "slack": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -56,10 +62,10 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Research Breakthrough",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Trajectory raised $45 million to simplify AI model training.\n\nThe one-year-old startup now helps people without technical backgrounds build and refine AI models. This funding values the company at $300 million.\n\nMaking powerful tools approachable.\n\nDoes easier access to AI training lead to better, more diverse models, or just more models?\n\n#TrajectoryAI #AIAccess #TechFunding",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -67,10 +73,10 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "AI Policy and Safety News",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Anthropic warns of AI self-improvement.\n\nThe company stated it is nearing \"Recursive Self-Improvement\" (RSI), where AI models become very good at training themselves.\n\nThis could dramatically speed up AI development.\n\nIs rapid self-improvement a critical breakthrough or a major risk?\n\n#Anthropic #AISafety #AIResearch",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,10 +84,10 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Squarespace laid off 19% of its workforce.\n\nThe website builder announced these job cuts as part of a company restructuring. It aims to streamline operations.\n\nMore automation, fewer people.\n\nDo companies gain more from AI efficiencies than they lose in human capital?\n\n#Squarespace #JobCuts #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -89,10 +95,10 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "42AI emerges with $62.5M to predict human actions.\n\nThe company just exited stealth mode, bringing its world model into public view. This model is designed to anticipate human behavior.\n\nImagine an AI knowing your next move before you do.\n\nWill this predictive power change how we interact with technology, or create new challenges for personal privacy?\n\n#AI #BehavioralAI #TechNews #42AI",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -100,10 +106,10 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "ChatGPT's separate Chat and Work tabs are merging.\n\nOpenAI is combining them into one unified experience. This means both personal and professional use will pull from the same usage limit.\n\nSimpler interface, shared resources.\n\nWill this change how you use ChatGPT for different tasks?\n\n#OpenAI #ChatGPT #AIatWork #Productivity",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
       "theme_name": "",
       "theme_family": ""
     }
