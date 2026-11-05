@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-04T22:58:12+05:30",
+  "generated_at": "2026-11-05T05:40:08+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 1,
-    "missed": 4
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-05T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Anthropic is building FlashProve to verify AI model identities.\n\nThis new system will let anyone check if an AI response truly came from the model it claims to be from.\n\nKnowing the source of an AI's answer becomes critical.\n\nWill this make it easier to trust AI outputs, or just add another layer of complexity?\n\n#Anthropic #FlashProve #AIProof #AISecurity",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "AI groups spent millions on US elections with mixed results.\n\nThese political action committees tried to influence Congress. Many candidates they supported did not win.\n\nAI companies want to shape future laws. This spending shows they see regulation coming.\n\nShould AI companies spend unlimited money on elections?\n\n#AI #AIPolicy #TechNews #USPolitics",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "source_url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "MISSED",
-      "caption": "Netflix just added an AI \"Discover\" tab.\n\nThis new feature helps you find shows and movies based on your current mood. It is the first step in a broader AI-powered recommendation system.\n\nNow, your feelings pick the next binge.\n\nWill this make finding something to watch easier, or just add another layer of choice?\n\n#Netflix #AI #Entertainment #TechNews",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "Nothing's CEO announces a new AI-first device next month.\n\nThe smartphone company is keeping details secret, but the product aims to use AI to boost productivity.\n\nMore AI, less phone.\n\nWill this device truly change how people work every day?\n\n#Nothing #AIHardware #TechLaunch #FutureOfWork",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "source_url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,94 +84,94 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "AUTH_REQUIRED",
-      "caption": "New data centers are firing up old jet engines for power.\n\nBuilding new data centers takes a lot of electricity. Getting connected to the power grid or installing new turbines often means waiting years.\n\nSo, some builders are buying old jet engines to generate their own power.\n\nWill this practice become widespread, or is it a temporary fix?\n\n#AI #DataCenters #EnergyCrisis",
+      "status": "GENERATED",
+      "caption": "Only four people booked an Uber with an AI agent.\n\nUber reported this during its busiest week last quarter. This suggests AI agents are not yet widely adopted for simple tasks like ride-hailing.\n\nPeople still prefer the app for quick, everyday needs.\n\nWill AI agents ever replace simple apps for common tasks?\n\n#AI #Uber #AIAgents #ConsumerTech",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "source_url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "MISSED",
-      "caption": "Ballistic Ventures is raising nearly half a billion dollars.\n\nThe cybersecurity venture firm, led by Ted Schlein, is seeking $490 million for two new funds.\n\nAI is driving major investment in protecting digital assets.\n\nWill AI's role in cybersecurity change how venture firms specialize?\n\n#Cybersecurity #VentureCapital #AIFinance",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "OpenAI plans for 2028 election influence.\n\nChris Lehane, an OpenAI executive, suggests a new social contract. He thinks AI can shape the next presidential election.\n\nThis could help Americans, and OpenAI's business too.\n\nWill AI companies become political players, or stay neutral tools?\n\n#OpenAI #AIPolicy #Election2028 #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "source_url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "MISSED",
-      "caption": "Palantir's latest earnings report shows a big shift.\n\nFor the first time, its commercial revenue in the U.S. is higher than its government revenue. This marks a turning point for the company.\n\nIt shows that businesses are adopting Palantir's AI tools at a faster rate than its traditional government clients.\n\nWill other government-focused AI companies see a similar shift to commercial markets?\n\n#Palantir #AI #TechNews",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "Meta acquired AI coding startup Conductor.\n\nThis adds Conductor's AI agent tools to Meta's engineering. It lets Meta engineers use AI teams to work on different project parts at once.\n\nNow, Meta's developers can write code faster.\n\nWill this acquisition significantly speed up Meta's AI product launches?\n\n#Meta #AI #Conductor #TechNews #SoftwareDevelopment",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "source_url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 10:57 PM",
+      "time": "Yesterday \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:57 PM",
+      "time": "Yesterday \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:57 PM",
+      "time": "Yesterday \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:57 PM",
+      "time": "Yesterday \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:04 PM",
+      "time": "Yesterday \u00b7 03:04 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 10:47 PM",
+      "time": "Nov 03 \u00b7 10:47 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:47 PM",
+      "time": "Nov 03 \u00b7 10:47 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:47 PM",
+      "time": "Nov 03 \u00b7 10:47 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:47 PM",
+      "time": "Nov 03 \u00b7 10:47 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:08 PM",
+      "time": "Nov 03 \u00b7 03:08 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 01:42 AM",
+      "time": "Nov 03 \u00b7 01:42 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 01:42 AM",
+      "time": "Nov 03 \u00b7 01:42 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
