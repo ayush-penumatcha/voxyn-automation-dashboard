@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-06T15:32:26+05:30",
+  "generated_at": "2026-11-06T22:52:13+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,17 +10,11 @@
     "date": "2026-11-06",
     "total": 5,
     "posted": 0,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 3
+    "missed": 5
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "Model or Tool Comparison News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-06T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI just launched a new cybersecurity model.\n\nThe company aims to boost digital infrastructure protection. This release comes as AI labs face increasing scrutiny over their security efforts.\n\nBuilding better AI for security is one thing.\nMeeting public trust is another.\n\nDoes a new model address concerns about how AI labs manage their own security? \n\n#OpenAI #Cybersecurity #AISecurity #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI eyes a 2027 IPO target.\n\nPresident Greg Brockman mentioned the company's progress in the business market. This move could open up new investment avenues.\n\nIt's a big step for OpenAI.\n\nWill this shift change how AI startups approach funding rounds?\n\n#OpenAI #AIatWork #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
@@ -115,6 +109,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 10:52 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:52 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 03:32 PM",
       "category": "MISSED",
@@ -204,16 +208,6 @@
       "time": "Nov 03 \u00b7 03:08 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 03 \u00b7 01:42 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 03 \u00b7 01:42 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
@@ -231,6 +225,18 @@
     },
     {
       "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
