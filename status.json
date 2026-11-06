@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-05T23:14:39+05:30",
+  "generated_at": "2026-11-06T05:40:05+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 1,
-    "missed": 4
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-06T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "AI groups spent millions on US elections with mixed results.\n\nThese political action committees tried to influence Congress. Many candidates they supported did not win.\n\nAI companies want to shape future laws. This spending shows they see regulation coming.\n\nShould AI companies spend unlimited money on elections?\n\n#AI #AIPolicy #TechNews #USPolitics",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Airbnb plans to launch an AI travel agent by mid-2027.\n\nThis new agent will help users plan trips, compare choices, handle bookings, and get support during their travels.\n\nIt aims to make travel planning much simpler for everyone.\n\nWill this AI make human travel agents obsolete?\n\n#AI #TravelTech #AirbnbAI #FutureOfTravel",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "source_url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "Nothing's CEO announces a new AI-first device next month.\n\nThe smartphone company is keeping details secret, but the product aims to use AI to boost productivity.\n\nMore AI, less phone.\n\nWill this device truly change how people work every day?\n\n#Nothing #AIHardware #TechLaunch #FutureOfWork",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Meta launches video chat for its Muse AI avatars.\n\nPeople in the US can now talk face-to-face with an animated version of their AI companion.\n\nThe screen is becoming the new AI interface.\n\nWill seeing an AI avatar change how much we trust it?\n\n#MetaAI #MuseAI #AIAvatars",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "source_url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "AUTH_REQUIRED",
-      "caption": "Only four people booked an Uber with an AI agent.\n\nUber reported this during its busiest week last quarter. This suggests AI agents are not yet widely adopted for simple tasks like ride-hailing.\n\nPeople still prefer the app for quick, everyday needs.\n\nWill AI agents ever replace simple apps for common tasks?\n\n#AI #Uber #AIAgents #ConsumerTech",
+      "status": "GENERATED",
+      "caption": "Meta warns local opposition could slow AI growth plans.\n\nCommunities are pushing back against new data center projects. They worry about resource use and environmental effects.\n\nAI needs huge server farms. What happens when towns say no?\n\nWill community concerns over data centers stop future AI expansion?\n\n#Meta #AIInfrastructure #DataCenters",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "source_url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "MISSED",
-      "caption": "OpenAI plans for 2028 election influence.\n\nChris Lehane, an OpenAI executive, suggests a new social contract. He thinks AI can shape the next presidential election.\n\nThis could help Americans, and OpenAI's business too.\n\nWill AI companies become political players, or stay neutral tools?\n\n#OpenAI #AIPolicy #Election2028 #TechNews",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "OpenAI just launched a new cybersecurity model.\n\nThe company aims to boost digital infrastructure protection. This release comes as AI labs face increasing scrutiny over their security efforts.\n\nBuilding better AI for security is one thing.\nMeeting public trust is another.\n\nDoes a new model address concerns about how AI labs manage their own security? \n\n#OpenAI #Cybersecurity #AISecurity #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "source_url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "MISSED",
-      "caption": "Meta acquired AI coding startup Conductor.\n\nThis adds Conductor's AI agent tools to Meta's engineering. It lets Meta engineers use AI teams to work on different project parts at once.\n\nNow, Meta's developers can write code faster.\n\nWill this acquisition significantly speed up Meta's AI product launches?\n\n#Meta #AI #Conductor #TechNews #SoftwareDevelopment",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "OpenAI eyes a 2027 IPO target.\n\nPresident Greg Brockman mentioned the company's progress in the business market. This move could open up new investment avenues.\n\nIt's a big step for OpenAI.\n\nWill this shift change how AI startups approach funding rounds?\n\n#OpenAI #AIatWork #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "source_url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 11:14 PM",
+      "time": "Yesterday \u00b7 11:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:14 PM",
+      "time": "Yesterday \u00b7 11:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:14 PM",
+      "time": "Yesterday \u00b7 11:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:14 PM",
+      "time": "Yesterday \u00b7 11:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:24 PM",
+      "time": "Yesterday \u00b7 03:24 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 10:57 PM",
+      "time": "Nov 04 \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:57 PM",
+      "time": "Nov 04 \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:57 PM",
+      "time": "Nov 04 \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:57 PM",
+      "time": "Nov 04 \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:04 PM",
+      "time": "Nov 04 \u00b7 03:04 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,36 +216,5 @@
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
