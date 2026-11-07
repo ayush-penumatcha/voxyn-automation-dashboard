@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T13:21:48+05:30",
+  "generated_at": "2026-11-07T19:54:46+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,17 +10,11 @@
     "date": "2026-11-07",
     "total": 5,
     "posted": 0,
-    "ready_generated": 3,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 5
   },
-  "next_post": {
-    "scheduled_time": "1:30 PM",
-    "post_type": "IMAGE",
-    "topic": "Engagement Insight",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-07T13:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI reportedly just raised another $11 billion.\n\nThis funding round, still in progress, could push the company's valuation to $1.25 trillion. This comes as many investors are watching AI spending closely.\n\nDoes this valuation mean OpenAI is too big to fail, or just more exposed to market shifts?\n\n#OpenAI #AIFunding #TechNews #AIInvesting",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Hundreds of AI hacking tools were found exposed online.\n\nSecurity researchers discovered many servers running a penetration testing tool called Artex were accessible to anyone. This means the tools, designed for finding system weaknesses, were themselves vulnerable.\n\nIt is like leaving the keys to your security testing kit hanging outside your front door.\n\nDoes this exposure change how you view AI security tools?\n\n#Cybersecurity #AISecurity #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Midterm elections just voted for more data center restrictions.\n\nAcross 41 ballot measures, all but one passed with majority votes to limit new data center projects. This shift impacts where AI infrastructure can grow.\n\nLocal concerns are now a major block.\n\nWill this slow down AI development in the US?\n\n#AIPolicy #DataCenters #TechNews #USPolitics",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
@@ -115,6 +109,21 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 07:54 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 07:54 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 07:54 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 01:21 PM",
       "category": "MISSED",
@@ -199,21 +208,6 @@
       "time": "Nov 04 \u00b7 03:04 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 03 \u00b7 10:47 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 03 \u00b7 10:47 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 03 \u00b7 10:47 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": [
@@ -225,6 +219,24 @@
     },
     {
       "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
