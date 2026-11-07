@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-06T22:52:13+05:30",
+  "generated_at": "2026-11-07T05:35:31+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 5
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-07T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "Airbnb plans to launch an AI travel agent by mid-2027.\n\nThis new agent will help users plan trips, compare choices, handle bookings, and get support during their travels.\n\nIt aims to make travel planning much simpler for everyone.\n\nWill this AI make human travel agents obsolete?\n\n#AI #TravelTech #AirbnbAI #FutureOfTravel",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Midterm election results could slow AI's data center growth.\n\nVoters approved 40 out of 41 ballot measures to restrict data center development. This public resistance creates new challenges for AI companies needing more computing power.\n\nBuilding AI needs land and power.\nLocal opposition makes both harder.\n\nWill this shift force AI companies to rethink their physical expansion plans, or find new ways to build compute capacity?\n\n#AI #AIPolicy #DataCenters #TechNews #USPolitics",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "source_url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "MISSED",
-      "caption": "Meta launches video chat for its Muse AI avatars.\n\nPeople in the US can now talk face-to-face with an animated version of their AI companion.\n\nThe screen is becoming the new AI interface.\n\nWill seeing an AI avatar change how much we trust it?\n\n#MetaAI #MuseAI #AIAvatars",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Meta is introducing \"Spaces\" for its Muse AI agents.\n\nThis new feature allows users to bring multiple AI agents into a shared virtual room. People can then collaborate with these agents and other users on creative projects.\n\nIt changes how people might work with AI.\n\nWill this make AI agents feel more like team members than tools?\n\n#Meta #MuseAgents #AISpaces #Collaboration #FutureOfWork",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "source_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Meta warns local opposition could slow AI growth plans.\n\nCommunities are pushing back against new data center projects. They worry about resource use and environmental effects.\n\nAI needs huge server farms. What happens when towns say no?\n\nWill community concerns over data centers stop future AI expansion?\n\n#Meta #AIInfrastructure #DataCenters",
+      "status": "GENERATED",
+      "caption": "OpenAI reportedly just raised another $11 billion.\n\nThis funding round, still in progress, could push the company's valuation to $1.25 trillion. This comes as many investors are watching AI spending closely.\n\nDoes this valuation mean OpenAI is too big to fail, or just more exposed to market shifts?\n\n#OpenAI #AIFunding #TechNews #AIInvesting",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "MISSED",
-      "caption": "OpenAI just launched a new cybersecurity model.\n\nThe company aims to boost digital infrastructure protection. This release comes as AI labs face increasing scrutiny over their security efforts.\n\nBuilding better AI for security is one thing.\nMeeting public trust is another.\n\nDoes a new model address concerns about how AI labs manage their own security? \n\n#OpenAI #Cybersecurity #AISecurity #TechNews",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Hundreds of AI hacking tools were found exposed online.\n\nSecurity researchers discovered many servers running a penetration testing tool called Artex were accessible to anyone. This means the tools, designed for finding system weaknesses, were themselves vulnerable.\n\nIt is like leaving the keys to your security testing kit hanging outside your front door.\n\nDoes this exposure change how you view AI security tools?\n\n#Cybersecurity #AISecurity #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "source_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "MISSED",
-      "caption": "OpenAI eyes a 2027 IPO target.\n\nPresident Greg Brockman mentioned the company's progress in the business market. This move could open up new investment avenues.\n\nIt's a big step for OpenAI.\n\nWill this shift change how AI startups approach funding rounds?\n\n#OpenAI #AIatWork #TechNews",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Midterm elections just voted for more data center restrictions.\n\nAcross 41 ballot measures, all but one passed with majority votes to limit new data center projects. This shift impacts where AI infrastructure can grow.\n\nLocal concerns are now a major block.\n\nWill this slow down AI development in the US?\n\n#AIPolicy #DataCenters #TechNews #USPolitics",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source_url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 10:52 PM",
+      "time": "Yesterday \u00b7 10:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:52 PM",
+      "time": "Yesterday \u00b7 10:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:32 PM",
+      "time": "Yesterday \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:32 PM",
+      "time": "Yesterday \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:32 PM",
+      "time": "Yesterday \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:14 PM",
+      "time": "Nov 05 \u00b7 11:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:14 PM",
+      "time": "Nov 05 \u00b7 11:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:14 PM",
+      "time": "Nov 05 \u00b7 11:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:14 PM",
+      "time": "Nov 05 \u00b7 11:14 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:24 PM",
+      "time": "Nov 05 \u00b7 03:24 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
