@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T19:54:46+05:30",
+  "generated_at": "2026-11-08T05:08:02+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 5
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-08T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Midterm election results could slow AI's data center growth.\n\nVoters approved 40 out of 41 ballot measures to restrict data center development. This public resistance creates new challenges for AI companies needing more computing power.\n\nBuilding AI needs land and power.\nLocal opposition makes both harder.\n\nWill this shift force AI companies to rethink their physical expansion plans, or find new ways to build compute capacity?\n\n#AI #AIPolicy #DataCenters #TechNews #USPolitics",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "Midterm elections are reshaping AI's physical future.\n\nNew local restrictions passed in the recent midterms could significantly slow the growth of data centers, especially those planned by companies like xAI.\n\nBuilding AI needs more than just code.\n\nWill local communities continue to push back against large-scale AI infrastructure?\n\n#AI #TechNews #DataCenters #AIPolicy #xAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "source_url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "MISSED",
-      "caption": "Meta is introducing \"Spaces\" for its Muse AI agents.\n\nThis new feature allows users to bring multiple AI agents into a shared virtual room. People can then collaborate with these agents and other users on creative projects.\n\nIt changes how people might work with AI.\n\nWill this make AI agents feel more like team members than tools?\n\n#Meta #MuseAgents #AISpaces #Collaboration #FutureOfWork",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "US memo claims executive spied on Nvidia's CEO.\n\nThe intelligence memo, circulated this year, says China's Ministry of State Security recruited a Megaspeed executive.\n\nEspionage targets critical leaders.\n\nDoes this kind of report change how you view supply chain security in AI?\n\n#Nvidia #AIPolicy #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source_url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "OpenAI reportedly just raised another $11 billion.\n\nThis funding round, still in progress, could push the company's valuation to $1.25 trillion. This comes as many investors are watching AI spending closely.\n\nDoes this valuation mean OpenAI is too big to fail, or just more exposed to market shifts?\n\n#OpenAI #AIFunding #TechNews #AIInvesting",
+      "status": "GENERATED",
+      "caption": "Crusoe just sold its troubled Wyoming data center to Google.\n\nThe deal highlights how hard it is to build the huge facilities needed for AI. Even with strong demand for AI, these projects face big hurdles.\n\nBuilding AI infrastructure is expensive and complex.\n\nWill we see more big tech companies buying up smaller data center projects?\n\n#DataCenters #Google #Crusoe #AIInfrastructure #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source_url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "MISSED",
-      "caption": "Hundreds of AI hacking tools were found exposed online.\n\nSecurity researchers discovered many servers running a penetration testing tool called Artex were accessible to anyone. This means the tools, designed for finding system weaknesses, were themselves vulnerable.\n\nIt is like leaving the keys to your security testing kit hanging outside your front door.\n\nDoes this exposure change how you view AI security tools?\n\n#Cybersecurity #AISecurity #TechNews",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "AI spending stalls, despite rising usage.\n\nNew data from Ramp shows companies use more AI, but total spending on AI services has stopped growing. This is due to price cuts and smarter budgeting.\n\nMore AI, less money.\n\nWill companies cut AI costs, or invest in more features?\n\n#AISpending #RampData #AICosts #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "MISSED",
-      "caption": "Midterm elections just voted for more data center restrictions.\n\nAcross 41 ballot measures, all but one passed with majority votes to limit new data center projects. This shift impacts where AI infrastructure can grow.\n\nLocal concerns are now a major block.\n\nWill this slow down AI development in the US?\n\n#AIPolicy #DataCenters #TechNews #USPolitics",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "Amazon is letting users text Alexa for shopping help.\n\nAfter blocking a similar third-party AI, Amazon built its own text-to-shop feature for Alexa. It will reach millions of users in the coming weeks.\n\nWill this shift how people shop, or just add another option?\n\n#Amazon #AlexaAI #AIShopping",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "source_url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 07:54 PM",
+      "time": "Yesterday \u00b7 07:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 07:54 PM",
+      "time": "Yesterday \u00b7 07:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 07:54 PM",
+      "time": "Yesterday \u00b7 07:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:21 PM",
+      "time": "Yesterday \u00b7 01:21 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:21 PM",
+      "time": "Yesterday \u00b7 01:21 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:52 PM",
+      "time": "Nov 06 \u00b7 10:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:52 PM",
+      "time": "Nov 06 \u00b7 10:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:32 PM",
+      "time": "Nov 06 \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:32 PM",
+      "time": "Nov 06 \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:32 PM",
+      "time": "Nov 06 \u00b7 03:32 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
