@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T05:08:02+05:30",
+  "generated_at": "2026-11-08T13:26:27+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,21 @@
     "date": "2026-11-08",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 2
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-11-08T08:30:00+05:30"
+    "scheduled_at": "2026-11-08T13:30:00+05:30"
   },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "01:08 PM"
+    "last_checked": "01:17 PM"
   },
   "systems": {
     "generator": {
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Midterm elections are reshaping AI's physical future.\n\nNew local restrictions passed in the recent midterms could significantly slow the growth of data centers, especially those planned by companies like xAI.\n\nBuilding AI needs more than just code.\n\nWill local communities continue to push back against large-scale AI infrastructure?\n\n#AI #TechNews #DataCenters #AIPolicy #xAI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "US memo claims executive spied on Nvidia's CEO.\n\nThe intelligence memo, circulated this year, says China's Ministry of State Security recruited a Megaspeed executive.\n\nEspionage targets critical leaders.\n\nDoes this kind of report change how you view supply chain security in AI?\n\n#Nvidia #AIPolicy #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 01:26 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 01:26 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Yesterday \u00b7 07:54 PM",
       "category": "MISSED",
@@ -204,17 +214,20 @@
       "time": "Nov 04 \u00b7 10:57 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 04 \u00b7 10:57 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 04 \u00b7 03:04 PM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
