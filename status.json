@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T20:10:40+05:30",
+  "generated_at": "2026-11-09T05:10:57+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 5
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-09T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "Midterm elections are reshaping AI's physical future.\n\nNew local restrictions passed in the recent midterms could significantly slow the growth of data centers, especially those planned by companies like xAI.\n\nBuilding AI needs more than just code.\n\nWill local communities continue to push back against large-scale AI infrastructure?\n\n#AI #TechNews #DataCenters #AIPolicy #xAI",
+      "topic": "AI Research Breakthrough",
+      "status": "GENERATED",
+      "caption": "Nvidia investigates CEO Jensen Huang's possible spy link.\n\nA US intelligence memo claimed a Megaspeed executive was recruited to spy on him. Huang admitted to an affair, prompting the investigation.\n\nPersonal lives often stay private.\n\nShould a CEO's personal relationships be a company security concern?\n\n#Nvidia #CorporateSecurity #TechNews #AIPolicy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "source_url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "US memo claims executive spied on Nvidia's CEO.\n\nThe intelligence memo, circulated this year, says China's Ministry of State Security recruited a Megaspeed executive.\n\nEspionage targets critical leaders.\n\nDoes this kind of report change how you view supply chain security in AI?\n\n#Nvidia #AIPolicy #TechNews",
+      "topic": "AI Policy and Safety News",
+      "status": "GENERATED",
+      "caption": "Underdog unveils a tiny AI model for speech and music.\n\nAt just 32MB, this model generates both speech and music. This shows powerful AI doesn't always need a huge size.\n\nSmall AI models run everywhere.\n\nWill more companies try to make AI models tiny instead of giant?\n\n#AI #TechNews #UnderdogAI #EdgeAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source_url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Crusoe just sold its troubled Wyoming data center to Google.\n\nThe deal highlights how hard it is to build the huge facilities needed for AI. Even with strong demand for AI, these projects face big hurdles.\n\nBuilding AI infrastructure is expensive and complex.\n\nWill we see more big tech companies buying up smaller data center projects?\n\n#DataCenters #Google #Crusoe #AIInfrastructure #TechNews",
+      "status": "GENERATED",
+      "caption": "Physicl raised $10M for robot training pipeline.\n\nThey are adapting technology first used to market products online. This helps close the gap between AI simulations and how robots act in the real world.\n\nSimulations don't always prepare robots for messy reality.\n\nWill a marketing tool truly prepare robots for physical tasks?\n\n#AI #Robotics #Physicl #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source_url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "MISSED",
-      "caption": "AI spending stalls, despite rising usage.\n\nNew data from Ramp shows companies use more AI, but total spending on AI services has stopped growing. This is due to price cuts and smarter budgeting.\n\nMore AI, less money.\n\nWill companies cut AI costs, or invest in more features?\n\n#AISpending #RampData #AICosts #TechNews",
+      "topic": "Model or Tool Comparison News",
+      "status": "GENERATED",
+      "caption": "Palo Alto Networks eyes AI security startup Clutch for $500M.\n\nClutch, once valued at $85 million, is now worth almost six times that. This shows how fast AI security companies can grow.\n\nOne deal can change everything.\n\nWill big cybersecurity companies keep buying smaller AI security firms?\n\n#PaloAltoNetworks #ClutchAI #AISecurity #Cybersecurity",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "source_url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "MISSED",
-      "caption": "Amazon is letting users text Alexa for shopping help.\n\nAfter blocking a similar third-party AI, Amazon built its own text-to-shop feature for Alexa. It will reach millions of users in the coming weeks.\n\nWill this shift how people shop, or just add another option?\n\n#Amazon #AlexaAI #AIShopping",
+      "topic": "AI at Work",
+      "status": "GENERATED",
+      "caption": "Claude now offers a Personal Finance tool.\n\nUsers can connect bank and credit card accounts through Plaid. This lets them ask Claude questions about their spending habits and financial data.\n\nYour AI can now see your money.\n\nWill this make personal finance easier, or too exposed?\n\n#AI #PersonalFinance #ClaudeAI #Anthropic",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source_url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 08:10 PM",
+      "time": "Yesterday \u00b7 08:10 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:10 PM",
+      "time": "Yesterday \u00b7 08:10 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:10 PM",
+      "time": "Yesterday \u00b7 08:10 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:26 PM",
+      "time": "Yesterday \u00b7 01:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:26 PM",
+      "time": "Yesterday \u00b7 01:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:54 PM",
+      "time": "Nov 07 \u00b7 07:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:54 PM",
+      "time": "Nov 07 \u00b7 07:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 07:54 PM",
+      "time": "Nov 07 \u00b7 07:54 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 01:21 PM",
+      "time": "Nov 07 \u00b7 01:21 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 01:21 PM",
+      "time": "Nov 07 \u00b7 01:21 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
