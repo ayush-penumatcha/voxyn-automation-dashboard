@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T01:31:41+05:30",
+  "generated_at": "2026-11-10T08:12:19+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,11 +10,17 @@
     "date": "2026-11-10",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
     "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-10T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -22,10 +28,10 @@
   },
   "systems": {
     "generator": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "slack": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -56,10 +62,10 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Anthropic is reportedly moving ahead with its IPO plans.\n\nThe AI company is expected to set its valuation range this week, according to the Wall Street Journal.\n\nThis marks a major step for a leading AI model developer.\n\nWill this IPO open the door for more AI companies to go public soon?\n\n#Anthropic #IPO #AIBusiness #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -67,10 +73,10 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Nvidia CEO reportedly hired a PR firm for scandals.\n\nJensen Huang brought on the firm a year ago. This was after a New York Times report on Alice Huang\u2019s business dealings with him.\n\nIt hints at deeper concerns.\n\nDoes this PR strategy change how you see AI leaders?\n\n#Nvidia #JensenHuang #TechNews #AIBusiness",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,10 +84,10 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Nvidia CEO's China ties flagged by short seller early.\n\nCulper Research, a short seller, warned about Jensen Huang's close ties to a Chinese executive six months before a US intelligence memo. \n\nConcerns can surface long before official warnings.\n\nShould companies act on short seller reports more often, even without government notice?\n\n#Nvidia #AIGovernance #TechEthics",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -89,10 +95,10 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Nvidia stock drops on CEO spy link investigation.\n\nNvidia's board is investigating CEO Jensen Huang's possible connection to a Chinese spy. This news caused the company's stock to fall over 4%.\n\nCompany statements might bring costly lawsuits.\n\nWill this change how tech leaders discuss internal company issues?\n\n#Nvidia #AIBusiness #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -100,10 +106,10 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Nvidia CEO Jensen Huang cancels ElevenLabs Summit appearance.\n\nHe also pulled out of an Anthropic event. These cancellations follow ongoing controversy around Huang.\n\nWhen a major speaker drops out, does it hurt the event's standing?\n\n#Nvidia #ElevenLabs #Anthropic",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
       "theme_name": "",
       "theme_family": ""
     }
