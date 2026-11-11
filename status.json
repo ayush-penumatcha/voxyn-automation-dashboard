@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-11T06:07:02+05:30",
+  "generated_at": "2026-11-11T22:52:19+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,15 @@
     "date": "2026-11-11",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
-    "failed": 0,
-    "missed": 0
+    "ready_generated": 0,
+    "failed": 1,
+    "missed": 4
   },
-  "next_post": {
-    "scheduled_time": "8:30 AM",
-    "post_type": "IMAGE",
-    "topic": "Breaking AI News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-11T08:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "02:13 PM"
+    "last_checked": "01:38 PM"
   },
   "systems": {
     "generator": {
@@ -43,7 +37,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ACTIVE"
+      "status": "ERROR"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -62,7 +56,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI just acquired Odessia, a travel startup. This move brings Sonder founder Francis Davidson into OpenAI's orbit.\n\nIt hints at OpenAI's potential entry into the travel industry, possibly with AI-powered booking or planning tools.\n\nWill AI agents become your next travel agent?\n\nIt could shift how people plan trips.\n\nWhat kind of travel products should OpenAI build first?\n\n#OpenAI #AITravel #TechNews #Acquisition",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
@@ -73,7 +67,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Google just launched two new AI chips.\n\nThese Tensor Processing Units, or TPUs, are built for specific tasks: one for training models with sensitive data, and another with much larger memory.\n\nThis means Google is pushing its custom hardware into more areas.\n\nWill specialized chips become the new standard for every unique AI task?\n\n#GoogleAI #TPU #AIHardware #ConfidentialComputing #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "AUTH_REQUIRED",
       "caption": "New York's AI safety law is now active, adding new rules for developers like OpenAI and Anthropic.\n\nCompanies must register, share safety plans, and report any major incidents. Breaking these rules can lead to fines.\n\nThis marks a shift from self-regulation to required public accountability.\n\nWill other states follow New York's lead on AI safety?\n\n#AI #AIPolicy #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Company Moves",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Anthropic founders plan to cash out big with the IPO.\n\nEach of the seven co-founders expects to receive about $250 million from selling shares. They will keep control of the company after the public offering.\n\nFounders are getting paid.\nLong-term vision stays.\n\nDoes this move signal confidence in Anthropic's future, or a shift in priorities?\n\n#Anthropic #AIBusiness #IPO #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "PSI just used an AI to answer a quantum computing question.\n\nThis company is building a business around AI-driven scientific discovery. They used an unreleased Anthropic model to solve a problem scientists worked on for almost two decades.\n\nAI isn't just automating old tasks.\nIt's opening new fields of knowledge.\n\nCould AI-powered research become a standard business model in science?\n\n#AI #ScientificDiscovery #QuantumComputing #Anthropic #PSI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
@@ -115,6 +109,31 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 10:52 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:52 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:52 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 10:52 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 02:59 PM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
     {
       "time": "Yesterday \u00b7 11:27 PM",
       "category": "MISSED",
@@ -189,32 +208,38 @@
       "time": "Nov 08 \u00b7 01:26 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 07 \u00b7 07:54 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 07 \u00b7 07:54 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 07 \u00b7 07:54 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 07 \u00b7 01:21 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 07 \u00b7 01:21 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "AUTH_REQUIRED",
+      "recommendation": "Renew LinkedIn authentication."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
