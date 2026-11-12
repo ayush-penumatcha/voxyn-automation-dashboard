@@ -1,37 +1,31 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-12T07:24:25+05:30",
+  "generated_at": "2026-11-13T01:49:45+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 0,
     "failed": 0,
     "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "8:30 AM",
-    "post_type": "IMAGE",
-    "topic": "AI Research Breakthrough",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-12T08:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "01:38 PM"
+    "last_checked": "02:13 PM"
   },
   "systems": {
     "generator": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "slack": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -61,22 +55,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "GENERATED",
-      "caption": "Nvidia CEO Jensen Huang investigated for alleged affair.\n\nReports claim he had an affair with a suspected Chinese spy. This raises national security concerns for AI infrastructure.\n\nTech leaders face new scrutiny.\n\nWill this change how executives are vetted for sensitive roles?\n\n#Nvidia #JensenHuang #AISecurity",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "topic": "AI Industry Map",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "GENERATED",
-      "caption": "Nvidia's board may remove CEO Jensen Huang soon.\n\nHis departure could be decided as early as Wednesday evening. This follows stock drops and increased scrutiny.\n\nLeadership changes can reshape a company.\n\nDoes a founder's long tenure always help a company in a crisis?\n\n#Nvidia #AILeadership #TechNews",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "topic": "What the New Release Changes",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
@@ -84,59 +78,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
-      "caption": "Nvidia CEO Jensen Huang faces new affair claims.\n\nAfter admitting to an affair with a suspected Chinese agent, he is now accused of another affair with an Nvidia executive.\n\nThis adds another layer to the ongoing controversy.\n\nDoes personal conduct always impact a leader's professional standing?\n\n#Nvidia #JensenHuang #TechNews",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "GENERATED",
-      "caption": "AI data centers face unexpected hurdles.\n\nMany announced projects are hitting local opposition, long permitting delays, and a scramble for electricity. Billions in planned AI infrastructure may never get built.\n\nThe real world is pushing back.\n\nWill the AI boom be slowed by these infrastructure challenges?\n\n#DataCenters #AIInfrastructure #TechNews",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "topic": "AI Trend in the News",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "GENERATED",
-      "caption": "Plurai trains AI agents like self-driving cars.\n\nThey are building a new way for AI agents to learn, similar to how self-driving cars were trained. This aims to make AI agents more reliable for everyday tasks.\n\nUnexpected situations won't stop them.\n\nWill this approach make AI agents dependable enough for critical business operations?\n\n#AI #Workflows #AIAgents #Plurai",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "topic": "AI Numbers Today",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Yesterday \u00b7 10:52 PM",
+      "time": "Today \u00b7 01:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:52 PM",
+      "time": "Today \u00b7 01:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:52 PM",
+      "time": "Yesterday \u00b7 06:01 PM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
+    {
+      "time": "Yesterday \u00b7 06:01 PM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
+    {
+      "time": "Yesterday \u00b7 09:33 AM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
+    {
+      "time": "Nov 11 \u00b7 10:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 10:52 PM",
+      "time": "Nov 11 \u00b7 10:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:59 PM",
+      "time": "Nov 11 \u00b7 10:52 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Nov 11 \u00b7 10:52 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Nov 11 \u00b7 02:59 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -189,31 +208,6 @@
       "time": "Nov 09 \u00b7 03:07 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 08 \u00b7 08:10 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 08 \u00b7 08:10 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 08 \u00b7 08:10 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 08 \u00b7 01:26 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 08 \u00b7 01:26 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
   "issues": []
