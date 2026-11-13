@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-13T06:33:53+05:30",
+  "generated_at": "2026-11-13T13:24:30+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,16 +10,16 @@
     "date": "2026-11-13",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 2
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Industry Map",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-11-13T08:30:00+05:30"
+    "scheduled_at": "2026-11-13T13:30:00+05:30"
   },
   "auth": {
     "status": "AUTH_REQUIRED",
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Jensen Huang's exit from Nvidia could shift AI.\n\nHis influence shaped how AI companies approached hardware and software. New leadership might open doors for different approaches and competitors.\n\nHis vision pushed many developers in one direction. Now, what changes?\n\nWill this create more diverse AI hardware options?\n\n#Nvidia #AIIndustry #LeadershipChange",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Nvidia CEO Jensen Huang faces third affair claim.\n\nReuters reports a new claim against Huang, but is not naming the Nvidia employee involved. This follows earlier allegations and an internal company investigation.\n\nReputation matters for a CEO leading a multi-trillion dollar company.\n\nCan Nvidia's board keep things stable with these repeated personal controversies?\n\n#Nvidia #JensenHuang #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 01:24 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 01:24 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 01:49 AM",
       "category": "MISSED",
@@ -204,17 +214,20 @@
       "time": "Nov 10 \u00b7 01:31 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 10 \u00b7 01:31 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 09 \u00b7 03:07 PM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
