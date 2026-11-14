@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T06:22:44+05:30",
+  "generated_at": "2026-11-14T20:27:06+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,15 @@
     "date": "2026-11-14",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
-    "failed": 0,
-    "missed": 0
+    "ready_generated": 0,
+    "failed": 1,
+    "missed": 4
   },
-  "next_post": {
-    "scheduled_time": "8:30 AM",
-    "post_type": "IMAGE",
-    "topic": "Breaking AI News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-14T08:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "02:04 PM"
+    "last_checked": "01:23 PM"
   },
   "systems": {
     "generator": {
@@ -43,7 +37,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ACTIVE"
+      "status": "ERROR"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -62,7 +56,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Jensen Huang leaving Nvidia will cut AI startup funding.\n\nNvidia, led by Huang, invested billions into new AI companies. Now, investors and founders expect smaller deals and lower company values.\n\nAI funding gets real.\n\nWill this spread funding around, or just slow down new ideas?\n\n#AI #StartupFunding #Nvidia #VentureCapital #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
@@ -73,7 +67,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "LangChain, an AI agent startup, reached $3 billion.\n\nThe company's LangSmith tool helps manage AI agents across different models. Over 7,000 customers now use it.\n\nBuilding blocks for AI agents are proving to be big business.\n\nWill more companies now focus on agent infrastructure instead of just core models?\n\n#LangChain #AIAgents #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "AUTH_REQUIRED",
       "caption": "China's top AI models were trained on banned Nvidia chips.\n\nNew research shows advanced models developed in China used Nvidia GPUs that were restricted from export. This raises questions about how these chips bypassed controls.\n\nSupply chains are complex.\nBorders are just lines on a map.\n\nDoes this reveal a flaw in export controls, or an expected outcome in a global market?\n\n#Nvidia #AIChips #ExportControl",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Company Moves",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "ChatGPT Wallet is here; AI agents can now shop.\n\nOpenAI launched a new feature called Wallet for its ChatGPT Pro subscribers in the US. This lets AI agents handle shopping and checkout tasks for users.\n\nYour AI can now buy things for you.\n\nWill this change how people use AI for daily tasks, or is it too soon for automated shopping?\n\n#ChatGPT #OpenAI #AIAgents #TechNews #FutureOfWork",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Jensen Huang resigned from Nvidia after an affair.\n\nHis departure follows an affair with national security implications. This could change how the US and China compete to build advanced AI systems.\n\nA sudden exit for a long-time leader.\n\nHow will this leadership change affect Nvidia's immediate product roadmap?\n\n#Nvidia #AI #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
@@ -115,6 +109,31 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 08:26 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 08:26 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 08:26 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 08:26 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 01:33 PM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
     {
       "time": "Yesterday \u00b7 09:15 PM",
       "category": "MISSED",
@@ -189,32 +208,38 @@
       "time": "Nov 11 \u00b7 02:59 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 10 \u00b7 11:27 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 10 \u00b7 11:27 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 10 \u00b7 03:49 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 10 \u00b7 03:49 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 10 \u00b7 03:49 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "AUTH_REQUIRED",
+      "recommendation": "Renew LinkedIn authentication."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
