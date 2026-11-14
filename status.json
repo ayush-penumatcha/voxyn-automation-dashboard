@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-13T21:15:18+05:30",
+  "generated_at": "2026-11-14T06:22:44+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
-    "missed": 5
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "Breaking AI News",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-14T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Industry Map",
-      "status": "MISSED",
-      "caption": "Jensen Huang's exit from Nvidia could shift AI.\n\nHis influence shaped how AI companies approached hardware and software. New leadership might open doors for different approaches and competitors.\n\nHis vision pushed many developers in one direction. Now, what changes?\n\nWill this create more diverse AI hardware options?\n\n#Nvidia #AIIndustry #LeadershipChange",
+      "topic": "Breaking AI News",
+      "status": "GENERATED",
+      "caption": "Jensen Huang leaving Nvidia will cut AI startup funding.\n\nNvidia, led by Huang, invested billions into new AI companies. Now, investors and founders expect smaller deals and lower company values.\n\nAI funding gets real.\n\nWill this spread funding around, or just slow down new ideas?\n\n#AI #StartupFunding #Nvidia #VentureCapital #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "source_url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "What the New Release Changes",
-      "status": "MISSED",
-      "caption": "Nvidia CEO Jensen Huang faces third affair claim.\n\nReuters reports a new claim against Huang, but is not naming the Nvidia employee involved. This follows earlier allegations and an internal company investigation.\n\nReputation matters for a CEO leading a multi-trillion dollar company.\n\nCan Nvidia's board keep things stable with these repeated personal controversies?\n\n#Nvidia #JensenHuang #TechNews",
+      "topic": "New Model or Product Launch",
+      "status": "GENERATED",
+      "caption": "LangChain, an AI agent startup, reached $3 billion.\n\nThe company's LangSmith tool helps manage AI agents across different models. Over 7,000 customers now use it.\n\nBuilding blocks for AI agents are proving to be big business.\n\nWill more companies now focus on agent infrastructure instead of just core models?\n\n#LangChain #AIAgents #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Democrats investigate Nvidia's China sales and CEO Jensen Huang.\n\nThis new inquiry looks into the company's business in China and Huang's dealings with Donald Trump. It is the second Congressional investigation.\n\nNvidia faces growing scrutiny.\n\nWill these new investigations affect Nvidia's market position?\n\n#Nvidia #AIPolicy #TechNews",
+      "status": "GENERATED",
+      "caption": "China's top AI models were trained on banned Nvidia chips.\n\nNew research shows advanced models developed in China used Nvidia GPUs that were restricted from export. This raises questions about how these chips bypassed controls.\n\nSupply chains are complex.\nBorders are just lines on a map.\n\nDoes this reveal a flaw in export controls, or an expected outcome in a global market?\n\n#Nvidia #AIChips #ExportControl",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source_url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Trend in the News",
-      "status": "MISSED",
-      "caption": "Muse AI now calls US businesses for you.\n\nThe AI can book appointments or make reservations by phone. This is not a free service; users will pay for the calls.\n\nAI assistants are becoming active callers.\n\nWill we see more paid AI services, or will free options stay on top?\n\n#AI #TechNews #MuseAI #AIassistant",
+      "topic": "AI Company Moves",
+      "status": "GENERATED",
+      "caption": "ChatGPT Wallet is here; AI agents can now shop.\n\nOpenAI launched a new feature called Wallet for its ChatGPT Pro subscribers in the US. This lets AI agents handle shopping and checkout tasks for users.\n\nYour AI can now buy things for you.\n\nWill this change how people use AI for daily tasks, or is it too soon for automated shopping?\n\n#ChatGPT #OpenAI #AIAgents #TechNews #FutureOfWork",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source_url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Numbers Today",
-      "status": "MISSED",
-      "caption": "Jensen Huang just resigned from Nvidia.\n\nThe resignation follows an affair that sources say could impact national security. This comes as the US and China compete over AI infrastructure.\n\nA sudden exit changes everything.\n\nHow will this impact Nvidia's position in the AI race?\n\n#Nvidia #JensenHuang #AIPolicy",
+      "topic": "AI Business and Funding",
+      "status": "GENERATED",
+      "caption": "Jensen Huang resigned from Nvidia after an affair.\n\nHis departure follows an affair with national security implications. This could change how the US and China compete to build advanced AI systems.\n\nA sudden exit for a long-time leader.\n\nHow will this leadership change affect Nvidia's immediate product roadmap?\n\n#Nvidia #AI #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source_url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 09:15 PM",
+      "time": "Yesterday \u00b7 09:15 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:15 PM",
+      "time": "Yesterday \u00b7 09:15 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:15 PM",
+      "time": "Yesterday \u00b7 09:15 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:24 PM",
+      "time": "Yesterday \u00b7 01:24 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:24 PM",
+      "time": "Yesterday \u00b7 01:24 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:49 AM",
+      "time": "Yesterday \u00b7 01:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:49 AM",
+      "time": "Yesterday \u00b7 01:49 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:01 PM",
+      "time": "Nov 12 \u00b7 06:01 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 06:01 PM",
+      "time": "Nov 12 \u00b7 06:01 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 09:33 AM",
+      "time": "Nov 12 \u00b7 09:33 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,36 +216,5 @@
       "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
