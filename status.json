@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T13:24:54+05:30",
+  "generated_at": "2026-11-16T23:07:32+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,15 @@
     "date": "2026-11-16",
     "total": 5,
     "posted": 0,
-    "ready_generated": 3,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 2
+    "missed": 5
   },
-  "next_post": {
-    "scheduled_time": "1:30 PM",
-    "post_type": "IMAGE",
-    "topic": "Engagement Insight",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-16T13:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "01:45 PM"
+    "last_checked": "01:53 PM"
   },
   "systems": {
     "generator": {
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Saturday Night Live just put AI's biggest names on blast. \n\nThe show featured impressions of tech billionaires in a skit about dating and spycraft, making fun of recent headlines.\n\nIt's a reminder that public perception shapes how AI is seen.\n\nDoes humor help us understand AI's human side, or just highlight tech's awkwardness?\n\n#AINews #TechCulture #PublicPerception",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Trend in the News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Nvidia\u2019s security chief left in August.\n\nIts CEO then resigned over relationships. A former intelligence officer says most corporate security teams miss these human leaks.\n\nDigital defenses can't catch every risk.\n\nShould companies invest more in human intelligence for security?\n\n#Nvidia #AISecurity #CorporateSecurity #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Numbers Today",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Nvidia's former CEO Jensen Huang doubted his successor.\n\nHe described Colette Kress, now the CEO, as a \"deer in the headlights\" in a summer meeting, according to a recent report. This raises questions about the leadership transition.\n\nStrong leadership is critical.\n\nWill Nvidia's board address these reported concerns, or let the new leadership prove itself?\n\n#Nvidia #AILeadership #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
@@ -115,6 +109,21 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 11:07 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 11:07 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 11:07 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 01:24 PM",
       "category": "MISSED",
@@ -199,21 +208,6 @@
       "time": "Nov 13 \u00b7 01:24 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 13 \u00b7 01:49 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 13 \u00b7 01:49 AM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 12 \u00b7 06:01 PM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
     }
   ],
   "issues": [
@@ -225,6 +219,24 @@
     },
     {
       "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "category": "MISSED",
       "recommendation": "Review scheduling and the grace period."
