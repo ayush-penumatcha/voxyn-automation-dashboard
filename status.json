@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T05:28:29+05:30",
+  "generated_at": "2026-11-16T13:24:54+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,16 +10,16 @@
     "date": "2026-11-16",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 2
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Industry Map",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-11-16T08:30:00+05:30"
+    "scheduled_at": "2026-11-16T13:30:00+05:30"
   },
   "auth": {
     "status": "AUTH_REQUIRED",
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Jensen Huang's future at Nvidia matters for everyone in AI.\n\nHis leadership shaped much of the current AI economy. Any major shift at Nvidia could ripple through chip supply, research, and startup funding.\n\nOne person, one company, many dependencies.\n\nCould the industry adapt quickly if Nvidia's direction changes?\n\n#Nvidia #AIIndustry #TechLeadership",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Bharat Semi just raised $24 million.\n\nThe Indian startup plans to use this seed funding to develop AI-enabled sensor technology for global markets. They already have design wins with companies like General Atomics.\n\nThis moves India into a new part of the AI hardware supply chain.\n\nWill more AI sensor development shift to Asia?\n\n#BharatSemi #AIHardware #Sensors",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 01:24 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 01:24 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Yesterday \u00b7 10:18 PM",
       "category": "MISSED",
@@ -204,17 +214,20 @@
       "time": "Nov 12 \u00b7 06:01 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 12 \u00b7 06:01 PM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 12 \u00b7 09:33 AM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
