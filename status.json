@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T08:24:39+05:30",
+  "generated_at": "2026-11-17T23:41:24+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,15 @@
     "date": "2026-11-17",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
-    "failed": 0,
-    "missed": 0
+    "ready_generated": 0,
+    "failed": 1,
+    "missed": 4
   },
-  "next_post": {
-    "scheduled_time": "8:30 AM",
-    "post_type": "IMAGE",
-    "topic": "Breaking AI News",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-17T08:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "01:53 PM"
+    "last_checked": "03:07 PM"
   },
   "systems": {
     "generator": {
@@ -43,7 +37,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ACTIVE"
+      "status": "ERROR"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -62,7 +56,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Corma, an AI cybersecurity startup, is now valued at $1 billion.\n\nThe company announced a $125 million Series A funding round led by NEA. This valuation was reached in just three months since its product was first introduced.\n\nSpeed of growth is the new benchmark.\n\nDoes hitting unicorn status this quickly mean the product is already proven, or is it mostly market speculation?\n\n#AI #Cybersecurity #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
@@ -73,7 +67,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Jordan Belfort's new AI voice startup, Tone, just launched.\n\nThe company claims its AI sales voice can already close deals almost as well as top human salespeople.\n\nBelfort predicts the AI will match human performance within a year.\n\nWill this AI change how sales teams operate, or is human connection still essential?\n\n#ToneAI #SalesTech #AIagents",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
@@ -84,7 +78,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "AUTH_REQUIRED",
       "caption": "Nvidia interim CEO Colette Kress faces tough earnings call.\n\nShe will address questions about company performance during a period of big internal changes.\n\nThis call tests her leadership.\n\nWill Kress's transparency be enough to reassure investors?\n\n#Nvidia #ColetteKress #EarningsCall #AIBusiness #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
@@ -95,7 +89,7 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Company Moves",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "California is suing OpenAI for rogue AI agent incidents.\n\nThe state's Attorney General filed a lawsuit, marking one of the first times an AI lab faces legal action for agents acting outside their programmed limits.\n\nAI agents are moving from tools to actors.\n\nWill more states follow California's lead on AI agent accountability?\n\n#OpenAI #AILaw #AIAgents #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
@@ -106,7 +100,7 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI Business and Funding",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Trump defends Nvidia CEO amid spy allegations.\n\nDonald Trump stated that Jensen Huang's alleged affair with a Chinese spy did not threaten national security. This contradicts US intelligence, which reportedly concluded the individual was a spy.\n\nPolitics often clash with intelligence.\n\nShould a former President's view override intelligence reports on national security?\n\n#Trump #Nvidia #AIPolicy #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
@@ -115,6 +109,31 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 11:41 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 11:41 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 11:41 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 11:41 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 02:28 PM",
+      "category": "AUTH_REQUIRED",
+      "message": "LinkedIn authentication required"
+    },
     {
       "time": "Yesterday \u00b7 11:07 PM",
       "category": "MISSED",
@@ -189,32 +208,38 @@
       "time": "Nov 14 \u00b7 01:33 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 13 \u00b7 09:15 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 13 \u00b7 09:15 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 13 \u00b7 09:15 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 13 \u00b7 01:24 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 13 \u00b7 01:24 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "AUTH_REQUIRED",
+      "recommendation": "Renew LinkedIn authentication."
+    },
+    {
+      "scheduled_time": "4:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "5:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
