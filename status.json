@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-18T22:40:43+05:30",
+  "generated_at": "2026-11-19T07:22:56+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 1,
-    "missed": 4
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-19T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "Nvidia's AI investments hit $65 billion. What now?\n\nThis amount nearly tripled in nine months, largely due to Jensen Huang's dealmaking.\n\nHis exit puts future deals in doubt.\n\nWill Nvidia keep funding AI startups at this rate?\n\n#Nvidia #AIInvestments #StartupFunding #TechNews",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Microsoft offers 60,000 employees AI transition buyouts.\n\nCEO Satya Nadella gave 60,000 employees a chance to leave voluntarily. This move aims to reshape the company for AI, avoiding traditional layoffs.\n\nHe wants to shift skills, not just cut jobs.\n\nIs a voluntary exit better than layoffs for a major tech pivot?\n\n#Microsoft #SatyaNadella #AIStrategy",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "MISSED",
-      "caption": "Nvidia expects revenue to keep climbing.\n\nDespite recent turmoil and leadership changes, the company projected continued record-breaking revenue. This suggests that current AI demand still outweighs internal challenges.\n\nBig tech can shake, but the market keeps moving.\n\nWill Nvidia's revenue streak last, or will new leadership create shifts?\n\n#Nvidia #AIIndustry #TechNews",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Satya Nadella: much critical infrastructure is unpatchable.\n\nMicrosoft's CEO warned that many older systems cannot easily be updated to fix security flaws. This leaves them open to new cyberattacks, including those using AI.\n\nAI creates new defenses and new threats.\n\nShould unpatchable systems be taken offline if they pose too much risk?\n\n#Microsoft #Cybersecurity #AISecurity",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source_url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "AUTH_REQUIRED",
-      "caption": "Nvidia is pulling out of China, ending chip sales there.\n\nInterim CEO Colette Kress announced the company will stop all business in the country. This move follows Jensen Huang's recent departure.\n\nWill this shift create new opportunities for other chipmakers?\n\nIt's a major market loss, but it might reshape the global AI chip supply.\n\nWhat happens to China's AI ambitions without Nvidia?\n\n#Nvidia #ChinaAI #ChipBan",
+      "status": "GENERATED",
+      "caption": "Elon Musk: removing Jensen Huang from Nvidia is a mistake.\n\nMusk compared it to \"kicking Michael Jordan off your team.\" He also stated he does not believe Huang is disloyal to the United States.\n\nTop talent drives industries forward.\n\nShould companies prioritize internal conduct over an executive's unique industry impact?\n\n#AI #TechNews #Nvidia #Leadership #ElonMusk",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source_url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "MISSED",
-      "caption": "Model ML just raised $250 million.\n\nThe startup uses AI agents to automate tasks in investment banking. This lets bankers and consultants focus on bigger picture strategy.\n\nPaperwork and financial models update themselves.\n\nWill specialized AI agents like these change entire industries, or only parts of them?\n\n#ModelML #AIAgents #InvestmentBanking #FutureOfWork",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Microsoft CEO Satya Nadella is backing Nvidia's new leadership.\n\nHe voiced confidence in Colette Kress, the interim CEO, following Jensen Huang's recent departure. This public support comes as Nvidia navigates a significant leadership change.\n\nMajor tech players often shape market perception.\n\nDoes this endorsement signal stability for Nvidia, or is it a temporary measure to calm investors?\n\n#Microsoft #Nvidia #AITrends",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "source_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "MISSED",
-      "caption": "Planning a trip used to mean juggling tabs and endless searches.\n\nVoyage Labs just raised $12 million for Atlas, their new AI travel assistant. It acts like a personal assistant, handling trip details from start to finish.\n\nImagine your travel agent living in your pocket.\n\nWill specialized AI assistants replace general search for complex tasks?\n\n#AI #TravelAI #FutureOfWork #VoyageLabs #TechNews",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Satya Nadella sees AI agents changing how the web makes money.\n\nMicrosoft's CEO predicts these agents will shift power away from advertising models. Companies like Amazon might need to find new ways to reach customers.\n\nIt's a big move for online business.\n\nWill this push more companies to focus on direct subscriptions or services?\n\n#AI #TechNews #SatyaNadella #MicrosoftAI #FutureOfCommerce",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "source_url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 10:40 PM",
+      "time": "Yesterday \u00b7 10:40 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:40 PM",
+      "time": "Yesterday \u00b7 10:40 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:40 PM",
+      "time": "Yesterday \u00b7 10:40 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 10:40 PM",
+      "time": "Yesterday \u00b7 10:40 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:35 PM",
+      "time": "Yesterday \u00b7 01:35 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 11:41 PM",
+      "time": "Nov 17 \u00b7 11:41 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:41 PM",
+      "time": "Nov 17 \u00b7 11:41 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:41 PM",
+      "time": "Nov 17 \u00b7 11:41 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 11:41 PM",
+      "time": "Nov 17 \u00b7 11:41 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:28 PM",
+      "time": "Nov 17 \u00b7 02:28 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
