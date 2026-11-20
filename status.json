@@ -1,26 +1,20 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-20T15:52:41+05:30",
+  "generated_at": "2026-11-21T00:09:45+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "total": 5,
     "posted": 0,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Company Moves",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-20T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -28,10 +22,10 @@
   },
   "systems": {
     "generator": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "slack": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -61,22 +55,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "Apple is reportedly building an AI agent for Mac.\n\nThis agent would handle tasks directly on your computer, competing with other AI tools that manage digital workflows. It could change how people interact with their devices.\n\nThe computer itself becomes the assistant.\n\nWill this make you trust an AI with your daily tasks?\n\n#AppleAI #AIagents #TechNews",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "topic": "AI Research Breakthrough",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "Anthropic's seven founders just cashed out nearly $2 billion.\n\nThis happened during the company's record-breaking IPO, where shares were priced at $83 each. The company itself secured a valuation of almost $105 billion.\n\nFounders often wait years for this kind of liquidity.\n\nDoes such a large, early payout for founders change how you view a company's long-term focus?\n\n#Anthropic #IPO #AIBusiness",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "topic": "AI Policy and Safety News",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
@@ -84,74 +78,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Meta's new Muse Charm device may cost $300.\n\nThe Information reported the price for Meta's upcoming AI wearable. Meta has not confirmed the report, only stating that more details are coming soon.\n\nWill a $300 price tag make AI wearables mainstream?\n\nIt could be a major factor in adoption.\n\nDo you think a price point under $500 is essential for mass appeal?\n\n#Meta #AIWearables #TechNews #FutureOfAI",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "GENERATED",
-      "caption": "Anthropic's IPO could send $156 billion to charity.\n\nThis huge sum would come from its Public Benefit Foundation, employee donations, and company matching, based on a $95 stock price.\n\nIt's a new kind of company structure.\nGiving away the upside, not just keeping it.\n\nShould more AI companies adopt this charity-first model?\n\n#Anthropic #IPO #AIBusiness",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "topic": "Model or Tool Comparison News",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "GENERATED",
-      "caption": "Anthropic's CEO Dario Amodei rang the Nasdaq bell.\n\nHe promised to develop AI at a careful, measured pace. This puts safety ahead of fast growth.\n\nPrioritizing safety means less market pressure.\n\nWill this slower approach attract or deter investors?\n\n#Anthropic #AIDevelopment #AIEthics",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "topic": "AI at Work",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 03:52 PM",
+      "time": "Today \u00b7 12:09 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:52 PM",
+      "time": "Today \u00b7 12:09 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:52 PM",
+      "time": "Yesterday \u00b7 03:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:04 AM",
+      "time": "Yesterday \u00b7 03:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:04 AM",
+      "time": "Yesterday \u00b7 03:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:04 AM",
+      "time": "Yesterday \u00b7 03:04 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 06:44 PM",
+      "time": "Yesterday \u00b7 03:04 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Yesterday \u00b7 03:04 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Nov 19 \u00b7 06:44 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Yesterday \u00b7 09:45 AM",
+      "time": "Nov 19 \u00b7 09:45 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -204,36 +208,7 @@
       "time": "Nov 17 \u00b7 02:28 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 16 \u00b7 11:07 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 16 \u00b7 11:07 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
