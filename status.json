@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-21T00:09:45+05:30",
+  "generated_at": "2026-11-21T06:55:58+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,11 +10,17 @@
     "date": "2026-11-21",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
     "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Research Breakthrough",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-21T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -22,10 +28,10 @@
   },
   "systems": {
     "generator": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "slack": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -56,10 +62,10 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Research Breakthrough",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Spotify founder Daniel Ek backs fusion energy startup.\n\nAn AI researcher started Europa Fusion, aiming for clean power. This shows AI talent moving into big, complex problems.\n\nEnergy challenges are pulling in new minds.\n\nWill more AI researchers focus on climate solutions soon?\n\n#AIEnergy #FusionPower #DanielEk #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -67,10 +73,10 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "AI Policy and Safety News",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "A 167-year-old math problem might finally be solved.\n\nAn AI system recently claimed a solution to the Riemann hypothesis. At the same time, a human mathematician also announced a solution.\n\nThis classic math challenge has puzzled experts for generations.\n\nDoes this mark a new era where AI and human discovery move in parallel?\n\n#AIRecognition #MathResearch #HumanAndAI",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,10 +84,10 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Space data centers face a unique financing problem.\n\nLenders are hesitant to fund AI chips launched into orbit. They worry about retrieving collateral if a space venture fails, which changes how these projects can get money.\n\nChips can survive space, but their funding models struggle.\n\nDoes this risk shift space AI development to government-backed initiatives?\n\n#SpaceAI #AIChips #TechFinance #SpaceX #VentureCapital",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -89,10 +95,10 @@
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
       "topic": "Model or Tool Comparison News",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Nvidia is ending H200 chip sales to China.\n\nThe company announced this move while also reporting strong earnings, despite the ongoing changes in its leadership.\n\nThis follows recent internal turmoil.\n\nWill this shift impact Nvidia's future revenue growth?\n\n#Nvidia #AIChips #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -100,10 +106,10 @@
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
       "topic": "AI at Work",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Your home office is getting an AI upgrade.\n\nNew AI-powered gadgets are changing how people work from home. Devices like smart notetakers and webcams are making home offices more efficient.\n\nOld routines are fading. New tools are taking over.\n\nWhich of these new AI office gadgets will become essential first?\n\n#AI #WorkFromHome #OfficeTech",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
       "theme_name": "",
       "theme_family": ""
     }
