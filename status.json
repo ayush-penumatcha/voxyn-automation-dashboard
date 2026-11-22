@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-21T20:39:16+05:30",
+  "generated_at": "2026-11-22T05:48:28+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 1,
-    "missed": 4
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-22T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "Spotify founder Daniel Ek backs fusion energy startup.\n\nAn AI researcher started Europa Fusion, aiming for clean power. This shows AI talent moving into big, complex problems.\n\nEnergy challenges are pulling in new minds.\n\nWill more AI researchers focus on climate solutions soon?\n\n#AIEnergy #FusionPower #DanielEk #TechNews",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Signal is now restricting mobile screenshots in its app.\n\nThis move comes as the secure messaging service faces new threats from advanced AI surveillance, which could analyze conversations from shared images.\n\nProtecting privacy means rethinking old habits.\n\nWill other messaging apps follow Signal's lead on screenshot restrictions?\n\n#Signal #Privacy #AISurveillance #TechNews #Cybersecurity",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "AUTH_REQUIRED",
-      "caption": "A 167-year-old math problem might finally be solved.\n\nAn AI system recently claimed a solution to the Riemann hypothesis. At the same time, a human mathematician also announced a solution.\n\nThis classic math challenge has puzzled experts for generations.\n\nDoes this mark a new era where AI and human discovery move in parallel?\n\n#AIRecognition #MathResearch #HumanAndAI",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Nvidia's recent earnings report paints a strong picture.\n\nThe company announced record revenue, showing financial health despite recent leadership changes.\n\nYet, prominent tech leaders continue to advocate for former CEO Jensen Huang's return, highlighting a disconnect.\n\nDoes a company's financial success always outweigh leadership stability concerns?\n\n#Nvidia #Earnings #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source_url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,99 +84,99 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Space data centers face a unique financing problem.\n\nLenders are hesitant to fund AI chips launched into orbit. They worry about retrieving collateral if a space venture fails, which changes how these projects can get money.\n\nChips can survive space, but their funding models struggle.\n\nDoes this risk shift space AI development to government-backed initiatives?\n\n#SpaceAI #AIChips #TechFinance #SpaceX #VentureCapital",
+      "status": "GENERATED",
+      "caption": "AI agents now live inside messaging apps.\n\nThey handle tasks right from your texts. These tools range from general assistants to specialized helpers for travel or family planning.\n\nTexting is no longer just for people.\n\nWill these AI agents change how you use your phone, or are they just a novelty?\n\n#AI #MessagingApps #AIAgents #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "source_url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "MISSED",
-      "caption": "Nvidia is ending H200 chip sales to China.\n\nThe company announced this move while also reporting strong earnings, despite the ongoing changes in its leadership.\n\nThis follows recent internal turmoil.\n\nWill this shift impact Nvidia's future revenue growth?\n\n#Nvidia #AIChips #TechNews",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "An actor licensed his face to an AI microdrama startup.\n\nThis trend is already popular in China. Experts now wonder what happens when Hollywood actors start doing the same thing.\n\nIt's a new kind of digital double.\n\nDoes this open up new roles or reduce opportunities for human performers?\n\n#AI #FutureOfWork #Hollywood #DigitalHumans #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "source_url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "MISSED",
-      "caption": "Your home office is getting an AI upgrade.\n\nNew AI-powered gadgets are changing how people work from home. Devices like smart notetakers and webcams are making home offices more efficient.\n\nOld routines are fading. New tools are taking over.\n\nWhich of these new AI office gadgets will become essential first?\n\n#AI #WorkFromHome #OfficeTech",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Recent tech outages are hinting at a new kind of system stress.\n\nAirline booking, banking, and productivity platforms are all seeing more downtime. Cybersecurity experts suggest this isn't just bad luck.\n\nIt feels like the early web, when everything was new and fragile.\n\nAre these outages a sign of early AI agent growing pains, or something else entirely?\n\n#AI #Cybersecurity #TechOutages #AIAgents",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "source_url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 08:39 PM",
+      "time": "Yesterday \u00b7 08:39 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:39 PM",
+      "time": "Yesterday \u00b7 08:39 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:39 PM",
+      "time": "Yesterday \u00b7 08:39 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 08:39 PM",
+      "time": "Yesterday \u00b7 08:39 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:29 PM",
+      "time": "Yesterday \u00b7 12:29 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 12:09 AM",
+      "time": "Yesterday \u00b7 12:09 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:09 AM",
+      "time": "Yesterday \u00b7 12:09 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:52 PM",
+      "time": "Nov 20 \u00b7 03:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:52 PM",
+      "time": "Nov 20 \u00b7 03:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:52 PM",
+      "time": "Nov 20 \u00b7 03:52 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:04 AM",
+      "time": "Nov 20 \u00b7 03:04 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:04 AM",
+      "time": "Nov 20 \u00b7 03:04 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:04 AM",
+      "time": "Nov 20 \u00b7 03:04 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
