@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T05:48:28+05:30",
+  "generated_at": "2026-11-22T12:58:30+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,16 +10,16 @@
     "date": "2026-11-22",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 3,
     "failed": 0,
-    "missed": 0
+    "missed": 2
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "1:30 PM",
     "post_type": "IMAGE",
-    "topic": "AI Industry Map",
+    "topic": "Engagement Insight",
     "status": "GENERATED",
-    "scheduled_at": "2026-11-22T08:30:00+05:30"
+    "scheduled_at": "2026-11-22T13:30:00+05:30"
   },
   "auth": {
     "status": "AUTH_REQUIRED",
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "AI Industry Map",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Signal is now restricting mobile screenshots in its app.\n\nThis move comes as the secure messaging service faces new threats from advanced AI surveillance, which could analyze conversations from shared images.\n\nProtecting privacy means rethinking old habits.\n\nWill other messaging apps follow Signal's lead on screenshot restrictions?\n\n#Signal #Privacy #AISurveillance #TechNews #Cybersecurity",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "What the New Release Changes",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Nvidia's recent earnings report paints a strong picture.\n\nThe company announced record revenue, showing financial health despite recent leadership changes.\n\nYet, prominent tech leaders continue to advocate for former CEO Jensen Huang's return, highlighting a disconnect.\n\nDoes a company's financial success always outweigh leadership stability concerns?\n\n#Nvidia #Earnings #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
@@ -115,6 +115,16 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 12:58 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 12:58 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Yesterday \u00b7 08:39 PM",
       "category": "MISSED",
@@ -204,17 +214,20 @@
       "time": "Nov 18 \u00b7 10:40 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 18 \u00b7 10:40 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 18 \u00b7 01:35 PM",
-      "category": "AUTH_REQUIRED",
-      "message": "LinkedIn authentication required"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
