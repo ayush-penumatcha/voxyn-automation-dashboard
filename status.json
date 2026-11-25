@@ -1,20 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T21:42:52+05:30",
+  "generated_at": "2026-11-25T09:01:20+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
-    "failed": 1,
-    "missed": 4
+    "ready_generated": 5,
+    "failed": 0,
+    "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-25T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -37,7 +43,7 @@
       "status": "HEALTHY"
     },
     "publisher": {
-      "status": "ERROR"
+      "status": "ACTIVE"
     },
     "scheduler": {
       "status": "HEALTHY",
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "MISSED",
-      "caption": "Amazon just bought Decart's AI optimization tech.\n\nThe reported $7.5 billion deal means Amazon will integrate Decart's research team and technology.\n\nOptimizing AI models is a competitive advantage.\n\nDoes this acquisition change how other companies approach custom AI chips?\n\n#AmazonAI #AIDevelopment #TechAcquisition",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Yale professor: Nvidia hurts US industrial strength.\n\nJeffrey Sonnenfeld claims Jensen Huang's return as CEO risks board lawsuits. He says Nvidia gives advanced chips to adversaries.\n\nIs market leadership worth national security risks?\n\n#AI #TechNews #Nvidia #AIPolicy #USChina",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source_url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "AUTH_REQUIRED",
-      "caption": "Anthropic just released Claude Ship.\n\nThis new tool lets AI agents review, fix, and approve code changes. It aims to speed up software development by handling routine tasks, making human developers more efficient.\n\nImagine an AI handling all the small pull requests.\n\nCould this shift lead to fewer human code reviewers in the future?\n\n#Anthropic #ClaudeShip #AI #SoftwareDevelopment #AIAgents",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Jensen Huang resists formal succession planning at Nvidia.\n\nHe thinks clear hierarchies add too many layers in a fast-moving company. This follows recent leadership changes at Nvidia.\n\nIs this a smart move for a tech leader, or too risky?\n\n#Nvidia #JensenHuang #AILeadership",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source_url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,84 +84,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "Supertake raises $20M for AI stock portfolios.\n\nThis new startup lets you turn your market predictions into investments without picking individual stocks. AI agents handle the trades based on your forecasts.\n\nIt takes your market view and acts on it.\n\nCould this approach democratize investing, or does it add new risks for casual users?\n\n#AI #Fintech #Investing #Supertake #AIAgents",
+      "status": "GENERATED",
+      "caption": "Jensen Huang is back at Nvidia and spoke to staff.\n\nHe thanked the White House for a second chance and mentioned he is in therapy. This follows his brief resignation and reinstatement.\n\nLeadership changes can shift a company's direction.\n\nDoes a leader's personal life affect their company's public trust?\n\n#Nvidia #JensenHuang #TechNews #AILeadership",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source_url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "MISSED",
-      "caption": "Jensen Huang is back as Nvidia's CEO.\n\nAfter a brief departure, Huang has been reinstated, a move celebrated by figures like Elon Musk. His return aims to stabilize leadership at the chip giant.\n\nCan one leader truly define a company's future?\n\nDoes a single executive's return guarantee stability in a fast-moving industry?\n\n#Nvidia #JensenHuang #TechNews #AIIndustry #Leadership",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "New research shows AI agents often fail at simple daily tasks.\n\nEven advanced models struggle with common chores, frequently introducing new problems or failing to finish. They promise too much, then stumble.\n\nThis gap between hype and reality is still wide.\n\nWhat everyday task do you think AI agents will master first?\n\n#AI #ArtificialIntelligence #AIAgents #TechNews",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "source_url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "MISSED",
-      "caption": "Megaspeed, led by Alice Huang, faces a US blacklist.\n\nUS companies will now need special government licenses to do business with Megaspeed.\n\nTrade ties are tightening.\n\nWill this shift accelerate or slow down global AI supply chain diversification?\n\n#AIPolicy #USChina #TechNews",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "Walmart is bringing Black Friday deals to Meta's AI agent, Muse.\n\nCustomers can now shop for holiday sales directly through the AI, a shift for online retail.\n\nShopping now comes to you.\n\nWill more retailers integrate with AI agents for holiday sales next year?\n\n#AI #RetailAI #MetaAI",
       "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "source_url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 09:42 PM",
+      "time": "Yesterday \u00b7 09:42 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:42 PM",
+      "time": "Yesterday \u00b7 09:42 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:42 PM",
+      "time": "Yesterday \u00b7 09:42 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 09:42 PM",
+      "time": "Yesterday \u00b7 09:42 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 11:00 AM",
+      "time": "Yesterday \u00b7 11:00 AM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
     {
-      "time": "Today \u00b7 03:10 AM",
+      "time": "Yesterday \u00b7 03:10 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:10 AM",
+      "time": "Yesterday \u00b7 03:10 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:10 AM",
+      "time": "Yesterday \u00b7 03:10 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 03:10 AM",
+      "time": "Yesterday \u00b7 03:10 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 03:13 PM",
+      "time": "Nov 23 \u00b7 03:13 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -210,36 +216,5 @@
       "message": "LinkedIn authentication required"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "AUTH_REQUIRED",
-      "recommendation": "Renew LinkedIn authentication."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "4:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "5:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
