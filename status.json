@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T08:17:12+05:30",
+  "generated_at": "2026-11-26T16:18:14+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
@@ -10,21 +10,21 @@
     "date": "2026-11-26",
     "total": 5,
     "posted": 0,
-    "ready_generated": 5,
+    "ready_generated": 2,
     "failed": 0,
-    "missed": 0
+    "missed": 3
   },
   "next_post": {
-    "scheduled_time": "8:30 AM",
+    "scheduled_time": "4:30 PM",
     "post_type": "IMAGE",
-    "topic": "Breaking AI News",
+    "topic": "AI Company Moves",
     "status": "GENERATED",
-    "scheduled_at": "2026-11-26T08:30:00+05:30"
+    "scheduled_at": "2026-11-26T16:30:00+05:30"
   },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "03:44 PM"
+    "last_checked": "03:25 PM"
   },
   "systems": {
     "generator": {
@@ -62,7 +62,7 @@
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
       "topic": "Breaking AI News",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "S&P is considering a credit downgrade for Nvidia.\n\nThe agency might lower Nvidia's rating to AA-, citing concerns about how the company is run and its reliance on a single leader.\n\nThis could make borrowing more expensive for the chip giant.\n\nDoes a company's internal leadership truly affect its financial strength?\n\n#Nvidia #CreditRating #TechNews #AIBusiness",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
@@ -73,7 +73,7 @@
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
       "topic": "New Model or Product Launch",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "Anthropic CEO Dario Amodei calls AI surrender claims \"absurd.\"\n\nHe pushed back against rivals who say he favors giving up human control to AI.\n\nHuman oversight remains key.\n\nDo companies risk losing control by accelerating AI development too quickly?\n\n#Anthropic #AIPolicy #TechNews",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
@@ -84,7 +84,7 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "GENERATED",
+      "status": "MISSED",
       "caption": "OpenAI merges ChatGPT personal and work accounts.\n\nChatGPT users will now see all their activity count toward a single usage limit. This means conversations from personal use and work tasks will combine.\n\nOne unified experience.\nOne shared limit.\n\nWill this change how you use ChatGPT for different tasks?\n\n#OpenAI #ChatGPT #AI",
       "source_name": "techcrunch.com",
       "source_url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
@@ -115,6 +115,21 @@
     }
   ],
   "recent_activity": [
+    {
+      "time": "Today \u00b7 04:18 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 04:18 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Today \u00b7 04:18 PM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
     {
       "time": "Today \u00b7 12:41 AM",
       "category": "MISSED",
@@ -199,22 +214,26 @@
       "time": "Nov 22 \u00b7 09:02 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 22 \u00b7 09:02 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 22 \u00b7 12:58 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 22 \u00b7 12:58 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "scheduled_time": "8:30 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "10:55 AM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    },
+    {
+      "scheduled_time": "1:30 PM",
+      "post_type": "IMAGE",
+      "category": "MISSED",
+      "recommendation": "Review scheduling and the grace period."
+    }
+  ]
 }
