@@ -1,26 +1,20 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T16:18:14+05:30",
+  "generated_at": "2026-11-27T01:21:28+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "total": 5,
     "posted": 0,
-    "ready_generated": 2,
+    "ready_generated": 0,
     "failed": 0,
-    "missed": 3
+    "missed": 0
   },
-  "next_post": {
-    "scheduled_time": "4:30 PM",
-    "post_type": "IMAGE",
-    "topic": "AI Company Moves",
-    "status": "GENERATED",
-    "scheduled_at": "2026-11-26T16:30:00+05:30"
-  },
+  "next_post": null,
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
@@ -28,10 +22,10 @@
   },
   "systems": {
     "generator": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "slack": {
-      "status": "HEALTHY"
+      "status": "UNKNOWN"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -61,22 +55,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "Breaking AI News",
-      "status": "MISSED",
-      "caption": "S&P is considering a credit downgrade for Nvidia.\n\nThe agency might lower Nvidia's rating to AA-, citing concerns about how the company is run and its reliance on a single leader.\n\nThis could make borrowing more expensive for the chip giant.\n\nDoes a company's internal leadership truly affect its financial strength?\n\n#Nvidia #CreditRating #TechNews #AIBusiness",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "topic": "AI Research Breakthrough",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "New Model or Product Launch",
-      "status": "MISSED",
-      "caption": "Anthropic CEO Dario Amodei calls AI surrender claims \"absurd.\"\n\nHe pushed back against rivals who say he favors giving up human control to AI.\n\nHuman oversight remains key.\n\nDo companies risk losing control by accelerating AI development too quickly?\n\n#Anthropic #AIPolicy #TechNews",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "topic": "AI Policy and Safety News",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
@@ -84,74 +78,84 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "MISSED",
-      "caption": "OpenAI merges ChatGPT personal and work accounts.\n\nChatGPT users will now see all their activity count toward a single usage limit. This means conversations from personal use and work tasks will combine.\n\nOne unified experience.\nOne shared limit.\n\nWill this change how you use ChatGPT for different tasks?\n\n#OpenAI #ChatGPT #AI",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Company Moves",
-      "status": "GENERATED",
-      "caption": "Nvidia faces new scrutiny over its Megaspeed dealings.\n\nInvestigators are asking what Nvidia knew about where its chips ended up. The focus is on whether Jensen Huang's past relationship influenced the company's trust in Megaspeed.\n\nTrust is a two-way street.\n\nWill Nvidia's internal reviews change how it vets partners?\n\n#Nvidia #AIPolicy #TechNews",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "topic": "Model or Tool Comparison News",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI Business and Funding",
-      "status": "GENERATED",
-      "caption": "Nvidia's CEO, Jensen Huang, broke the company's code of conduct.\n\nThe TechCrunch AI report suggests this could impact employee morale and company culture. Nvidia's code reflects its values.\n\nTrust within a company matters.\n\nDoes a leader's personal conduct ultimately affect a company's business performance?\n\n#Nvidia #AI #BusinessEthics",
-      "source_name": "techcrunch.com",
-      "source_url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "topic": "AI at Work",
+      "status": "NOT_GENERATED",
+      "caption": "",
+      "source_name": "",
+      "source_url": "",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 04:18 PM",
+      "time": "Today \u00b7 01:21 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 04:18 PM",
+      "time": "Today \u00b7 01:21 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 04:18 PM",
+      "time": "Yesterday \u00b7 04:18 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:41 AM",
+      "time": "Yesterday \u00b7 04:18 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:41 AM",
+      "time": "Yesterday \u00b7 04:18 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:41 AM",
+      "time": "Yesterday \u00b7 12:41 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 12:41 AM",
+      "time": "Yesterday \u00b7 12:41 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 02:40 PM",
+      "time": "Yesterday \u00b7 12:41 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Yesterday \u00b7 12:41 AM",
+      "category": "MISSED",
+      "message": "Publishing window missed"
+    },
+    {
+      "time": "Nov 25 \u00b7 02:40 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
     },
@@ -204,36 +208,7 @@
       "time": "Nov 23 \u00b7 03:13 PM",
       "category": "AUTH_REQUIRED",
       "message": "LinkedIn authentication required"
-    },
-    {
-      "time": "Nov 22 \u00b7 09:02 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
-    },
-    {
-      "time": "Nov 22 \u00b7 09:02 PM",
-      "category": "MISSED",
-      "message": "Publishing window missed"
     }
   ],
-  "issues": [
-    {
-      "scheduled_time": "8:30 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "10:55 AM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    },
-    {
-      "scheduled_time": "1:30 PM",
-      "post_type": "IMAGE",
-      "category": "MISSED",
-      "recommendation": "Review scheduling and the grace period."
-    }
-  ]
+  "issues": []
 }
