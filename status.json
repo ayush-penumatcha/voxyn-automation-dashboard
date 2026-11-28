@@ -1,31 +1,37 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T01:21:28+05:30",
+  "generated_at": "2026-11-28T08:08:07+05:30",
   "timezone": "Asia/Kolkata",
   "notice": "Upcoming content may be visible here before publication.",
   "caption_visibility": true,
   "system_status": "CRITICAL",
   "system_label": "Action Required",
   "today": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "total": 5,
     "posted": 0,
-    "ready_generated": 0,
+    "ready_generated": 5,
     "failed": 0,
     "missed": 0
   },
-  "next_post": null,
+  "next_post": {
+    "scheduled_time": "8:30 AM",
+    "post_type": "IMAGE",
+    "topic": "AI Industry Map",
+    "status": "GENERATED",
+    "scheduled_at": "2026-11-28T08:30:00+05:30"
+  },
   "auth": {
     "status": "AUTH_REQUIRED",
     "days_remaining": 0,
-    "last_checked": "03:25 PM"
+    "last_checked": "03:29 PM"
   },
   "systems": {
     "generator": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "slack": {
-      "status": "UNKNOWN"
+      "status": "HEALTHY"
     },
     "linkedin_auth": {
       "status": "ERROR"
@@ -55,22 +61,22 @@
     {
       "scheduled_time": "8:30 AM",
       "post_type": "IMAGE",
-      "topic": "AI Research Breakthrough",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "topic": "AI Industry Map",
+      "status": "GENERATED",
+      "caption": "Amazon and Meta discuss lifting Muse AI agent blockade.\n\nThis deal could open Meta's Muse to a wider audience across Amazon's services, ending a two-month hold.\n\nStrategic partnerships now define AI agent adoption.\n\nWill this deal accelerate or complicate the broader AI agent market?\n\n#AI #TechNews #Amazon #Meta #AIAgents",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "10:55 AM",
       "post_type": "IMAGE",
-      "topic": "AI Policy and Safety News",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "topic": "What the New Release Changes",
+      "status": "GENERATED",
+      "caption": "Meta's AI assistant Muse now lives inside Instagram DMs.\n\nThis means you no longer need to switch apps to chat with the AI. It's built right into your conversations.\n\nAccessing AI should feel natural, not like opening a separate tool.\n\nWill this direct integration make you use AI assistants more often?\n\n#MetaAI #Instagram #AIDevelopment #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
       "theme_name": "",
       "theme_family": ""
     },
@@ -78,79 +84,79 @@
       "scheduled_time": "1:30 PM",
       "post_type": "IMAGE",
       "topic": "Engagement Insight",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "status": "GENERATED",
+      "caption": "Maple raises $5.3M for self-protecting AI.\n\nThe startup created an encrypted AI system. It prevents even the company from seeing user data.\n\nData privacy is now a core feature, not an afterthought.\n\nWill this shift change how we trust AI tools?\n\n#AI #DataPrivacy #MapleAI #TechCrunch",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "4:30 PM",
       "post_type": "IMAGE",
-      "topic": "Model or Tool Comparison News",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "topic": "AI Trend in the News",
+      "status": "GENERATED",
+      "caption": "Anthropic shares dropped below their IPO price.\n\nThis could signal a shift for other AI startups looking to go public. Investors might become more cautious about high valuations.\n\nIs the AI market's growth now slowing down?\n\n#AI #StartupFunding #TechNews #Anthropic #IPO",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "theme_name": "",
       "theme_family": ""
     },
     {
       "scheduled_time": "5:30 PM",
       "post_type": "IMAGE",
-      "topic": "AI at Work",
-      "status": "NOT_GENERATED",
-      "caption": "",
-      "source_name": "",
-      "source_url": "",
+      "topic": "AI Numbers Today",
+      "status": "GENERATED",
+      "caption": "UK cyber agency warns AI is making old security flaws critical.\n\nNew AI hacking tools are exposing weaknesses that have existed for years. These tools find and exploit simple security gaps faster than ever.\n\nBasic defenses are now the frontline.\n\nAre companies prepared to fix years of neglected security issues?\n\n#CyberSecurity #AIAttacks #UKNationalCyberSecurityCentre #TechNews",
+      "source_name": "techcrunch.com",
+      "source_url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
       "theme_name": "",
       "theme_family": ""
     }
   ],
   "recent_activity": [
     {
-      "time": "Today \u00b7 01:21 AM",
+      "time": "Yesterday \u00b7 01:21 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Today \u00b7 01:21 AM",
+      "time": "Yesterday \u00b7 01:21 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 04:18 PM",
+      "time": "Nov 26 \u00b7 04:18 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 04:18 PM",
+      "time": "Nov 26 \u00b7 04:18 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 04:18 PM",
+      "time": "Nov 26 \u00b7 04:18 PM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:41 AM",
+      "time": "Nov 26 \u00b7 12:41 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:41 AM",
+      "time": "Nov 26 \u00b7 12:41 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:41 AM",
+      "time": "Nov 26 \u00b7 12:41 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
     {
-      "time": "Yesterday \u00b7 12:41 AM",
+      "time": "Nov 26 \u00b7 12:41 AM",
       "category": "MISSED",
       "message": "Publishing window missed"
     },
